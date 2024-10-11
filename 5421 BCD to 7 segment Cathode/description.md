@@ -20,3 +20,6 @@
 
 # Contents
 This branch contains a download for the schematic, pictures of the schematic and circuit simulation, some work showing the process by which I derived the final boolean expressions and the final expressions I chose.
+
+# Topic
+This program most closely fits general combinatorial logic and some circuit optimizaton.
