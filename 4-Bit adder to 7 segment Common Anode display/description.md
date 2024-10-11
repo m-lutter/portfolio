@@ -15,7 +15,7 @@ my BCD decoder or my 7 segment display for a while, and my adder was giving fals
 Once I built each section separately, it was simple to consolidate them into one cohesive circuit and I was able to get it working.
 
 # Contents
-This branch includes photos of the circuit, a schematic for the circuit, and a block diagram for the circuit.
+This branch includes photos of the circuit and a schematic for the circuit.
 
 # Topic
 The topic this circuit best fits is decoders.
