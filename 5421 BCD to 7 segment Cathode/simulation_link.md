@@ -2,4 +2,4 @@
 to Simulation on TinkerCad.
 
 
-![TinkerCad circuit BCD decoder](/assets/images/TinkerCadCircuit.png)
+![TinkerCad circuit BCD decoder](TinkerCadCircuit.png)
