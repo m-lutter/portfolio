@@ -15,3 +15,5 @@
   Finally, I created a schematic by building circuits according to the boolean expression that I created for each output and connecting the outputs to a common cathode LED display. I then used this schematic to guide me in building the circuit in TinkerCAD by building the circuit for each output mostly independently while reusing some outputs and inputs wherever I was able to identify the possiblility.
 
   The schematic for this circuit is available both as a file and as a pdf, and the circuit simulation on TinkerCad is also available.
+
+  I believe the circuit may still be further simplified, and I think a natural improvement would come from finding the  optimal circuit to achieve the same output. I would achieve this by applying the Quine-McCluskey algorithm to the outputs simultaneously to efficiently find the common terms.
