@@ -19,4 +19,4 @@
   I believe the circuit may still be further simplified, and I think a natural improvement would come from finding the  optimal circuit to achieve the same output. I would achieve this by applying the Quine-McCluskey algorithm to the outputs simultaneously to efficiently find the common terms.
 
 # Contents
-This branch contains a download for the schematic, pictures of the schematic and circuit simulation, and 
+This branch contains a download for the schematic, pictures of the schematic and circuit simulation, some work showing the process by which I derived the final boolean expressions and the final expressions I chose.
