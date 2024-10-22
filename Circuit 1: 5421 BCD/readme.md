@@ -22,7 +22,9 @@ This process also did not yield many shared terms, which is the main optimizatio
 Next, I used the Quine McCluskey Method to create a table to find the prime implicants for all of the terms, and a Prime Implicant table to determine which terms to pick.
 Once I created the prime implicant table, I first found any essential prime implicants and included them in any outputs that inlcuded them as prime implicants.
 At this point, I had many prime implicants to choose from and many outputs to cover, so I had to find a way to pick implicants that would be shared by the most outputs and would use the fewest gates.
-The process I used isn't obvious just by looking at the table, so I'll detail it here.
+The process I used isn't obvious just by looking at the table, so I'll detail it below.
+
+![Prime Implicant Table](PITable.png)
 
 I simply created a new column that counted the number of minterms in each row. I duplicated the table and, with this new table, I deleted the rows and columns containing the essential prime implicants.
 This left me with the minterms remaining and the prime implicants available to cover those minterms. 
