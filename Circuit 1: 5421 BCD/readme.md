@@ -36,7 +36,7 @@ Once I had expressions for every output, I tested them using a C++ program to en
 Finally, I used some color coding in the final sheet to find shared terms and terms that were included in other terms.
 
 # Creating the circuit
-To create the circuit, I used the table of shared inputs to hand draw a schematic, and then redrew it in an to make it a bit more readable and a bit simpler to follow.
+To create the circuit, I used the table of shared inputs to hand draw a schematic, and then redrew it in an to make it a bit more readable and a bit simpler to follow. Then I followed the hand drawn schematic to create a schematic in KiCad, and used the KiCad schematic to help guide me in creating the circuit in Tinkercad.
 
 # Components
 - 5  Quad AND gate
