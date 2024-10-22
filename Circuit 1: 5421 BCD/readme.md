@@ -13,7 +13,7 @@ For out of bounds issues, I chose to leave the screen blank, so any input decodi
 I think this is a clear way to display an overflow, the caveat being that the user must know the diplay works properly to trust these outputs. 
 If I wanted to extend the output to two digits, these values could decode to the ones digit, but I think that would be confusing for this circuit since there is only one output and overflow wouldn't be obvious.
 
-# Optimization
+# Circuit Optimization
 As a baseline, I found minimum SOP and POS expressions for all 7 digits. The resulting total for SOP was 75 gates, and the total for POS was 87 gates. 
 This number could probably be lowered by a few gates each by factoring, but the end result wouldn't be significantly fewer gates.
 This process also did not yield many shared terms, which is the main optimization I am hoping to take advantage of.
@@ -37,6 +37,8 @@ Finally, I used some color coding in the final sheet to find shared terms and te
 
 # Creating the circuit
 To create the circuit, I used the table of shared inputs to hand draw a schematic, and then redrew it in an to make it a bit more readable and a bit simpler to follow.
+
+# Components
 
 # Conclusion
 The final circuit uses a total of 40 AND and OR gates, compared to an initial 75-87 gates using minimum SOP/POS expressions.
