@@ -1,0 +1,8 @@
+﻿Name,Quantity,Component
+"U1, U4, U5, U6, U7",5," Quad AND gate"
+"U2",1," Hex Inverter"
+"U3, U8, U9, U10, U11",5," Quad OR gate"
+"SW1",1," DIP Switch SPST x 4"
+"R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12",12,"220 Ω Resistor"
+"Digit1",1,"Cathode 7 Segment Display"
+"P1",1,"5 , 5  Power Supply"
