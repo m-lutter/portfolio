@@ -4,7 +4,7 @@ My goal for this circuit was to create an optimized circuit using only AND, OR, 
 ![Tinkercad 5421-BCD Circuit](Circuit1.png)
 
 ## Finding and Optimizing Boolean Expressions
-You can see my work for the truth table, Quine Mccluskey Method, and PI table [Here](https://docs.google.com/spreadsheets/d/1PlTn39krXxWB7WWezo5svpjv6j29pWgZNtsgPc2RA4U/edit?usp=sharing)
+You can see my work for the truth table, Quine Mccluskey Method, and PI table [Here](https://docs.google.com/spreadsheets/d/1PlTn39krXxWB7WWezo5svpjv6j29pWgZNtsgPc2RA4U/edit?usp=sharing). Pictures will also be included below.
 
 # The Truth Table
 My input comes from a 4 input DIP switch, so 5421 BCD has some repeat values and some values out of bounds for a 7 segment display. 
@@ -12,6 +12,7 @@ I chose to include the repeat values to allow more flexibility for the user; bot
 For out of bounds issues, I chose to leave the screen blank, so any input decoding to 10 or greater will have a 0 output for all segments. 
 I think this is a clear way to display an overflow, the caveat being that the user must know the diplay works properly to trust these outputs. 
 If I wanted to extend the output to two digits, these values could decode to the ones digit, but I think that would be confusing for this circuit since there is only one output and overflow wouldn't be obvious.
+![]
 
 # Circuit Optimization
 As a baseline, I found minimum SOP and POS expressions for all 7 digits. The resulting total for SOP was 75 gates, and the total for POS was 87 gates. 
