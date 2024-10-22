@@ -39,7 +39,7 @@ Finally, I used some color coding in the final sheet to find shared terms and te
 To create the circuit, I used the table of shared inputs to hand draw a schematic, and then redrew it in an to make it a bit more readable and a bit simpler to follow.
 
 # Components
-
+![ComponentList](ComponentList.csv)
 # Conclusion
 The final circuit uses a total of 40 AND and OR gates, compared to an initial 75-87 gates using minimum SOP/POS expressions.
 [Here](https://www.tinkercad.com/things/4kPxVabsNLW-5421-bcd-remake/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=_6BM1DAdI0ck2eHCospywFPOuaUR5FpEVtD0ISYW5iE) 
