@@ -1,5 +1,5 @@
 # Circuit 1: 5421 BCD to 7-Segment Display
-For this circuit, I built a circuit that takes in a 5421 BCD value through a DIP switch and outputs the number using a 7 segment common cathode display.
+This circuit takes a 5421 BCD value via a DIP switch and outputs the number using a 7 segment common cathode display.
 My goal for this circuit was to create an optimized circuit using only AND, OR, and NOT gates, optimizing for the fewest number of gates.
 
 ## Finding and Optimizing Boolean Expressions
@@ -35,4 +35,4 @@ Once I had expressions for every output, I tested them using a C++ program to en
 Finally, I used some color coding in the final sheet to find shared terms and terms that were included in other terms.
 
 # Creating the circuit
-To create the circuit, I used the table of shared inputs to hand draw a schematic, and then redrew it in an attempt to make it a bit more readable.
+To create the circuit, I used the table of shared inputs to hand draw a schematic, and then redrew it in an to make it a bit more readable and a bit simpler to follow.
