@@ -15,7 +15,7 @@ If I wanted to extend the output to two digits, these values could decode to the
 # Optimization
 As a baseline, I found minimum SOP and POS expressions for all 7 digits. The resulting total for SOP was 75 gates, and the total for POS was 87 gates. 
 This number could probably be lowered by a few gates each by factoring, but the end result wouldn't be significantly fewer gates.
-This process also did not yield many shared terms, which is the main optimization I am seeking.
+This process also did not yield many shared terms, which is the main optimization I am hoping to take advantage of.
 
 Next, I used the Quine McCluskey Method to create a table to find the prime implicants for all of the terms, and a Prime Implicant table to determine which terms to pick.
 Once I created the prime implicant table, I first found any essential prime implicants and included them in any outputs that inlcuded them as prime implicants.
