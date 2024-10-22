@@ -12,7 +12,7 @@ I chose to include the repeat values to allow more flexibility for the user; bot
 For out of bounds issues, I chose to leave the screen blank, so any input decoding to 10 or greater will have a 0 output for all segments. 
 I think this is a clear way to display an overflow, the caveat being that the user must know the diplay works properly to trust these outputs. 
 If I wanted to extend the output to two digits, these values could decode to the ones digit, but I think that would be confusing for this circuit since there is only one output and overflow wouldn't be obvious.
-![]
+![Truth Table and Quine McCluskey Method](TruthTable&QuineMcCluskey.png)
 
 # Circuit Optimization
 As a baseline, I found minimum SOP and POS expressions for all 7 digits. The resulting total for SOP was 75 gates, and the total for POS was 87 gates. 
