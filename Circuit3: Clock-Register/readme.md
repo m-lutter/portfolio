@@ -38,4 +38,5 @@ The bottom push button is connected to the SR SER and SL SER pins of the shift r
 # Conclusion
 This circuit is a shift register circuit game which uses a clock signal and user input to feed into a shift register and output the result. 
 I chose to make this circuit because it simulates the movement in my design project game.
+
 ![image](https://github.com/user-attachments/assets/ddf9529d-a783-4418-b1f9-3042dd609f7d)
