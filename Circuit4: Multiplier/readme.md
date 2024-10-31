@@ -10,3 +10,5 @@ This means that if the first digit of the bottom input is 1, the top input is ad
 In the next stage, the top input is shifted left once with a SL SER value of 0, and the same MUX logic is performed with the second digit of the bottom input. 
 
 In the third stage, the same process is repeated, except that the previously shifted value is used instead of the original input, and the third digit of the input is connected to the MUX inputs. The final stage follows similarly.
+
+![image](https://github.com/user-attachments/assets/d488d987-e63a-4e09-8cc5-254c3f15e67e)
