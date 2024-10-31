@@ -2,6 +2,7 @@
 This Circuit uses a 555 timer, connected in an astable configuration, combined with a simple (rising) edge detection circuit as a clock signal for a 4-bit register. 
 This register then takes in two push button inputs connected to the S0 and S1 inputs and the SR SER and SL SER inputs to allow the user to control the output, which is then displayed on four LEDs.
 This circuit also works as a simple game to create fun patterns or control the lights, and the user can even get better at the game as they play and learn the controls.
+
 ![image](https://github.com/user-attachments/assets/1901b5c8-ec7a-4ffd-a1f9-b35f462cea94)
 
 # How it works
