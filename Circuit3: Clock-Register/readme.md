@@ -21,8 +21,6 @@ The bottom push button is connected to the SR SER and SL SER pins of the shift r
 - LM 555 timer x 1
 - 74LS194 4-bit Parallel in Parallel Out Shift Register x 1
 - 74LS00  Quad, 2-input NAND x 1
-
-
 - push button x 2
 - LED x 5
 - 220 Ohm Resistor x 7
@@ -34,3 +32,7 @@ The bottom push button is connected to the SR SER and SL SER pins of the shift r
 - Default State: By starting with LED's all off, the user can create any pattern they want, or control a single output signal simply. The SR SER and SL SER are also off by default so the game "waits" for some user input to change.
 - User input: The user can control the 'flow' or direction the shift register operates with one button and the behavior of the outermost LEDs with the other button, allowing the user to make any possible output combination and to control the display in an intuitive way. The main omission would be a 'hold' function, which would require a third button. Although this would be trivial to incorporate, it may make the circuit feel less responsive or just be an added button for a marginal change depending on the implementation.
 - Clock Speed: I chose a slow clock speed so the output would be easier to control and view, rather than a fast one so that the user has some time to react to the new output and enter inputs for the next one.
+
+# Conclusion
+This circuit is a shift register circuit game which uses a clock signal and user input to feed into a shift register and output the result. 
+I chose to make this circuit because it simulates the movement in my design project game.
