@@ -3,7 +3,7 @@ This Circuit uses a 555 timer, connected in an astable configuration, combined w
 This register then takes in two push button inputs connected to the S0 and S1 inputs and the SR SER and SL SER inputs to allow the user to control the output, which is then displayed on four LEDs.
 This circuit also works as a simple game to create fun patterns or control the lights, and the user can even get better at the game as they play and learn the controls.
 
-#How it works
+# How it works
 By default, the LEDs are all off. The bottom button controls the SR SER and SL SER inputs, so holding this button until the display updates (from the clock signal) will light up the top LED.
 This is because the default direction is set to right, so the uppermost LED corresponding to the MSB of the output from the shift register will light up once a shift occurs. 
 A shift will occur every clock cycle, so the state of the push buttons will affect the output once every second or so.
@@ -17,11 +17,12 @@ Next, the shift register takes the edge detection circuit's output as its clock 
 The top push button is connected to the S1 and S0 pins of the shift register, with the S0 input connected to an inverter first. This means the register has either S1 or S2 asserted at any time but not both.
 The bottom push button is connected to the SR SER and SL SER pins of the shift register. Since SL SER and SR SER only affect the output when shifting in their respective directions, they don't conflict and can be controlled by the same signal in this case. 
 
-#Components
+# Components
 - LM 555 timer x 1
 - 74LS194 4-bit Parallel in Parallel Out Shift Register x 1
 - 74LS00  Quad, 2-input NAND x 1
-  
+
+
 - push button x 2
 - LED x 5
 - 220 Ohm Resistor x 7
@@ -29,7 +30,7 @@ The bottom push button is connected to the SR SER and SL SER pins of the shift r
 - 1nF ceramic capacitor x 2
 - 10 microFarad electrolytic capacitor x 1
 
-#Design Decisions
+# Design Decisions
 - Default State: By starting with LED's all off, the user can create any pattern they want, or control a single output signal simply. The SR SER and SL SER are also off by default so the game "waits" for some user input to change.
 - User input: The user can control the 'flow' or direction the shift register operates with one button and the behavior of the outermost LEDs with the other button, allowing the user to make any possible output combination and to control the display in an intuitive way. The main omission would be a 'hold' function, which would require a third button. Although this would be trivial to incorporate, it may make the circuit feel less responsive or just be an added button for a marginal change depending on the implementation.
 - Clock Speed: I chose a slow clock speed so the output would be easier to control and view, rather than a fast one so that the user has some time to react to the new output and enter inputs for the next one.
