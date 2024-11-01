@@ -1,7 +1,7 @@
 ## 4-bit Multiplier
 
 # Input/Output
-This circuit takes two 4 bit unsigned inputs and uses binary addition and multiplexers to perform multiplication.
+This circuit takes two 4 bit unsigned inputs and uses binary addition and multiplexers to perform multiplication, with the output displayed on 8 LEDs.
 The inputs are 4 bits and the output is 8 bits. This allows the circuit to have valid outputs for any input combination since overflow is not possible.
 ![image](https://github.com/user-attachments/assets/3f3177a9-a50b-436f-9ecc-64c9e2d7a465)
 
@@ -20,3 +20,10 @@ The benefit in using this approach is that these 4-bit strings can be kept mostl
 
 For the next stage, the same process is repeated, except that the previously shifted value is used instead of the original input, and the third digit of the input is connected to the MUX enable pins. The final stage follows similarly.
 
+# Components
+- 74LS283 4-bit full adder x 11
+- 74LS157 Quad, 2 to 1 MUX x 7
+- 74LS404 Hex Inverter x 1
+- Resistor 220 Ohms x 16
+- LED x 8
+- DIP-8 x 1
