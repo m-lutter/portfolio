@@ -20,6 +20,8 @@ The benefit in using this approach is that these 4-bit strings can be kept mostl
 
 For the next stage, the same process is repeated, except that the previously shifted value is used instead of the original input, and the third digit of the input is connected to the MUX enable pins. The final stage follows similarly.
 
+# Simulation
+The circuit was designed using Logisim, and the file can be downloaded from 4bitMultiplier
 # Components
 - 74LS283 4-bit full adder x 11
 - 74LS157 Quad, 2 to 1 MUX x 7
