@@ -12,4 +12,4 @@ Pressing the bottom button resets the screen to a frowny face.
 - 4x4 LED display or 220 ohm resistor, LED x 16
 - 220 Ohm Resistors x 2
 
-
+# Simulation and Schematic
