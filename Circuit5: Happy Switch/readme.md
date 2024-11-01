@@ -3,7 +3,7 @@ This circuit uses an SR Latch and a pair of multiplexers to display a happy or a
 By pressing the top button, the screen displays a smiley face, and the image persists even after the button is released, and even if the button is pressed again.
 Pressing the bottom button resets the screen to a frowny face.
 
-
+The SR Latch maintains an input until the other input is pressed, and the multiplexers change the input to the LED display.
 
 # Components
 - push button x 2
