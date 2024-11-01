@@ -13,3 +13,6 @@ Pressing the bottom button resets the screen to a frowny face.
 - 220 Ohm Resistors x 2
 
 # Simulation and Schematic
+The circuit was designed using Logisim, and the file can be downloaded from HappySwitch.circ
+
+A schematic has also been provided both as a pdf and as a KiCad schematic.
