@@ -3,7 +3,8 @@
 # Input/Output
 This circuit takes two 4 bit unsigned inputs and uses binary addition and shift operations to perform multiplication.
 The input is 4 bits and the output is 8 bits. This allows the circuit to have valid outputs for any input combination since overflow is not possible.
-![image](https://github.com/user-attachments/assets/d488d987-e63a-4e09-8cc5-254c3f15e67e)
+![image](https://github.com/user-attachments/assets/3f3177a9-a50b-436f-9ecc-64c9e2d7a465)
+
 # How it works
 The circuit uses 3 8-bit adders.
 In the first stage, a MUX uses the first bit as an enable bit and the top input as its input. 
