@@ -5,6 +5,9 @@ Pressing the bottom button resets the screen to a frowny face.
 
 The SR Latch maintains an input until the other input is pressed, and the multiplexers change the input to the LED display.
 
+![image](https://github.com/user-attachments/assets/d104c951-e456-4123-8687-5945dc5c8c43)
+
+
 # Components
 - push button x 2
 - 74LS00 Quad, 2-input NAND gate x 1
