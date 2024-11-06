@@ -23,7 +23,7 @@ For the next stage, the same process is repeated, except that the previously shi
 # Simulation and Schematic
 The circuit was designed using Logisim, and the file can be downloaded from 4bitMultiplier.circ
 
-A schematic has also been provided both as a pdf and as a KiCad schematic.
+![image](https://github.com/user-attachments/assets/fbe8b0b6-0d28-431f-9eea-7813689253b6)
 
 # Components
 - 74LS283 4-bit full adder x 11
