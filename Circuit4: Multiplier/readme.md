@@ -13,28 +13,14 @@ The algorithm for this circuit breaks up the Bottom input into individual digits
 
 A simple way to shift a number left by one is by adding the number to itself. The caveat is that overflow is likely, so the carry out must be accounted for. The first time a shift operation is done, the carry out is extended to a bitwidth of 4, simply placing 3 zeros in front of the value of the carry out. In a real circuit this would be done by simply grounding any pins on inputs this value is connected to that represent more significant bits. This can be observed on MUX #3 and Adder #3 on the schematic below.
 
-In the first stage, the unmodified Top input's individual bits are connected to a Quad 2 to 1 MUX, with each bit connected to both input pins for a given output. The enable and control input are then connected together to the LSB of the Bottom input inverted . The result is an output equal to the full Top input string of bits when the LSB of the Bottom input is 1 and an output of 0000 if the LSB of the Bottom input is 0.
+In the first stage, the unmodified Top input's individual bits are connected to a Quad 2 to 1 MUX, with each bit connected to both input pins for a given output. The enable and control inputs are then connected together to the LSB of the Bottom input (on the schematic this value is inverted first since the enable is active LOW, and the value of the control bit does not change the output). The result is an output equal to the full Top input string of bits when the LSB of the Bottom input is 1 and an output of 0000 if the LSB of the Bottom input is 0 (an AND gate would not work because the output must have a bitwidth of 4).
 
-For example, if the Top input is 1010 and the bottom input is 0101, the output of the MUX would be 1010; conversely, for the same top input 1010 with a Bottom input of 0100, the output would be 0000. Basically, the LSB for the Bottom input works as an enable for the Top input to be added.
+For example, if the Top input is 1010 and the bottom input is 0101, the output of the MUX would be 1010; conversely, for the same top input 1010 with a Bottom input of 0100, the output would be 0000. Basically, the LSB for the Bottom input works as an enable for the Top input to be added, and otherwise 0000 is added.
 
+Next, this MUX output is the input for the first adder in the top chain of adders keeping track of the running total. The other input of this adder is connected to the second MUX which outputs either the 4 least significant bits of the Top input shifted once if the second bit of the Bottom input is 1, or 0000 if the second bit of the bottom input is 0. This adder is the first in the chain of adders whose output is considered the 4 least significant bits of the running total. The carry out is then input to the carry in of the adder below it. This adder adds this bit to the third multiplexer's output, which is either the 4 most significant bits of the Top input shifted once, or 0000 if the second bit of the Bottom input is 0. This adder is the first in the chain of adders whose output is considered the 4 most significant bits of the output, and the carry out is ignored since it can never be 1 (the only possible values at this point are 0000, 0001 and 0010).
 
-
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-The circuit uses 11 4-bit adders and 7 Quad 2 to 1 multiplexers.
-The top input is used as a base and the bottom input is split into its individual bits.
-Each bit of the bottom input is a stage of the addition process.
-If the bit is 1, then the top input is fed to the adder; otherwise 0 is added. 
-This is achieved using a multiplexer where the enable pin is connected to the bottom input's bit (inverted).
-
-For the next bit, two 4-bit adders are used to multiply the top input by two (by adding it with itself) and split into its 4 most significant and 4 least significant bits,
-and then a multiplexer determines if the value is added based on the same logic as before using the second bit in the bottom input.
-
-This value is then added or 0000 is added to the adder from the first bit. The output of this adder goes to the next adder and the carry goes to one below to form an eight bit adder with two 4-bit components.
-The benefit in using this approach is that these 4-bit strings can be kept mostly separate aside from carry out / carry in situations and then put back together at the end, rather than combining the two and dealing with the full 8-bit string.
-
-For the next stage, the same process is repeated, except that the previously shifted value is used instead of the original input, and the third digit of the input is connected to the MUX enable pins. The final stage follows similarly.
-
+The logic of separating the 4 least significant bits of the value is consistent both in the top chain of adders summing the total and also in the bottom set of adders used to shift the top input successively. The main reasons for this were to avoid using 8-bit adders and to avoid needing to separate the strings from the shift operations into 4-bit strings when outputting to the adders.
+--
 # Simulation and Schematic
 The circuit was designed using Logisim, and the file can be downloaded from 4bitMultiplier.circ
 
