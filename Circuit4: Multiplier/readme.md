@@ -1,12 +1,12 @@
-## 4-bit Multiplier
+# 4-bit Multiplier
 
-# Input/Output
+## Input/Output
 This circuit takes two 4 bit unsigned inputs and uses binary addition and multiplexers to perform multiplication, with the output displayed on 8 LEDs.
 The inputs are 4 bits and the output is 8 bits. This allows the circuit to have valid outputs for any input combination since overflow is not possible.
 Although there is an attached simulation, the circuit is designed to be physically easy to make with the parts listed and the schematic provided, both at the bottom of the page.
 ![image](https://github.com/user-attachments/assets/3f3177a9-a50b-436f-9ecc-64c9e2d7a465)
 
-# How it works
+## How it works
 Two 4-bit inputs are entered, one on Top and one on Bottom. This circuit uses the top value as a base and uses the bottom input to guide "shift" operations which are then fed to adders.
 
 The algorithm for this circuit breaks up the Bottom input into individual digits, and their position in the input dictates the amount of shifting that is done on the top input before it is added to the running total. This is essentially the same way that binary multiplication is done by hand, except in this case the overflow bits are omitted and the shifting that is done must be computed manually. 
@@ -21,12 +21,12 @@ Next, this MUX output is the input for the first adder in the top chain of adder
 
 The logic of separating the 4 least significant bits of the value is consistent both in the top chain of adders summing the total and also in the bottom set of adders used to shift the top input successively. The main reasons for this were to avoid using 8-bit adders and to avoid needing to separate the strings from the shift operations into 4-bit strings when outputting to the adders.
 
-# Simulation and Schematic
+## Simulation and Schematic
 The circuit was designed using Logisim, and the file can be downloaded from 4bitMultiplier.circ
 
 ![image](https://github.com/user-attachments/assets/fbe8b0b6-0d28-431f-9eea-7813689253b6)
 
-# Components
+## Components
 - 74LS283 4-bit full adder x 11
 - 74LS157 Quad, 2 to 1 MUX x 7
 - 74LS404 Hex Inverter x 1
