@@ -21,7 +21,6 @@ Next, this MUX output is the input for the first adder in the top chain of adder
 
 The logic of separating the 4 least significant bits of the value is consistent both in the top chain of adders summing the total and also in the bottom set of adders used to shift the top input successively. The main reasons for this were to avoid using 8-bit adders and to avoid needing to separate the strings from the shift operations into 4-bit strings when outputting to the adders.
 
---------------------------------------------------------------------------------------------------------------------
 # Simulation and Schematic
 The circuit was designed using Logisim, and the file can be downloaded from 4bitMultiplier.circ
 
