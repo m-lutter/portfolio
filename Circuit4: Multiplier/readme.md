@@ -3,9 +3,20 @@
 # Input/Output
 This circuit takes two 4 bit unsigned inputs and uses binary addition and multiplexers to perform multiplication, with the output displayed on 8 LEDs.
 The inputs are 4 bits and the output is 8 bits. This allows the circuit to have valid outputs for any input combination since overflow is not possible.
+Although there is an attached simulation, the circuit is designed to be physically easy to make with the parts listed and the schematic provided, both at the bottom of the page.
 ![image](https://github.com/user-attachments/assets/3f3177a9-a50b-436f-9ecc-64c9e2d7a465)
 
 # How it works
+Two 4-bit inputs are entered, one on Top and one on Bottom. This circuit uses the top value as a base and uses the bottom input to guide "shift" operations which are then fed to adders.
+
+One addition operation is performed for each bit of the Bottom input. This also allows the circuit to be easily expanded to larger bit-width inputs.
+
+In the first stage, the unmodified Top input's individual bits are connected to a Quad 2 to 1 MUX, with each 
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 The circuit uses 11 4-bit adders and 7 Quad 2 to 1 multiplexers.
 The top input is used as a base and the bottom input is split into its individual bits.
 Each bit of the bottom input is a stage of the addition process.
