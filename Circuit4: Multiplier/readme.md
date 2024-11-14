@@ -9,7 +9,7 @@ Although there is an attached simulation, the circuit is designed to be physical
 ## How it works
 Two 4-bit inputs are entered, one on Top and one on Bottom. This circuit uses the top value as a base and uses the bottom input to guide "shift" operations which are then fed to adders.
 
-The algorithm for this circuit breaks up the Bottom input into individual digits, and their position in the input dictates the amount of shifting that is done on the top input before it is added to the running total. This is essentially the same way that binary multiplication is done by hand, except in this case the overflow bits are omitted and the shifting that is done must be computed manually. 
+The algorithm for this circuit breaks up the Bottom input into individual digits, and their position in the input dictates the amount of shifting that is done on the top input before it is added to the running total. This is essentially the same way that binary multiplication is done by hand, except in this case the overflow bits are omitted and the shifting is done using addition. 
 
 A simple way to shift a number left by one is by adding the number to itself. The caveat is that overflow is likely, so the carry out must be accounted for. The first time a shift operation is done, the carry out is extended to a bitwidth of 4, simply placing 3 zeros in front of the value of the carry out. In a real circuit this would be done by simply grounding any pins on inputs this value is connected to that represent more significant bits. This can be observed on MUX #3 and Adder #3 on the schematic below.
 
