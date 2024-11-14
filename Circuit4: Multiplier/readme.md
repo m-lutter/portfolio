@@ -4,6 +4,7 @@
 This circuit takes two 4 bit unsigned inputs and uses binary addition and multiplexers to perform multiplication, with the output displayed on 8 LEDs.
 The inputs are 4 bits and the output is 8 bits. This allows the circuit to have valid outputs for any input combination since overflow is not possible.
 Although there is an attached simulation, the circuit is designed to be physically easy to make with the parts listed and the schematic provided, both at the bottom of the page.
+
 ![image](https://github.com/user-attachments/assets/3f3177a9-a50b-436f-9ecc-64c9e2d7a465)
 
 ## How it works
