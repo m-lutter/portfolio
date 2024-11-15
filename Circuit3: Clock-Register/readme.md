@@ -1,12 +1,12 @@
 ## Circuit 3: Clock-Register Circuit
-This Circuit uses a 555 timer, connected in an astable configuration, as a clock signal for a 4-bit register. This register takes in two push button inputs connected to the S0 and S1 inputs to allow the user to control the output, which is then displayed on four LEDs. The buttons also allow the user to load an initial state. Additionally, a DIP input inserts an obstacle into the circuit, collision with which interrupts the clock signal.
+This Circuit uses a 555 timer connected in an astable configuration as a clock signal for a 4-bit register. This register takes in two push button inputs allowing the user to control the output, which is then displayed on four LEDs. The buttons also allow the user to load an initial state. Additionally, a DIP input inserts an obstacle into the circuit, collision with which interrupts the clock signal.
 This circuit was built to closely mimic the player movement for my design project.
 
 ![KiCad Schematic](https://github.com/user-attachments/assets/e096ceab-08e7-4981-b56b-1a20d1b2e9f2)
 
 
 # How it works
-By default, the LEDs are all off except for the LED indicating the clock signal. Pressing both buttons simultaneously initializes the 'game' by loading the shift register, lighting up the bottom LED to start (and the third LED if the DIP input is HIGH). From here, pressing the top button will move the player up one LED on the rising edge of the clock signal, pressing the bottom button will move the player down, and pressing niether will hold the position of the player static.
+By default, the LEDs are all off except for the blinking LED indicating the clock signal. Pressing both buttons simultaneously initializes the 'game' by loading the shift register, lighting up the bottom LED to start (and the third LED if the DIP input is HIGH). From here, pressing the top button will move the player up one LED on the rising edge of the clock signal, pressing the bottom button will move the player down, and pressing niether will hold the position of the player static.
 
 This is achieved by connecting the push buttons to the S0 and S1 inputs of the shift register and by connecting the input pins to GND and VCC for the starting position so that pressing both buttons causes the shift register to load this value.
 
