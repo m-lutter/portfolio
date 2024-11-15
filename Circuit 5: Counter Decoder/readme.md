@@ -27,3 +27,6 @@ This setup means that for every cycle of the clock, the decoder's output is both
 - 2 Tri-state buffers
 - 1 Inverter
 - 1 4x4 RGB LED matrix
+
+# Simulation
+I built this circuit using CircuitVerse. The simulation file can be found ...
