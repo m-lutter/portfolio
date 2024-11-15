@@ -3,7 +3,8 @@ This Circuit uses a 555 timer, connected in an astable configuration, combined w
 This register then takes in two push button inputs connected to the S0 and S1 inputs and the SR SER and SL SER inputs to allow the user to control the output, which is then displayed on four LEDs.
 This circuit also works as a simple game to create fun patterns or control the lights, and the user can even get better at the game as they play and learn the controls.
 
-![KiCad Schematic](https://github.com/user-attachments/assets/1901b5c8-ec7a-4ffd-a1f9-b35f462cea94)
+![KiCad Schematic](https://github.com/user-attachments/assets/e096ceab-08e7-4981-b56b-1a20d1b2e9f2)
+
 
 # How it works
 By default, the LEDs are all off. The bottom button controls the SR SER and SL SER inputs, so holding this button until the display updates (from the clock signal) will light up the top LED.
