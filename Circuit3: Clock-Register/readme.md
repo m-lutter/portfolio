@@ -36,3 +36,6 @@ To reset this circuit, it is necessary to turn off the obstacle and press both b
 # Conclusion
 This circuit is a shift register circuit game which uses a clock signal and user input to feed into a shift register and output the result. Additionally, a collision detection and reset mechanism have been partially developed (as far as I can go without incorporating more components or building the full circuit).
 I chose to make this circuit because it simulates the movement and collision in my design project game.
+![image](https://github.com/user-attachments/assets/ba6e33a2-4d90-4db0-8971-07a55843e586)
+![image](https://github.com/user-attachments/assets/f1e338ed-b8d0-47c5-b421-d8a16f313b79)
+
