@@ -6,6 +6,7 @@ First click Simulation -> Ticks Enabled from the drop down menu at the top, and 
 
 I would recommend starting at a low clock speed such as 1 to 4 Hz to begin so that you can see how the ball moves and bounces, and then using Simulation -> Tick Frequency to speed up the simulation to 16 to 32Hz for a more natural speed.
 
+The Finite state machines are also connected in the main circuit, but in order to view the details, they can be accessed on the left hand menu.
 ## Full Circuit
 The simulation begins when the reset button is pressed. This button presets and clears some flip flops, starting the ball at a preset position. As the circuit progresses, the ball follows a simple pattern based on its original position, though my original plan was to make this game like pong, with a player paddle which could change the direction of the ball. This would require a finite state machine for the player and a slightly modified one for the horizontal movement. There is a finite state machine for the vertical and for the horizontal movement, and those are explained in more detail below. 
 
