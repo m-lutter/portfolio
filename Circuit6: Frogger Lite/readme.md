@@ -2,6 +2,9 @@
 This circuit simulates the full game of frogger from my design project, though the focus of this circuit for my portfolio is the finite state machine allowing for player movement. This circuit displays the player and the obstacles separately on 4x4 pixel displays, to mirror the functionality of using an RGB display which would have multiple output colors for the same screen, though collision and win logic are fully functional.
 
 The player begins at the bottom of their screen, and can move in any direction. Their goal is to advance to the top row of LEDs. In their path, red obstacle pixels cross a screen of the same size. If the player character is ever in the same location on their screen as one of the obstacles on its screen, the game will freeze, indicating a loss, until the reset button is pressed.
+
+The circuit was simulated using logisim. The link to download the simulation is above. To view the simulation, load the file, click Simulation -> Ticks Enabled, and change Tick Frequency to a reasonable speed. I used around 8 Hz but I'd recommend trying out a few speeds. The clock signals will remain consistently offset from eachother (changing the tick speed changes the clock frequency appropriately). To start, click on the Hand symbol in the top right. Then click the reset button, and you will be good to go.
+
 ## The Full Circuit
 The full circuit can be seen below. The output for the player movement is shown on the lower LED screen and the output for the obstacles can be seen on the upper screen. The circuit takes advantage of subcircuits which can be seen on the left side of the screen, labeled accordingly.
 
