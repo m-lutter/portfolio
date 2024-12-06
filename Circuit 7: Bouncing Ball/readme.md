@@ -15,9 +15,11 @@ The finite state machines each output a 3 bit number which represents the player
 
 ## Vertical and Horizontal Finite State Machines
 The vertical and horizontal finite state machines are identical except for their reset functions, since resetting both identical machines to the same value yields a pixel which starts along the diagonal of the display and remains on that diagonal. Therefore, I will explain both here.
+
 ![Vertical Finite State Machine](https://github.com/user-attachments/assets/10392ac5-ab2d-462d-8921-0784af76774d)
 ![Horizontal Finite State Machine](https://github.com/user-attachments/assets/7e77c3e5-83b7-49a1-b1c9-1e60a0d4b483)
-The behavior I sought was a finite state machine which counted up to 8 from any value and then down to 0. The circuit has no inputs, but the same vertical position has two valid next states since most positions can either travel down or up from their current position, and I sought to be able to change the direction of the ball other than hitting a wall. Therefore I used three bits for the position of the ball and one bit for the direction of the movement. 
+
+The behavior I sought was a finite state machine which counted up to 7 from any value and then down to 0. The circuit has no inputs, but the same vertical position has two valid next states since most positions can either travel down or up from their current position, and I sought to be able to change the direction of the ball other than hitting a wall. Therefore I used three bits for the position of the ball and one bit for the direction of the movement. 
 
 For state assignments I used the binary representation of the number since I would be decoding the value anyways, so any savings made in logic would be paid again to make a sensible output. I used JK flip flops because D flip flops did not seem to yield simple equations. The transition table and K-maps can be seen below:
 ![image](https://github.com/user-attachments/assets/6cf2081e-4747-4cf9-bd9f-bcbfec26bc48)
