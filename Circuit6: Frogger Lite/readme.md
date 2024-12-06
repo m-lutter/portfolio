@@ -23,12 +23,14 @@ These circuits are also fed to some LEDs to display a win or a loss.
 The player movement circuit is a finite state machine. The circuit counts up when one input is HIGH and the other is LOW, unless it is already at 11, and counts down given the opposite set of inputs. The value is unchanged if both inputs are HIGH or both inputs are LOW, allowing the player to remain in place.
 
 ![image](https://github.com/user-attachments/assets/6190fcee-512d-44dc-839e-f61731b32f62)
+
 The transition table, state assignments, and K maps are shown below. I chose to make the state assignments equal to the number they represented, since the decoder can easily parse these outputs rather than having to decode them after the sequential logic. I chose JK flip flops since the equations are relatively simple.
 
 ![image](https://github.com/user-attachments/assets/609e73f7-8861-4d50-bbaa-49915a55712e)
 
 ## Obstacle Circuits
 The obstacle circuits are made up of ring counters. One ring counter has four D flip flops and initializes with the first FF high and the rest low. The other counter has five flip flops and initializes with the final one HIGH and the rest Low. The counters have only four outputs, so the effect of this design is that the obstacle spends one clock cycle off of the screen, allowing for a more natural looking pattern, rather than seeming to jump from one side of the display to the other.
+
 ![image](https://github.com/user-attachments/assets/ca01f357-5545-425b-b803-bb318192b547)
 
 ![image](https://github.com/user-attachments/assets/d2f5e0ec-ffa8-4ce5-9b06-391d65cc861d)
