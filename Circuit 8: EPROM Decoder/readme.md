@@ -12,7 +12,7 @@ Here is a google sheets version of the truth table programmed on the EPROM chip.
 ![image](https://github.com/user-attachments/assets/e524ad68-d014-4a1c-b603-0beb05452ab0)
 
 ## Components
-220 Ohm Resistor x 21
-DIP-8 input x 1
-MAN6410 Common Anode display x 1
-AM27C1024 EPROM chip x 1
+- 220 Ohm Resistor x 21
+- DIP-8 input x 1
+- MAN6410 Common Anode display x 1
+- AM27C1024 EPROM chip x 1
