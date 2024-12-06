@@ -2,6 +2,8 @@
 This circuit takes in a 7 bit DIP input and outputs the number to a common anode 2-digit 7 segment display. 
 An AM27C1024 EPROM is used to accept a 7 bit input and output 14 bits of output to the seven segment display.
 
+The display is common anode, so the outputs from the EPROM are active LOW.
+
 ![IMG_5183](https://github.com/user-attachments/assets/2030bd44-f971-40a2-8ec7-672575392d2f)
 
 ## Schematic
