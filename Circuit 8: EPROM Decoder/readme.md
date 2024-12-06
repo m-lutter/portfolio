@@ -17,7 +17,10 @@ Here is a google sheets version of the truth table programmed on the EPROM chip.
 
 ![image](https://github.com/user-attachments/assets/e524ad68-d014-4a1c-b603-0beb05452ab0)
 
-The outputs to each digit on the display are given as hex values. The 7 most significant bits of the output represent abcdefg of the seven segment display in order, with a 0 representing an asserted value on the common anode display.
+The outputs to each digit on the display are given as hex values. The 7 most significant bits of the output represent abcdefg of the seven segment display in order, with a 0 representing an asserted value on the common anode display. Here is the truth table for how each digit is represented as a Hex value and on the 7 segment display. abcdefg are the segments going clockwise from the top with g in the center, and x is a dont care since that digit of the output is not used, though it could be connected to the decimal point without changing the output.
+
+![image](https://github.com/user-attachments/assets/e161b9f5-8774-4f64-8d71-b0cc880c67e4)
+
 ## Components
 - 220 Ohm Resistor x 21
 - DIP-8 input x 1
