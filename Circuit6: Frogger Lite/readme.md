@@ -1,5 +1,5 @@
 # Frogger Lite - Player Movement FSM
-This circuit simulates the full game of frogger from my design project, though the focus of this circuit for my portfolio is the finite state machine allowing for player movement. This circuit displays the player and the obstacles separately, to mirror the functionality of using an RGB display which would have multiple output colors for the same screen, though collision and win logic are fully functional.
+This circuit simulates the full game of frogger from my design project, though the focus of this circuit for my portfolio is the finite state machine allowing for player movement. This circuit displays the player and the obstacles separately on 4x4 pixel displays, to mirror the functionality of using an RGB display which would have multiple output colors for the same screen, though collision and win logic are fully functional.
 
 The player begins at the bottom of their screen, and can move in any direction. Their goal is to advance to the top row of LEDs. In their path, red obstacle pixels cross a screen of the same size. If the player character is ever in the same location on their screen as one of the obstacles on its screen, the game will freeze, indicating a loss, until the reset button is pressed.
 ## The Full Circuit
@@ -19,8 +19,15 @@ These circuits are also fed to some LEDs to display a win or a loss.
 
 ![image](https://github.com/user-attachments/assets/031760e1-44f2-439b-9b41-cc7287707d42)
 
+## Player Movement Circuit
+The player movement circuit is a finite state machine. The circuit counts up when one input is HIGH and the other is LOW, unless it is already at 11, and counts down given the opposite set of inputs. The value is unchanged if both inputs are HIGH or both inputs are LOW, allowing the player to remain in place.
 ![image](https://github.com/user-attachments/assets/6190fcee-512d-44dc-839e-f61731b32f62)
+The transition table, state assignments, and K maps are shown below. I chose to make the state assignments equal to the number they represented, since the decoder can easily parse these outputs rather than having to decode them after the sequential logic. I chose JK flip flops since the equations are relatively simple.
 
+![image](https://github.com/user-attachments/assets/609e73f7-8861-4d50-bbaa-49915a55712e)
+
+## Obstacle Circuits
+The obstacle circuits are made up of ring counters. One ring counter has four D flip flops and initializes with the first FF high and the rest low. The other counter has five flip flops and initializes with the final one HIGH and the rest Low. The counters have only four outputs, so the effect of this design is that the obstacle spends one clock cycle off of the screen, allowing for a more natural looking pattern, rather than seeming to jump from one side of the display to the other.
 ![image](https://github.com/user-attachments/assets/ca01f357-5545-425b-b803-bb318192b547)
 
 ![image](https://github.com/user-attachments/assets/d2f5e0ec-ffa8-4ce5-9b06-391d65cc861d)
