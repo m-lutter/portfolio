@@ -14,8 +14,10 @@ There are 16 output pins, so the last 2 outputs are left floating.
 
 ## Truth Table
 Here is a google sheets version of the truth table programmed on the EPROM chip.
+
 ![image](https://github.com/user-attachments/assets/e524ad68-d014-4a1c-b603-0beb05452ab0)
 
+The outputs to each digit on the display are given as hex values. The 7 most significant bits of the output represent abcdefg of the seven segment display in order, with a 0 representing an asserted value on the common anode display.
 ## Components
 - 220 Ohm Resistor x 21
 - DIP-8 input x 1
