@@ -27,6 +27,9 @@ The player movement circuit is a finite state machine. The circuit counts up whe
 
 ![image](https://github.com/user-attachments/assets/6190fcee-512d-44dc-839e-f61731b32f62)
 
+The state diagram can be seen below.
+![image](https://github.com/user-attachments/assets/c1d59f7b-22d4-4de3-bd68-7fe14fceb976)
+
 The transition table, state assignments, and K maps are shown below. I chose to make the state assignments equal to the number they represented, since the decoder can easily parse these outputs rather than having to decode them after the sequential logic. I chose JK flip flops since the equations are relatively simple.
 
 ![image](https://github.com/user-attachments/assets/609e73f7-8861-4d50-bbaa-49915a55712e)
