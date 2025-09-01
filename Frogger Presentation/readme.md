@@ -1,1 +1,1 @@
-Here a video of the circuit is included along with a slide presentation covering the design process for a circuit producing an interactive 'Frogger' type game on a small LED screen.
+Here a video of the circuit is included along with a [slide presentation](https://docs.google.com/presentation/d/1G4IhLfdZ-8-l1hMifEOL0JBLiHnG6s6grLI5HEp1oHA/edit?usp=sharing) covering the design process for a circuit producing an interactive 'Frogger' type game on a small LED screen.
