@@ -5,6 +5,8 @@ The public site is built from the `docs/` folder and hosted on GitHub Pages.
 - `content/projects.mjs`: selected-project ordering, original digital project copy, and the eight-circuit archive.
 - `content/other-side.mjs`: the completed physical game, based on the final presentation.
 - `content/controls.mjs`: the AE353 control studies and AE370 thermal-model verification study.
+- `content/catbot.mjs`: the co-authored AE353 DP1 controller notebook and saved simulation evidence.
+- `content/structures.mjs`: four AE461 laboratory studies with report-based contribution credit.
 - `content/aerodynamics.mjs`: the three AE311 studies and documented individual contributions.
 - `scripts/build.mjs`: homepage copy and shared page templates. Uses Node.js built-ins; no packages to install.
 - `docs/styles.css`: colors, layout, typography, responsive styles, and print styles.
@@ -33,14 +35,20 @@ The biography reflects the owner's September 2026 Job Research context: UIUC aer
 ## Aerospace extension sources
 
 - The Other Side: the 18-slide final presentation by Maxwell Lutter and Carlos Selvi, linked in the case study. Its core physical build is complete; the independently timed second obstacle row and difficulty adjustment remain proposed hardware extensions.
-- AE311 Project 1: weather-balloon report, 28 pages; Maxwell is technical lead. Altitude and payload values on the site are mission requirements. The source model has uncorrected implementation inconsistencies, so its numerical altitude and gas-cost outcomes are not presented as validated performance.
+- AE311 Project 1: weather-balloon report, 28 pages; Maxwell is technical lead. The 35 km altitude and 3 kg payload are requirements. The 0.43 kg hydrogen recommendation, simulated altitudes, and gas costs are explicitly the report’s results and historical assumptions, not new simulations or flight validation.
 - AE311 Project 2: airfoil/panel-method report, 31 pages; Maxwell is real-world problem lead. Preserve the solver attribution to JoshTheEngineer and teammate Jackson Rees’s technical role.
 - AE311 Project 3: finite-wing report, 30 pages; Maxwell is team lead. The recommended geometry is a preliminary result for a hypothetical design scenario, not a built aircraft wing.
 - AE353 Project 2: flying-wing landing report, 6 pages; joint work with Navid Navidzadeh. Reported 87.3% success across 4,000 randomized simulations exceeds the 85% course requirement.
-- AE353 Project 3: spacecraft report, 7 pages; joint work with Adrian Huang. Final controller/observer performance is 64% across 200 trials against an 80% requirement. Do not substitute the better earlier controller-only result or generalize the 25 illustrated observer trials to all 200 missions.
-- AE370 Project 2: reentry thermal study, 15 pages; five authors with individual roles on page 14. Maxwell contributed verification/implementation writing, consistency checks, interpretation, plotting, and report editing. The solver is credited to Danfeng Ye. Numerical convergence and the analytical benchmark are featured; unreconciled temperature/run-setting differences preclude physical performance claims.
+- AE353 Project 3: spacecraft report, 7 pages; joint work with Adrian Huang. Present both report conclusions: successful observer accuracy and 64% combined mission success across 200 reported trials against an 80% requirement. The supplied notebook instead retains a 25-trial run and a 5° checker call; the report’s observer plot shows 25 results below 3.5°. Keep saved-run details distinct from the submitted report’s evaluation.
+- AE370 Project 2: reentry thermal study, 15 pages; five authors with individual roles on page 14. Maxwell contributed verification/implementation writing, consistency checks, interpretation, plotting, and report editing. The solver is credited to Danfeng Ye. Describe both numerical verification and the report’s conductivity/thermal-mass tradeoffs. Numerical benchmark error is not a physical-temperature accuracy guarantee.
 
 Source figures are reproduced from the reports without redrawing their data. The owner explicitly authorized publication of all six prepared reports. Author addresses were removed from the three AE311 PDFs and a teammate email from the spacecraft PDF using actual text redaction. Later pages were checked for unchanged text; the other two PDFs are byte-identical copies. Local research files and original contact-bearing documents are excluded from publication and are not needed to build the site.
+
+## Laboratory and controls-code extension
+
+The four AE461 archives contain LaTeX reports and reused figures from earlier labs. Only figures actually referenced by the relevant report are used. Lab 2 compares photoelastic stresses, analytical approximations, and included Abaqus results. Lab 4 documents a fixed–fixed exception to the expected support trend. Lab 5 keeps shaker frequencies separate from impact-test frequencies and reports FRF/EDM agreement within 0.4%. Lab 6 credits Maxwell’s stress–strain, specific-property, uncertainty, apparatus, and manufacturing-history sections directly from its contribution table.
+
+The AE353 archive contains both completed notebooks and course examples/tutorials. The DP1 notebook credits Maxwell and Luke Phan. Flying-wing and spacecraft notebooks inform implementation descriptions; they are saved development states, not clean rerun records. The site credits course equations and simulation interfaces to the instructors and credits controller studies jointly when individual authorship is not specified. The uploaded archive, framework source, templates, and private research extraction are not part of the static-site deployment.
 
 ## Field software sources
 
