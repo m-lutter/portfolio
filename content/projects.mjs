@@ -105,7 +105,7 @@ export const highlights = {
   'fieldplan': {
     summary: 'Developed a field-planning application that turns work lists into mapped assignments and ordered driving routes.',
     result: 'Public field-planning app',
-    evidence: 'Maps, geographic assignments, and route exports',
+    evidence: 'Maps, assignments, and route exports · synthetic example shown',
     contribution: 'Developer · Talman Consultants, LLC',
     link: ['Open FieldPlan', 'https://fieldplan.streamlit.app/']
   },

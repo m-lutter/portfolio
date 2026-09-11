@@ -46,6 +46,8 @@
 .priority-grid .text-art-title{font-size:44px}
 .priority-grid .orbital-art{padding:24px}
 .priority-grid .orbit-symbol{opacity:.3}
+.priority-grid .fieldplan-art{background:#0e1117}
+.priority-grid .fieldplan-art img{padding:0}
 .supporting-work{margin-top:58px;padding-top:38px;border-top:1px solid var(--line)}
 .supporting-heading{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin-bottom:24px}
 .supporting-heading h3{font:30px/1.2 var(--serif);letter-spacing:-.025em}

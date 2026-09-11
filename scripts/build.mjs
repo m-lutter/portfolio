@@ -12,7 +12,7 @@ const listed = featured.filter(project => project.listed !== false);
 const priority = listed.filter(project => highlights[project.slug]);
 const supporting = listed.filter(project => !highlights[project.slug]);
 const contactEmail = 'luttermaxwell@gmail.com';
-const assetVersion = '20260911-thumbnails';
+const assetVersion = '20260911-fieldplan-random';
 const number = project => listed.includes(project) ? String(listed.indexOf(project) + 1).padStart(2, '0') : 'Archive';
 const categories = [['all', 'All other work'], ['analysis', 'Analysis'], ['controls', 'Controls'], ['structures', 'Structures & testing'], ['hardware', 'Hardware & logic'], ['software', 'Software']];
 const dimensions = figure => `${figure.imageWidth ? ` width="${escape(figure.imageWidth)}"` : ''}${figure.imageHeight ? ` height="${escape(figure.imageHeight)}"` : ''}`;
