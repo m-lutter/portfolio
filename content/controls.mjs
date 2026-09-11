@@ -1,13 +1,13 @@
 // Curated from the three supplied AE353 / AE370 reports. See SITE_EDITING.md.
 export const controls = [
   {
-    slug: 'flying-wing-control', title: 'A controlled approach to landing.', name: 'Flying-wing landing control',
+    slug: 'flying-wing-control', title: 'LQR landing controller for an unpowered flying wing', name: 'LQR landing controller for an unpowered flying wing',
     category: 'controls', type: 'Flight dynamics & control', status: 'Evaluated in simulation', art: 'plot', cardFit: 'contain',
     context: 'AE353 · Two-person team project', roleLabel: 'Team contribution',
     role: 'Controller design and evaluation reported jointly with Navid Navidzadeh',
-    description: 'An LQR landing controller evaluated in 4,000 randomized simulations: 87.3% successful landings, with failure analysis tied to initial attitude.',
+    description: 'Designed and evaluated an LQR landing controller with a teammate using supplied aircraft dynamics. Across 4,000 randomized simulations, the controller achieved 87.3% successful landings; failure analysis examined the effect of initial attitude.',
     tags: ['LQR', 'State-space modeling', 'Python', 'SymPy'],
-    lead: 'Finding a trim condition, building a local feedback controller, and testing whether it can land an unpowered flying wing across varied initial conditions.',
+    lead: 'Our two-person team found a trim condition, linearized the supplied flying-wing dynamics, and tuned an LQR controller for elevon-driven landing control. We evaluated 4,000 randomized approaches and analyzed initial-attitude distributions to investigate undershoot, lateral drift, and the limits of the local controller.',
     outcome: '87.3% landing success across 4,000 simulated trials',
     image: 'flying-wing-trajectories.png', imageWidth: 1045, imageHeight: 843,
     caption: 'Simulated trajectories for 20 successful landings in green and 10 failed landings in red. The dotted outline marks the runway. Report Figure 1, pages 4–5.',
@@ -20,13 +20,13 @@ export const controls = [
     resources: [['Full project report · 6 pages', '../reports/flying-wing-control.pdf', 'PDF']]
   },
   {
-    slug: 'spacecraft-attitude', title: 'Control under imperfect information.', name: 'Spacecraft attitude control and state estimation',
+    slug: 'spacecraft-attitude', title: 'Spacecraft reaction-wheel control with star-based attitude estimation', name: 'Spacecraft reaction-wheel control with star-based attitude estimation',
     category: 'controls', type: 'Spacecraft control', status: 'Simulation · target unmet', art: 'plot', cardFit: 'contain',
     context: 'AE353 · Two-person team project', roleLabel: 'Team contribution',
     role: 'Controller and observer work reported jointly with Adrian Huang',
-    description: 'A reaction-wheel controller and star-measurement observer tested with noise and debris disturbances. The combined system reached 64% mission success against an 80% target.',
+    description: 'A two-person study of LQR reaction-wheel control and star-measurement state estimation using supplied spacecraft dynamics. The integrated system achieved 64% mission success across 200 simulations with noise and debris disturbances, below the 80% target.',
     tags: ['LQR', 'State estimation', 'Reaction wheels', 'PyBullet'],
-    lead: 'A study of the gap between regulating a modeled spacecraft and reliably completing a mission when sensing errors and external disturbances interact.',
+    lead: 'Our two-person team designed an LQR reaction-wheel controller and a dual-LQR observer to keep a spacecraft hatch oriented for an astronaut’s return. Using supplied course dynamics, we evaluated the combined system in Python/PyBullet with noisy star measurements and debris disturbances, documenting its missed mission-success requirement.',
     outcome: '64% mission success over 200 trials; 80% target unmet',
     image: 'spacecraft-yaw-estimation.png', imageWidth: 786, imageHeight: 595,
     caption: 'True and estimated yaw during one 60-second simulation with noisy measurements and disturbances. Report Figure 1, page 6.',
@@ -39,13 +39,13 @@ export const controls = [
     resources: [['Full project report · 7 pages', '../reports/spacecraft-attitude.pdf', 'PDF']]
   },
   {
-    slug: 'reentry-thermal-model', title: 'Evidence behind the thermal model.', name: 'Reentry thermal-model verification',
+    slug: 'reentry-thermal-model', title: 'Verifying a reentry heat-conduction model with numerical benchmarks', name: 'Verifying a reentry heat-conduction model with numerical benchmarks',
     category: 'analysis', type: 'Computational heat transfer', status: 'Completed team study', art: 'plot', cardFit: 'contain',
     context: 'AE370 · Five-person team project', roleLabel: 'My contribution',
     role: 'Verification and implementation writing, consistency checks, result interpretation, plotting, and report editing',
-    description: 'Contributed to the verification and documentation of a spherical heat-transfer model, supported by near-second-order convergence and an independent analytical benchmark.',
+    description: 'Contributed verification writing, consistency checks, and result interpretation for a spherical reentry heat-conduction model. The team’s manufactured-solution and analytical benchmarks supported near-second-order convergence in space and time.',
     tags: ['Finite volumes', 'Crank–Nicolson', 'Manufactured solutions', 'Verification'],
-    lead: 'Making a numerical model assessable by connecting its governing equations, implementation, convergence behavior, and analytical checks.',
+    lead: 'I checked and documented the numerical evidence for a team-developed model coupling reentry heating to conduction through a layered spherical heat shield. My work connected the finite-volume and Crank–Nicolson implementation to manufactured-solution convergence, a homogeneous-sphere analytical benchmark, plots, and report explanations.',
     outcome: 'Near-second-order convergence in space and time',
     image: 'tps-spatial-convergence.png', imageWidth: 578, imageHeight: 459,
     caption: 'Manufactured-solution spatial convergence: the reported error decreases by about a factor of four when radial grid spacing is halved. Report Figure 3, page 7.',

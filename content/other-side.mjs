@@ -1,12 +1,12 @@
 // Source: The Other Side final presentation, slides 1–18, reviewed September 2026.
 export const otherSide = {
-  slug: 'the-other-side', title: 'The Other Side', name: 'The Other Side: a game built from digital logic',
+  slug: 'the-other-side', title: 'The Other Side: discrete-logic LED game', name: 'The Other Side: discrete-logic LED game',
   category: 'hardware', type: 'Digital systems integration', status: 'Built & demonstrated', art: 'photo',
   context: 'Team project · Maxwell Lutter & Carlos Selvi', roleLabel: 'Team & contribution',
   role: 'Co-authored with Carlos Selvi; digital-logic game design and implementation',
-  description: 'A playable 4 × 4 RGB LED game integrating finite state machines, obstacle counters, independent clocks, and collision logic in a physical circuit.',
+  description: 'Built a physical 4 × 4 RGB LED obstacle-avoidance game with Carlos Selvi. Integrated player-position state machines, obstacle counters, 555 timers, and collision/win logic, with push-button controls and reset.',
   tags: ['Finite state machines', '555 timers', 'Logisim', 'C++ prototyping'],
-  lead: 'Taking a game from a C++ gameplay prototype and logic simulation to a wired system with a display, controls, and a defined win or loss state.',
+  lead: 'With Carlos Selvi, developed a C++ gameplay prototype, simulated the digital logic, and built a playable breadboard game. Two position state machines, obstacle counters, and 555 clocks drive a 4 × 4 RGB LED display with collision detection, win indication, and reset.',
   outcome: 'Physical game with bounded movement, win/loss freeze, and reset',
   image: 'other-side-hardware.jpg', imageWidth: 1536, imageHeight: 2048, cardFit: 'cover',
   caption: 'The team’s completed breadboard game and 4 × 4 RGB LED display, from slide 2 of the final presentation.',

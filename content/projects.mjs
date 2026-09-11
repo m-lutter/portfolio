@@ -9,11 +9,11 @@ export const directory = path => `${portfolio}/tree/main/${encodeURIComponent(pa
 
 const originalFeatured = [
   {
-    slug: 'bcd-decoder', number: '01', title: 'Less logic. Same output.', name: '5421 BCD decoder',
+    slug: 'bcd-decoder', number: '01', title: 'Optimizing a 5421 BCD display decoder', name: 'Optimizing a 5421 BCD display decoder',
     category: 'hardware', type: 'Digital logic', status: 'Designed & simulated', art: 'bcd',
-    description: 'A seven-segment decoder optimized through shared Boolean terms, with a C++ check against the original truth table.',
+    description: 'Reduced a seven-segment decoder from a 75-gate sum-of-products baseline to 40 AND/OR gates by sharing Boolean terms. Checked the simplified logic against its truth table in C++ and simulated the circuit in Tinkercad.',
     tags: ['Boolean optimization', 'C++', 'KiCad', 'Tinkercad'],
-    lead: 'Turning a four-bit input into a readable digit—with fewer gates and an explicit check that the logic still matches the intended behavior.',
+    lead: 'Designed and optimized the logic that converts a four-bit 5421 BCD input into a seven-segment digit. Shared Boolean terms reduced the final AND/OR gate count to 40, with C++ truth-table checks and a Tinkercad circuit simulation.',
     role: 'Logic design, optimization & simulation', outcome: '40 AND/OR gates in the final design',
     image: 'bcd-circuit.png', caption: 'Original Tinkercad circuit from the digital-systems portfolio.',
     sections: [
@@ -25,11 +25,11 @@ const originalFeatured = [
     resources:[['Original design notes',source('Circuit 1: 5421 BCD/readme.md'),'GitHub'],['Verification code',source('Circuit 1: 5421 BCD/5421BCD.cpp'),'C++'],['Circuit schematic',source('Circuit 1: 5421 BCD/schematic.pdf'),'PDF'],['Truth table & optimization',source('Circuit 1: 5421 BCD/TruthTable&QuineMcCluskey.png'),'Figure'],['KiCad source',source('Circuit 1: 5421 BCD/5421BCDml.kicad_sch'),'KiCad']]
   },
   {
-    slug: 'orbital-training', number: '02', title: 'Orbital Training', name: 'Orbital Training',
+    slug: 'orbital-training', number: '02', title: 'Orbital Training: adaptive workout planning app', name: 'Orbital Training: adaptive workout planning app',
     category:'software',type:'Product engineering',status:'Deployed · public beta',art:'orbital',
-    description:'A strength and conditioning planner with deterministic program generation, persistent workout logging, and versioned weekly adaptation.',
+    description:'Built and deployed a SvelteKit app that generates training plans, logs workouts, and adapts future sessions. A deterministic TypeScript engine and PostgreSQL database manage planning rules and saved training history.',
     tags:['TypeScript','SvelteKit','PostgreSQL','Cloudflare'],
-    lead:'An end-to-end software project that carries real-world constraints from program generation through workout execution and future adaptation.',
+    lead:'Designed and deployed a public-beta web app for strength and conditioning plans, workout logging, and weekly adaptation. The project includes a deterministic TypeScript planning engine, a SvelteKit interface, authentication, PostgreSQL persistence, and application and database tests.',
     role:'Domain modeling, full-stack development & deployment',outcome:'Production-deployed public beta',
     sections:[
       {title:'The problem',paragraphs:['A useful training plan must account for goals, available days, equipment, baseline ability, and recovery constraints. It also needs to survive ordinary use: incomplete sessions, substitutions, concurrent saves, and changing schedules.']},
@@ -40,11 +40,11 @@ const originalFeatured = [
     resources:[['Open Orbital Training','https://orbital-training.com','Live beta'],['Project overview & architecture','https://github.com/m-lutter/orbital-training','GitHub'],['Domain model','https://github.com/m-lutter/orbital-training/tree/main/src/lib/domain','Source'],['Database verification','https://github.com/m-lutter/orbital-training/tree/main/supabase/tests/database','Tests'],['Application checks','https://github.com/m-lutter/orbital-training/actions','CI']]
   },
   {
-    slug:'eprom-display',number:'03',title:'From memory to display.',name:'EPROM display decoder',
+    slug:'eprom-display',number:'03',title:'EPROM decoder for a two-digit display',name:'EPROM decoder for a two-digit display',
     category:'hardware',type:'Digital hardware',status:'Built on a breadboard',art:'eprom',
-    description:'An EPROM-based decoder connecting a seven-bit switch input to a two-digit display through programmed, active-low segment outputs.',
+    description:'Programmed an AM27C1024 EPROM and assembled a breadboard circuit that converts a seven-bit switch input into a two-digit seven-segment display, using a lookup table of active-low segment outputs.',
     tags:['EPROM','Digital interfaces','Breadboarding'],
-    lead:'A physical circuit that turns a programmed lookup table into the signals needed to drive a two-digit seven-segment display.',
+    lead:'Designed the segment-encoding lookup table and assembled an EPROM decoder on a breadboard. Seven switch inputs select fourteen active-low outputs to drive a common-anode, two-digit seven-segment display.',
     role:'Decoder design, truth table & circuit assembly',outcome:'A documented breadboard implementation',
     image:'eprom-breadboard.jpg',caption:'The original EPROM decoder breadboard, photographed for the portfolio.',
     sections:[
@@ -55,11 +55,11 @@ const originalFeatured = [
     resources:[['Original circuit notes',source('Circuit 8: EPROM Decoder/readme.md'),'GitHub'],['Schematic','https://github.com/user-attachments/assets/dee7567a-e77d-4661-99bc-7ac90fa3dc31','Figure'],['Programmed truth table','https://github.com/user-attachments/assets/e524ad68-d014-4a1c-b603-0beb05452ab0','Figure'],['Segment encoding','https://github.com/user-attachments/assets/e161b9f5-8774-4f64-8d71-b0cc880c67e4','Figure']]
   },
   {
-    slug:'frogger-fsm',number:'04',title:'A game built from logic.',name:'Frogger Lite state machine',
+    slug:'frogger-fsm',number:'04',title:'Frogger Lite: state-machine game simulation',name:'Frogger Lite: state-machine game simulation',
     category:'hardware',type:'Sequential logic',status:'Simulated in Logisim',art:'frogger',
-    description:'Player movement, moving obstacles, collision detection, and win logic integrated into a small digital game using finite state machines.',
+    description:'Built a playable Logisim simulation of a 4 × 4 obstacle-avoidance game. Combined player-position state machines, obstacle ring counters, display decoders, and collision/win logic that freezes the game until reset.',
     tags:['Finite state machines','Logisim','System integration'],
-    lead:'A complete game simulation assembled from state machines, counters, decoders, and discrete logic—with each subsystem doing a defined job.',
+    lead:'Implemented and integrated the digital logic for a 4 × 4 obstacle-avoidance game in Logisim. The simulation includes bounded player movement, independently clocked obstacles, display decoding, collision detection, a win state, and asynchronous reset.',
     role:'State-machine design & subsystem integration',outcome:'Working collision and win logic in simulation',
     image:'frogger-circuit.png',caption:'Original Logisim circuit, including player and obstacle displays, collision logic, and reset.',
     sections:[
@@ -84,10 +84,10 @@ export const featured = [
 export const circuits=[
   ['01','5421 BCD decoder','Combinational','A shared-term Boolean design for a seven-segment display, with C++ verification and a Tinkercad implementation.','Circuit 1: 5421 BCD'],
   ['02','Four-bit adder & display','Hardware','A four-bit adder, BCD decoder, and common-anode display integrated on a breadboard. Building and checking the sections separately helped isolate wiring and component faults. Overflow handling was not completed.','4-Bit adder to 7 segment Common Anode display'],
-  ['03','Clock & shift register','Sequential','A 555 timer and four-bit register combine user-controlled movement, initial-state loading, and a partially developed collision/reset mechanism.','Circuit3: Clock-Register'],
+  ['03','555 timer and four-bit shift register','Sequential','A 555 timer and four-bit register combine user-controlled movement, initial-state loading, and a partially developed collision/reset mechanism.','Circuit3: Clock-Register'],
   ['04','Four-bit multiplier','Arithmetic','Two unsigned four-bit inputs produce an eight-bit result through addition and multiplexing. Includes a Logisim model and KiCad schematic.','Circuit4: Multiplier'],
-  ['05','Counter & matrix decoder','Sequential','A JK-flip-flop counter selects patterns for a 4 × 4 display. The CircuitVerse model handles the display’s alternating draw and clear behavior.','Circuit5: Counter Decoder'],
-  ['06','Frogger Lite','State machines','Player position state machines, obstacle ring counters, and collision/win logic combined in a playable Logisim simulation.','Circuit6: Frogger Lite'],
-  ['07','Bouncing ball','State machines','Separate horizontal and vertical state machines move a point around an 8 × 8 screen. A decoder and demultiplexer map position to the display.','Circuit 7: Bouncing Ball'],
+  ['05','Counter and decoder for a 4 × 4 LED display','Sequential','A JK-flip-flop counter selects patterns for a 4 × 4 display. The CircuitVerse model handles the display’s alternating draw and clear behavior.','Circuit5: Counter Decoder'],
+  ['06','Frogger Lite game simulation','State machines','Player position state machines, obstacle ring counters, and collision/win logic combined in a playable Logisim simulation.','Circuit6: Frogger Lite'],
+  ['07','Bouncing-ball controller for an 8 × 8 display','State machines','Separate horizontal and vertical state machines move a point around an 8 × 8 screen. A decoder and demultiplexer map position to the display.','Circuit 7: Bouncing Ball'],
   ['08','EPROM display decoder','Hardware','A programmed AM27C1024 EPROM maps a seven-bit input to active-low outputs for a two-digit seven-segment display.','Circuit 8: EPROM Decoder']
 ];

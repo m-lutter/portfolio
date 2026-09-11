@@ -1,13 +1,13 @@
 // Source: the three completed AE311 team reports supplied by the portfolio owner.
 export const aerodynamics = [
   {
-    slug: 'weather-balloon', title: 'Modeling a balloon’s ascent.', name: 'Weather balloon ascent and gas trade study',
+    slug: 'weather-balloon', title: 'Modeling weather-balloon ascent and comparing hydrogen versus helium', name: 'Modeling weather-balloon ascent and comparing hydrogen versus helium',
     category: 'analysis', type: 'Atmospheric flight modeling', status: 'Completed modeling study', art: 'plot', cardFit: 'contain',
     context: 'AE311 · Technical lead · Three-person team', roleLabel: 'My contribution',
     role: 'Technical lead: mathematical model, Python simulation, plots, and solution documentation',
-    description: 'Coupled atmosphere, buoyancy, envelope expansion, and a burst criterion in a Python study of a 35 km mission carrying a 3 kg payload.',
+    description: 'Led the mathematical modeling and Python simulation of balloon ascent, coupling atmosphere, buoyancy, drag, envelope expansion, and burst. Compared hydrogen and helium against a 35 km altitude target and 3 kg payload requirement.',
     tags: ['Python', 'Numerical integration', 'Buoyancy', 'Trade studies'],
-    lead: 'Translating a weather-balloon mission and gas-cost question into a coupled physical model, then documenting where its assumptions limit the answer.',
+    lead: 'As technical lead, I developed and documented a Python ascent model that coupled atmospheric conditions, gas expansion, envelope stress, and balloon motion. Our team swept gas mass to compare hydrogen and helium for a 3 kg payload and 35 km altitude requirement, with results treated as exploratory estimates.',
     outcome: 'Hydrogen/helium comparison for a 35 km altitude target and 3 kg payload',
     image: 'weather-balloon-trajectory.png', imageWidth: 976, imageHeight: 728,
     caption: 'Reported trajectory from the team’s simplified numerical balloon model. This is a model output, not a measured flight or independently validated prediction. Figure 11, page 15.',
@@ -20,13 +20,13 @@ export const aerodynamics = [
     resources: [['Full project report · 28 pages', '../reports/weather-balloon.pdf', 'PDF']]
   },
   {
-    slug: 'airfoil-panel-study', title: 'From glider research to airfoil analysis.', name: 'Airfoil panel-method and glider design study',
+    slug: 'airfoil-panel-study', title: 'Comparing NACA airfoils with panel methods and XFOIL', name: 'Comparing NACA airfoils with panel methods and XFOIL',
     category: 'analysis', type: 'Aerodynamics & design research', status: 'Completed team study', art: 'plot', cardFit: 'contain',
     context: 'AE311 · Real-world problem lead · Three-person team', roleLabel: 'My contribution',
     role: 'Glider design research, tradeoff framing, airfoil-selection context, and report coauthorship',
-    description: 'Connected glider design tradeoffs to a panel-method comparison of four NACA sections, examining camber, thickness, and angle of attack.',
+    description: 'Led glider design research for a team study comparing four NACA airfoils at four angles of attack. Connected airfoil-selection tradeoffs to panel-method lift and pressure results and XFOIL pressure comparisons.',
     tags: ['Design research', 'Panel methods', 'NACA airfoils', 'XFOIL'],
-    lead: 'Connecting a numerical investigation to the practical choices behind a glider’s airfoil and wing configuration.',
+    lead: 'I led the glider design research and tradeoff framing for a three-person airfoil study. The team compared camber, thickness, and angle of attack across sixteen cases using a source/vortex panel method and XFOIL pressure distributions; my contribution connected the analysis to airfoil and wing-configuration choices.',
     outcome: '4 airfoil sections × 4 angles of attack, with XFOIL comparisons',
     image: 'airfoil-panel-xfoil-comparison.png', imageWidth: 1447, imageHeight: 1091,
     caption: 'Panel-method and XFOIL pressure distributions for NACA 6406, reproduced from the team’s comparison. Figure 20, page 22.',
@@ -39,13 +39,13 @@ export const aerodynamics = [
     resources: [['Full project report · 31 pages', '../reports/airfoil-panel-study.pdf', 'PDF']]
   },
   {
-    slug: 'finite-wing-study', title: 'A wing design shaped by constraints.', name: 'Finite-wing planform trade study',
+    slug: 'finite-wing-study', title: 'Comparing finite-wing planforms, aspect ratio, and geometric twist', name: 'Comparing finite-wing planforms, aspect ratio, and geometric twist',
     category: 'analysis', type: 'Aerodynamic design trades', status: 'Preliminary design study', art: 'plot', cardFit: 'contain',
     context: 'AE311 · Team lead · Three-person team', roleLabel: 'My contribution',
     role: 'Team coordination, investigation scope, plot digitization, and technical documentation',
-    description: 'Led a three-person investigation of planform, aspect ratio, and twist to recommend a preliminary wing geometry within a 12 m span constraint.',
+    description: 'Led a three-person lifting-line study under a 12 m span limit. Coordinated the investigation and supported documentation of the preliminary recommendation: an 11 m span, 0.4 taper ratio, and no geometric twist.',
     tags: ['Team leadership', 'Lifting-line theory', 'Python / Jupyter', 'Design trades'],
-    lead: 'Organizing a constrained aircraft-design question into a tractable trade study, with an explicit distinction between a model-based recommendation and a finished wing.',
+    lead: 'As team lead, I coordinated a lifting-line investigation of lift, induced drag, and span efficiency for a hypothetical recreational aircraft. I supported plot digitization and technical documentation as the team compared four planforms, aspect-ratio sweeps, and ±2° twist cases to recommend preliminary geometry within a 12 m span limit.',
     outcome: 'Recommended 11 m span, 0.4 taper ratio, and no geometric twist',
     image: 'wing-planform-drag-polars.png', imageWidth: 1458, imageHeight: 1161,
     caption: 'Modeled lift and induced drag for four planforms at 11 m span. These configurations also differ in aspect ratio, so this comparison does not isolate planform alone. Figure 13, page 23.',
