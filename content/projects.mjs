@@ -1,10 +1,13 @@
 // Portfolio copy. Edit this file, then run: node scripts/build.mjs
-// Project claims are grounded in the linked public repositories.
+// Project claims are grounded in the linked repositories, presentation, and reports.
+import { otherSide } from './other-side.mjs';
+import { controls } from './controls.mjs';
+import { aerodynamics } from './aerodynamics.mjs';
 const portfolio = 'https://github.com/m-lutter/portfolio';
 export const source = path => `${portfolio}/blob/main/${path.split('/').map(encodeURIComponent).join('/')}`;
 export const directory = path => `${portfolio}/tree/main/${encodeURIComponent(path)}`;
 
-export const featured = [
+const originalFeatured = [
   {
     slug: 'bcd-decoder', number: '01', title: 'Less logic. Same output.', name: '5421 BCD decoder',
     category: 'hardware', type: 'Digital logic', status: 'Designed & simulated', art: 'bcd',
@@ -67,6 +70,15 @@ export const featured = [
     ],
     resources:[['Original design notes',source('Circuit6: Frogger Lite/readme.md'),'GitHub'],['Logisim simulation',source('Circuit6: Frogger Lite/2DPlayerMovement.circ'),'Logisim'],['Player state diagram','https://github.com/user-attachments/assets/c1d59f7b-22d4-4de3-bd68-7fe14fceb976','Figure'],['Final-project presentation','https://docs.google.com/presentation/d/1G4IhLfdZ-8-l1hMifEOL0JBLiHnG6s6grLI5HEp1oHA/edit','Slides']]
   }
+];
+
+// Keep the earlier Frogger simulation URL available as supporting evidence.
+// The built final project takes its place on the homepage.
+originalFeatured.find(p => p.slug === 'frogger-fsm').listed = false;
+originalFeatured.find(p => p.slug === 'frogger-fsm').resources.unshift(['The Other Side · physical final project', 'the-other-side.html', 'Case study']);
+export const featured = [
+  controls[0], otherSide, aerodynamics[2], controls[2],
+  aerodynamics[1], aerodynamics[0], controls[1], ...originalFeatured
 ];
 
 export const circuits=[
