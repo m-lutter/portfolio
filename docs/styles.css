@@ -46,20 +46,31 @@
 .priority-grid .text-art-title{font-size:44px}
 .priority-grid .orbital-art{padding:24px}
 .priority-grid .orbit-symbol{opacity:.3}
-.supporting-work{margin-top:58px}
-.supporting-heading{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin-bottom:10px}
+.supporting-work{margin-top:58px;padding-top:38px;border-top:1px solid var(--line)}
+.supporting-heading{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin-bottom:24px}
 .supporting-heading h3{font:30px/1.2 var(--serif);letter-spacing:-.025em}
 .supporting-heading p{font-size:13px;color:var(--muted);max-width:360px}
 .project-index{display:grid;grid-template-columns:1fr 1fr;column-gap:36px}
-.project-compact{padding:25px 0;border-top:1px solid var(--line)}
+.project-compact{padding:25px 0;border-top:1px solid var(--line);display:grid;grid-template-columns:155px minmax(0,1fr);gap:20px;align-items:start}
+.project-thumbnail{display:block;text-decoration:none;border-radius:3px}
+.project-thumbnail .project-art{height:155px;border:1px solid var(--line)}
+.project-thumbnail .art-contain img{padding:7px}
+.project-thumbnail .text-art,.project-thumbnail .bcd-art{padding:14px;justify-content:center;gap:18px}
+.project-thumbnail .text-art-title{font-size:27px;max-width:100%}
+.project-thumbnail .art-kicker,.project-thumbnail .art-bottom,.project-thumbnail .logic-trace{display:none}
+.project-thumbnail .gate-count{font-size:39px;letter-spacing:-.06em;white-space:nowrap}
+.project-thumbnail .gate-count span{font-size:23px;padding:0 6px}
 .project-compact .project-meta{margin-top:0;letter-spacing:.035em;flex-wrap:wrap;gap:5px 12px}
 .project-compact h3{font-size:23px;line-height:1.22;margin:10px 0}
 .project-compact h3 a::after{font-size:17px}
 .project-compact p{font-size:14px;line-height:1.55}
 .project-compact .tags{margin-top:12px}
-.project-group[hidden]+.supporting-work{margin-top:0}
 .contact .button{overflow-wrap:anywhere;word-break:normal}
 @media(max-width:1000px){.hero{gap:32px}.hero-image{height:255px}.priority-grid .project-card-body{padding:20px}.priority-grid h3{font-size:25px}.priority-grid .project-art{height:195px}.project-index{column-gap:28px}}
 @media(max-width:700px){.hero{padding:32px 0 26px;gap:26px}.hero-image{height:220px}.hero h1{font-size:48px}#work{padding-top:40px}.priority-grid{gap:22px}.priority-grid .project-art{height:190px}.priority-grid h3{font-size:26px;min-height:0}.priority-grid .project-card-body{padding:20px}.project-result strong{font-size:24px}.supporting-work{margin-top:38px}.supporting-heading{display:block;margin-bottom:18px}.supporting-heading h3{font-size:28px}.supporting-heading p{margin-top:8px}.project-index{grid-template-columns:1fr}.project-compact{padding:21px 0}.project-compact h3{font-size:23px}.project-links{gap:14px}.contact .button{max-width:100%;font-size:13px;gap:12px}}
 @media(max-width:370px){.nav-links{gap:11px}.brand{font-size:13px;gap:6px}.nav{gap:10px}.hero h1{font-size:43px}.priority-grid .project-card-body{padding:17px}}
 @media print{.hero{padding:20px 0}.hero h1{font-size:38pt}#work{padding-top:24px}.priority-grid .project-card{break-inside:avoid}.priority-grid .project-art{height:150px}.project-compact{break-inside:avoid}.project-result strong{font-size:18pt}.project-links{display:none}}
+
+@media(min-width:701px) and (max-width:1000px){.project-compact{grid-template-columns:110px minmax(0,1fr);gap:15px}.project-thumbnail .project-art{height:125px}.project-thumbnail .text-art-title{font-size:20px}.project-thumbnail .bcd-art{padding:8px}.project-thumbnail .gate-count{font-size:30px}.project-thumbnail .gate-count span{font-size:19px;padding-inline:3px}.project-compact h3{font-size:21px}}
+@media(max-width:700px){.supporting-work{padding-top:28px}.supporting-heading{margin-bottom:22px}.project-compact{grid-template-columns:140px minmax(0,1fr);gap:20px}.project-thumbnail .project-art{height:145px}}
+@media(max-width:480px){.project-compact{grid-template-columns:1fr;gap:16px}.project-thumbnail .project-art{height:165px}.project-thumbnail .text-art,.project-thumbnail .bcd-art{padding:20px}.project-thumbnail .text-art-title{font-size:34px}.project-thumbnail .gate-count{font-size:54px}.project-thumbnail .gate-count span{font-size:30px;padding-inline:12px}}

@@ -10,7 +10,7 @@ The public site is built from the `docs/` folder and hosted on GitHub Pages.
 - `content/aerodynamics.mjs`: the three AE311 studies and documented individual contributions.
 - `scripts/build.mjs`: homepage copy and shared page templates. Uses Node.js built-ins; no packages to install.
 - `docs/styles.css`: colors, layout, typography, responsive styles, and print styles.
-- `docs/site.js`: accessible project filtering across the highlighted and supporting groups.
+- `docs/site.js`: accessible filtering of the supporting project collection.
 - `docs/assets/`: original portfolio images, presentation photos/diagrams, and figures extracted from the supplied project reports.
 - `content/field-tools.mjs`: FieldPlan and FieldMark2 professional software entries, with Talman ownership attribution.
 - `content/publication.mjs`: controls report-download visibility. The owner explicitly authorized publishing all six prepared copies.
@@ -20,9 +20,9 @@ Run `node scripts/build.mjs` after editing content or templates. Commit both the
 
 GitHub Pages configuration: deploy from branch `main`, folder `/docs`. A `.nojekyll` file makes this a plain static site. There are no runtime dependencies, analytics scripts, API keys, or sign-in requirements.
 
-Counts, project numbers, and filter badges derive from the selected project list. A project with `listed: false` still gets a case page and sitemap entry; this preserves the earlier Frogger Lite URL while featuring its physical final project. Optional `context`, `roleLabel`, `evidenceNote`, `gallery`, and section `figure` fields support team attribution and multiple original figures. Use `cardFit: 'contain'` for plots to preserve axes and legends.
+Project numbers derive from the selected project list; category badges count only the supporting collection they filter. A project with `listed: false` still gets a case page and sitemap entry; this preserves the earlier Frogger Lite URL while featuring its physical final project. Optional `context`, `roleLabel`, `evidenceNote`, `gallery`, and section `figure` fields support team attribution and multiple original figures. Use `cardFit: 'contain'` for plots to preserve axes and legends.
 
-The `highlights` map supplies the prominent cards' summary, result, evidence qualifier, contribution label, and optional direct report/application link. Their order follows the selected project list. The remaining projects use compact entries under “More engineering work.” Filters apply to both groups and hide empty groups. The leading selection balances aerospace relevance, physical integration, and developed software; keep simulated results, team work, and beta status explicit. Update `assetVersion` in `scripts/build.mjs` whenever changing shared CSS or JavaScript so returning visitors receive the matching assets.
+The `highlights` map supplies the prominent cards' summary, result, evidence qualifier, contribution label, and optional direct report/application link. Their order follows the selected project list. These four cards always remain visible above the category controls. The remaining thirteen projects use smaller thumbnail cards under “More engineering work,” including in the default “All other work” view. Filters apply only to this supporting collection. Thumbnails reuse the project's source image or existing graphic; report plots retain their axes. The leading selection balances aerospace relevance, physical integration, and developed software; keep simulated results, team work, and beta status explicit. Update `assetVersion` in `scripts/build.mjs` whenever changing shared CSS or JavaScript so returning visitors receive the matching assets.
 
 ## Content basis
 
