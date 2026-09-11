@@ -2,7 +2,7 @@
 
 The public site is built from the `docs/` folder and hosted on GitHub Pages.
 
-- `content/projects.mjs`: selected-project ordering, original digital project copy, and the eight-circuit archive.
+- `content/projects.mjs`: selected-project ordering, the four-project `highlights` map, original digital project copy, and the eight-circuit archive.
 - `content/other-side.mjs`: the completed physical game, based on the final presentation.
 - `content/controls.mjs`: the AE353 control studies and AE370 thermal-model verification study.
 - `content/catbot.mjs`: the co-authored AE353 DP1 controller notebook and saved simulation evidence.
@@ -10,7 +10,7 @@ The public site is built from the `docs/` folder and hosted on GitHub Pages.
 - `content/aerodynamics.mjs`: the three AE311 studies and documented individual contributions.
 - `scripts/build.mjs`: homepage copy and shared page templates. Uses Node.js built-ins; no packages to install.
 - `docs/styles.css`: colors, layout, typography, responsive styles, and print styles.
-- `docs/site.js`: accessible featured-project filtering.
+- `docs/site.js`: accessible project filtering across the highlighted and supporting groups.
 - `docs/assets/`: original portfolio images, presentation photos/diagrams, and figures extracted from the supplied project reports.
 - `content/field-tools.mjs`: FieldPlan and FieldMark2 professional software entries, with Talman ownership attribution.
 - `content/publication.mjs`: controls report-download visibility. The owner explicitly authorized publishing all six prepared copies.
@@ -22,6 +22,8 @@ GitHub Pages configuration: deploy from branch `main`, folder `/docs`. A `.nojek
 
 Counts, project numbers, and filter badges derive from the selected project list. A project with `listed: false` still gets a case page and sitemap entry; this preserves the earlier Frogger Lite URL while featuring its physical final project. Optional `context`, `roleLabel`, `evidenceNote`, `gallery`, and section `figure` fields support team attribution and multiple original figures. Use `cardFit: 'contain'` for plots to preserve axes and legends.
 
+The `highlights` map supplies the prominent cards' summary, result, evidence qualifier, contribution label, and optional direct report/application link. Their order follows the selected project list. The remaining projects use compact entries under “More engineering work.” Filters apply to both groups and hide empty groups. The leading selection balances aerospace relevance, physical integration, and developed software; keep simulated results, team work, and beta status explicit. Update `assetVersion` in `scripts/build.mjs` whenever changing shared CSS or JavaScript so returning visitors receive the matching assets.
+
 ## Content basis
 
 The initial page uses the public `m-lutter/portfolio` digital-systems collection and the public `m-lutter/orbital-training` README. Orbital is identified as a deployed beta, not a finished stable release. The pump repository contained only a planning skeleton when reviewed and is not featured. The owner authorized including FieldPlan and FieldMark2 based on the supplied current Python files. The site presents descriptions and links; application source and field inputs stay in the separate project repositories. Talman Consultants, LLC owns the application copyright.
@@ -30,7 +32,7 @@ Digital projects retain distinctions between simulated designs, physical builds,
 
 The EPROM and Frogger images were copied from working image attachments in their original README files. The BCD image is the original Tinkercad export. Several original local JPEG/MOV files contain only two bytes; they are not linked as usable media.
 
-The biography reflects the owner's September 2026 Job Research context: UIUC aerospace engineering, expected December 2026 graduation, launch-vehicle systems/integration, and GNC/avionics integration. Update the graduation wording when appropriate. Contact uses the owner's connected GitHub profile email.
+The biography reflects the owner's September 2026 Job Research context: UIUC aerospace engineering, expected December 2026 graduation, launch-vehicle systems/integration, and GNC/avionics integration. Update the graduation wording when appropriate. Contact uses the owner's requested professional email, `luttermaxwell@gmail.com`, set in `scripts/build.mjs` as `contactEmail`.
 
 ## Aerospace extension sources
 

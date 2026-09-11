@@ -80,9 +80,43 @@ const originalFeatured = [
 originalFeatured.find(p => p.slug === 'frogger-fsm').listed = false;
 originalFeatured.find(p => p.slug === 'frogger-fsm').resources.unshift(['The Other Side · physical final project', 'the-other-side.html', 'Case study']);
 export const featured = [
-  controls[0], otherSide, structures[3], structures[2], aerodynamics[2], controls[2],
-  aerodynamics[1], aerodynamics[0], controls[1], catbot, structures[0], structures[1], ...fieldTools, ...originalFeatured
+  controls[0], otherSide, fieldTools[0], originalFeatured[1],
+  fieldTools[1], structures[3], controls[2], aerodynamics[0], structures[2],
+  aerodynamics[2], controls[1], originalFeatured[0], structures[0], structures[1],
+  aerodynamics[1], catbot, originalFeatured[2], originalFeatured[3]
 ];
+
+// Four entry points balance aerospace relevance, physical integration, and
+// developed applications. Short homepage copy preserves the source-based cases.
+export const highlights = {
+  'flying-wing-control': {
+    summary: 'Designed and evaluated an LQR landing controller with a teammate, from trim and linearization through randomized flight simulations.',
+    result: '87.3% landing success',
+    evidence: '4,000 simulated trials · exceeded the 85% requirement',
+    contribution: 'Team controller design & evaluation',
+    link: ['Read the report', 'reports/flying-wing-control.pdf']
+  },
+  'the-other-side': {
+    summary: 'Co-built a playable LED game by integrating state machines, timing circuits, display logic, and collision detection on a breadboard.',
+    result: 'Built & demonstrated',
+    evidence: 'Physical hardware · movement, win/loss logic, and reset',
+    contribution: 'Team hardware design & integration'
+  },
+  'fieldplan': {
+    summary: 'Developed a field-planning application that turns work lists into mapped assignments and ordered driving routes.',
+    result: 'Public field-planning app',
+    evidence: 'Maps, geographic assignments, and route exports',
+    contribution: 'Developer · Talman Consultants, LLC',
+    link: ['Open FieldPlan', 'https://fieldplan.streamlit.app/']
+  },
+  'orbital-training': {
+    summary: 'Built and deployed a full-stack app for training plans, workout logging, and adaptation, with persistent history and automated tests.',
+    result: 'Deployed public beta',
+    evidence: 'Planning engine → workout logging → weekly adaptation',
+    contribution: 'Full-stack development & deployment',
+    link: ['Open Orbital', 'https://orbital-training.com']
+  }
+};
 
 export const circuits=[
   ['01','5421 BCD decoder','Combinational','A shared-term Boolean design for a seven-segment display, with C++ verification and a Tinkercad implementation.','Circuit 1: 5421 BCD'],

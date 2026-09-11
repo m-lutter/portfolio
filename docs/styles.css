@@ -22,3 +22,44 @@
 @media(max-width:700px){html{scroll-padding-top:24px}.wrap{width:calc(100% - 40px)}.nav{min-height:76px;gap:15px}.brand{font-size:14px;gap:9px}.monogram{width:30px;height:30px}.nav-links{gap:16px;font-size:12px}.nav-links .desktop-link{display:none}.hero{grid-template-columns:1fr;gap:35px;padding:42px 0 30px}.hero .eyebrow{margin-bottom:22px;font-size:10px}h1{font-size:52px}.hero-intro{font-size:16px;margin-top:22px}.hero-image{height:280px}.context-strip{grid-template-columns:1fr 1fr;padding:20px 0;gap:18px}.context-strip div:first-child{grid-column:1/-1}.context-strip strong{font-size:13px}.context-strip span{font-size:10px}.section{padding:52px 0}.section-heading{display:block;margin-bottom:24px}h2{font-size:36px}.section-note{margin-top:18px}.project-grid{grid-template-columns:1fr;gap:34px}.project-art{height:260px}.project-card h3{font-size:29px}.project-meta{margin-top:17px;font-size:9px}.filters{gap:7px}.filter{font-size:12px;padding:9px 11px}.gate-count{font-size:76px}.archive{margin-top:45px;padding-top:34px}.archive-intro{display:block}.archive-intro p{margin-top:10px}summary{grid-template-columns:28px 1fr 16px;gap:10px;font-size:15px;padding:18px 0}.archive-type{display:none}.archive-body{padding:0 15px 22px 38px;font-size:14px}.about-grid{grid-template-columns:1fr;gap:30px}.about-copy>p{font-size:19px}.skill-line{grid-template-columns:95px 1fr;gap:15px}.contact{display:block;padding-block:48px}.contact .actions{margin-top:26px}.footer-inner{font-size:10px;flex-wrap:wrap}.case-top{padding-top:28px}.case-hero{padding:32px 0 24px}.case-hero .lead{font-size:18px}.case-facts{grid-template-columns:1fr 1fr;gap:20px}.case-facts div:last-child{grid-column:1/-1}.case-body{grid-template-columns:1fr;gap:26px;padding:35px 0 50px}.case-side{border-bottom:1px solid var(--line);padding-bottom:20px}.case-side p{display:inline;margin-left:12px}.diagram-panel{padding:25px}.diagram-grid{grid-template-columns:1fr;gap:14px}.diagram-node{padding:20px}.case-next{gap:20px}.actions{gap:18px}.engine-flow{gap:7px}.engine-flow span{padding:13px 7px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
 @media print{body{background:white;font-size:11pt}.header,.filters,.actions,.contact,footer,.case-next{display:none}.wrap{width:100%}.hero{padding:20px 0;gap:30px}.hero h1{font-size:38pt}.hero-image{height:220px}.section{padding:24px 0}.project-grid{gap:25px}.project-card{break-inside:avoid}.project-art{height:180px}.about{background:white}.archive-body{display:block}details{break-inside:avoid}.case-body{display:block}.case-side{display:none}.case-image{max-height:400px}a{text-decoration:none}.case-content section{break-inside:avoid}}
+
+/* Prioritize four complete case studies; keep the wider collection easy to scan. */
+.hero{padding:44px 0 34px;gap:48px}
+.hero h1{font-size:clamp(46px,4.6vw,64px)}
+.hero .eyebrow{margin-bottom:18px}
+.hero-intro{font-size:16px;line-height:1.7;margin-top:22px;max-width:510px}
+.hero-image{height:280px}
+.hero .actions{margin-top:24px}
+#work{padding-top:56px}
+.priority-grid{gap:28px;align-items:stretch}
+.priority-grid>.project-card{display:flex;flex-direction:column;background:var(--white);border:1px solid var(--line);border-radius:4px;overflow:hidden}
+.priority-grid .project-art{height:180px;border-radius:0;border:0;border-bottom:1px solid var(--line);flex-shrink:0}
+.priority-grid .project-card-body{padding:24px;display:flex;flex-direction:column;flex:1}
+.priority-grid .project-meta{margin-top:0}
+.priority-grid h3{font-size:28px;margin:12px 0;min-height:2.3em}
+.priority-grid .project-contribution{font-size:12px;color:var(--ink);margin:14px 0 18px}
+.project-result{padding:0 0 17px;margin-bottom:16px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:4px}
+.project-result strong{font:26px/1.2 var(--serif);color:var(--accent);letter-spacing:-.02em}
+.project-result span{font-size:12px;line-height:1.5;color:var(--muted)}
+.project-links{display:flex;gap:20px;flex-wrap:wrap;margin-top:auto;padding-top:4px;font-size:13px}
+.project-links a{text-decoration:none;border-bottom:1px solid var(--line)}
+.priority-grid .text-art-title{font-size:44px}
+.priority-grid .orbital-art{padding:24px}
+.priority-grid .orbit-symbol{opacity:.3}
+.supporting-work{margin-top:58px}
+.supporting-heading{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin-bottom:10px}
+.supporting-heading h3{font:30px/1.2 var(--serif);letter-spacing:-.025em}
+.supporting-heading p{font-size:13px;color:var(--muted);max-width:360px}
+.project-index{display:grid;grid-template-columns:1fr 1fr;column-gap:36px}
+.project-compact{padding:25px 0;border-top:1px solid var(--line)}
+.project-compact .project-meta{margin-top:0;letter-spacing:.035em;flex-wrap:wrap;gap:5px 12px}
+.project-compact h3{font-size:23px;line-height:1.22;margin:10px 0}
+.project-compact h3 a::after{font-size:17px}
+.project-compact p{font-size:14px;line-height:1.55}
+.project-compact .tags{margin-top:12px}
+.project-group[hidden]+.supporting-work{margin-top:0}
+.contact .button{overflow-wrap:anywhere;word-break:normal}
+@media(max-width:1000px){.hero{gap:32px}.hero-image{height:255px}.priority-grid .project-card-body{padding:20px}.priority-grid h3{font-size:25px}.priority-grid .project-art{height:195px}.project-index{column-gap:28px}}
+@media(max-width:700px){.hero{padding:32px 0 26px;gap:26px}.hero-image{height:220px}.hero h1{font-size:48px}#work{padding-top:40px}.priority-grid{gap:22px}.priority-grid .project-art{height:190px}.priority-grid h3{font-size:26px;min-height:0}.priority-grid .project-card-body{padding:20px}.project-result strong{font-size:24px}.supporting-work{margin-top:38px}.supporting-heading{display:block;margin-bottom:18px}.supporting-heading h3{font-size:28px}.supporting-heading p{margin-top:8px}.project-index{grid-template-columns:1fr}.project-compact{padding:21px 0}.project-compact h3{font-size:23px}.project-links{gap:14px}.contact .button{max-width:100%;font-size:13px;gap:12px}}
+@media(max-width:370px){.nav-links{gap:11px}.brand{font-size:13px;gap:6px}.nav{gap:10px}.hero h1{font-size:43px}.priority-grid .project-card-body{padding:17px}}
+@media print{.hero{padding:20px 0}.hero h1{font-size:38pt}#work{padding-top:24px}.priority-grid .project-card{break-inside:avoid}.priority-grid .project-art{height:150px}.project-compact{break-inside:avoid}.project-result strong{font-size:18pt}.project-links{display:none}}

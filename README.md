@@ -2,7 +2,7 @@
 
 [View the portfolio website](https://m-lutter.github.io/portfolio/)
 
-Selected work in aerodynamics, numerical modeling, feedback control, structural testing, digital hardware, and software. The website presents seventeen selected projects, eighteen case-study pages, and the eight-circuit archive below. The Other Side documents the completed physical game; the earlier Frogger Lite simulation remains available as supporting work. Orbital Training is presented as a deployed public beta.
+Selected work in aerodynamics, numerical modeling, feedback control, structural testing, digital hardware, and software. The homepage highlights four projects—flying-wing landing control, The Other Side, FieldPlan, and Orbital Training—with results and contribution labels, followed by thirteen supporting projects. The website includes eighteen case-study pages and the eight-circuit archive below. The Other Side documents the completed physical game; the earlier Frogger Lite simulation remains available as supporting work. Orbital Training is presented as a deployed public beta.
 
 The six aerospace reports inform case studies on flying-wing control, spacecraft attitude estimation and control, reentry thermal modeling, weather-balloon modeling, airfoil analysis, and finite-wing design trades. Case studies distinguish individual contributions from team results and preserve the difference between simulated performance, preliminary recommendations, and unmet targets. Selected source figures and complete report downloads are included. Public report copies retain technical content and authorship; residential addresses and a teammate’s email have been removed.
 
