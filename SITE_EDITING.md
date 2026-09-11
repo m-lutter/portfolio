@@ -10,6 +10,7 @@ The public site is built from the `docs/` folder and hosted on GitHub Pages.
 - `docs/styles.css`: colors, layout, typography, responsive styles, and print styles.
 - `docs/site.js`: accessible featured-project filtering.
 - `docs/assets/`: original portfolio images, presentation photos/diagrams, and figures extracted from the supplied project reports.
+- `content/field-tools.mjs`: FieldPlan and FieldMark2 professional software entries, with Talman ownership attribution.
 - `content/publication.mjs`: controls report-download visibility. The owner explicitly authorized publishing all six prepared copies.
 - `docs/reports/`: six downloadable reports, with author addresses and a teammate email removed from the four affected documents.
 
@@ -21,7 +22,7 @@ Counts, project numbers, and filter badges derive from the selected project list
 
 ## Content basis
 
-The initial page uses the public `m-lutter/portfolio` digital-systems collection and the public `m-lutter/orbital-training` README. Orbital is identified as a deployed beta, not a finished stable release. The pump repository contained only a planning skeleton when reviewed and is not featured. Private repository contents are not included.
+The initial page uses the public `m-lutter/portfolio` digital-systems collection and the public `m-lutter/orbital-training` README. Orbital is identified as a deployed beta, not a finished stable release. The pump repository contained only a planning skeleton when reviewed and is not featured. The owner authorized including FieldPlan and FieldMark2 based on the supplied current Python files. The site presents descriptions and links; application source and field inputs stay in the separate project repositories. Talman Consultants, LLC owns the application copyright.
 
 Digital projects retain distinctions between simulated designs, physical builds, and incomplete extensions. The 75-to-40 gate comparison comes from the original 5421 BCD write-up and is not a power or timing measurement. Original project folders are preserved.
 
@@ -40,3 +41,15 @@ The biography reflects the owner's September 2026 Job Research context: UIUC aer
 - AE370 Project 2: reentry thermal study, 15 pages; five authors with individual roles on page 14. Maxwell contributed verification/implementation writing, consistency checks, interpretation, plotting, and report editing. The solver is credited to Danfeng Ye. Numerical convergence and the analytical benchmark are featured; unreconciled temperature/run-setting differences preclude physical performance claims.
 
 Source figures are reproduced from the reports without redrawing their data. The owner explicitly authorized publication of all six prepared reports. Author addresses were removed from the three AE311 PDFs and a teammate email from the spacecraft PDF using actual text redaction. Later pages were checked for unchanged text; the other two PDFs are byte-identical copies. Local research files and original contact-bearing documents are excluded from publication and are not needed to build the site.
+
+## Field software sources
+
+FieldPlan uses the supplied `fieldplan_v21.py` with Thermo readiness filtering,
+plus the repository fix for an explicitly empty photo-color selection. Its live
+link is https://fieldplan.streamlit.app/; the private source repository is not
+presented as a public resource. FieldMark2 uses the supplied
+`FieldMark2_compression_slider.py`, maintained as `FieldMark2.py` in
+https://github.com/m-lutter/FieldMark2. Both carry Talman copyright attribution.
+Synthetic checks support functionality descriptions; no measured field savings
+or deployment-scale performance results are claimed. The user requested simple
+inclusion without a separate demo. Plain text card artwork uses `artLabel`.

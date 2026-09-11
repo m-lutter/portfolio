@@ -3,6 +3,7 @@
 import { otherSide } from './other-side.mjs';
 import { controls } from './controls.mjs';
 import { aerodynamics } from './aerodynamics.mjs';
+import { fieldTools } from './field-tools.mjs';
 const portfolio = 'https://github.com/m-lutter/portfolio';
 export const source = path => `${portfolio}/blob/main/${path.split('/').map(encodeURIComponent).join('/')}`;
 export const directory = path => `${portfolio}/tree/main/${encodeURIComponent(path)}`;
@@ -78,7 +79,7 @@ originalFeatured.find(p => p.slug === 'frogger-fsm').listed = false;
 originalFeatured.find(p => p.slug === 'frogger-fsm').resources.unshift(['The Other Side · physical final project', 'the-other-side.html', 'Case study']);
 export const featured = [
   controls[0], otherSide, aerodynamics[2], controls[2],
-  aerodynamics[1], aerodynamics[0], controls[1], ...originalFeatured
+  aerodynamics[1], aerodynamics[0], controls[1], ...fieldTools, ...originalFeatured
 ];
 
 export const circuits=[
