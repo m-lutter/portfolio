@@ -12,6 +12,8 @@ The GitHub Pages site is served from `main` → `/docs`. See [SITE_EDITING.md](S
 
 [Browse project source](project-code/): selected AE353 controller notebooks, AE311 balloon-model and recovered airfoil code, AE370 implementation/verification notebooks, and an editable EPROM schematic. Case-study code links include contribution and archived-version notes. Notebook code and available text outputs are retained, with embedded graphical/HTML outputs removed; companion Python exports make the code easy to inspect. The original BCD verification program and Logisim models remain in the digital-systems collection.
 
+The root MIT license does not apply to the `project-code/` archive. Those files retain their original author rights and any component licenses identified in their folder documentation, including the supplied JoshTheEngineer notice.
+
 FieldPlan and FieldMark2 document professional software developed for Talman Consultants, LLC: converting work lists into field maps and driving routes, and converting GPS-tagged photos into Excel field records and KMZ maps. Both projects identify Talman copyright ownership. FieldPlan links to its existing public Streamlit application; FieldMark2 links to its maintained Python repository. These entries use concise source-based descriptions without a separate demo.
 
 ## Original digital-systems collection
