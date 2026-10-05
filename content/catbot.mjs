@@ -7,6 +7,7 @@ export const catbot = {
   tags: ['State feedback', 'Eigenvalue analysis', 'Python / SciPy', 'PyBullet'],
   lead: 'With Luke Phan, I developed a controller-design notebook for a wheeled balancing robot in the AE353 simulation environment. The work connects a four-state linear model, feedback-gain selection, bounded wheel-torque commands, and a saved successful cat-catching demonstration.',
   outcome: 'Saved simulation records a successful catch and the robot’s state response',
+  codeLink: ['View team controller code', 'https://github.com/m-lutter/portfolio/tree/main/project-code/ae353/catbot'],
   image: 'catbot-state-response.png', imageWidth: 1400, imageHeight: 934,
   caption: 'Saved simulation state histories from the team’s state_plots.pdf: wheel position, wheel velocity, body pitch, and pitch rate over 20 seconds.',
   evidenceNote: 'CMGDemo-Team17.ipynb identifies Max Lutter and Luke Phan as authors. It explicitly credits Tim Bretl, Wayne Chang, and the course staff for the equations of motion, and Bretl for the simulation interface.',
@@ -15,5 +16,5 @@ export const catbot = {
     {title: 'Read the simulation evidence', paragraphs: ['The saved notebook output reports a successful catch and includes state-history and commanded-versus-applied torque plots. These document a worked demonstration, not a measured catch-success percentage.', 'The notebook describes a display-dependent simulator behavior that hindered automatic gain screening and motivated a manually selected demonstration gain. The saved run is therefore presented at its documented scope rather than as a statistically validated robustness result.']},
     {title: 'Contribution & course framework', paragraphs: ['The controller-design notebook is co-authored by Maxwell Lutter and Luke Phan; it does not assign individual functions to either author. The supplied equations, ae353_catbot interface, and simulation assets are course infrastructure.']}
   ],
-  resources: [['Saved robot state histories', '../assets/catbot-state-response.png', 'Notebook figure']]
+  resources: [['Controller code, course setup & team credits', 'https://github.com/m-lutter/portfolio/tree/main/project-code/ae353/catbot', 'GitHub code'], ['Archived team notebook', 'https://github.com/m-lutter/portfolio/blob/main/project-code/ae353/catbot/CMGDemo-Team17.ipynb', 'Jupyter'], ['Saved robot state histories', '../assets/catbot-state-response.png', 'Notebook figure']]
 };

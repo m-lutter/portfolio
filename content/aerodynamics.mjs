@@ -2,6 +2,7 @@
 export const aerodynamics = [
   {
     slug: 'weather-balloon', title: 'Modeling weather-balloon ascent and comparing hydrogen versus helium', name: 'Modeling weather-balloon ascent and comparing hydrogen versus helium',
+    codeLink: ['View archived ascent-model code', 'https://github.com/m-lutter/portfolio/tree/main/project-code/ae311/weather-balloon'],
     category: 'analysis', type: 'Atmospheric flight modeling', status: 'Completed modeling study', art: 'plot', cardFit: 'contain',
     context: 'AE311 · Technical lead · Three-person team', roleLabel: 'My contribution',
     role: 'Technical lead: mathematical model, Python simulation, plots, and solution documentation',
@@ -17,10 +18,11 @@ export const aerodynamics = [
       {title: 'Couple the physics, then sweep the design variable', paragraphs: ['The model combined a layered atmosphere, ideal-gas behavior, envelope stress and expansion, buoyancy, gravity, drag, and a material-failure criterion. Euler integration advanced the balloon’s state through the ascent.', 'A gas-mass sweep in 0.01 kg increments generated trial results for the two gases. NumPy, Matplotlib, pandas, and CSV output supported calculation, plotting, and comparison.']},
       {title: 'Reported result & recommendation', callout: 'The report selected 0.43 kg of hydrogen rather than 0.95 kg of helium to meet the modeled altitude objective at lower gas cost.', paragraphs: ['The first successful mass-sweep cases reported 43.12 km for hydrogen and 39.14 km for helium, both above the 35 km requirement. Using the report’s gas-price assumptions, the corresponding gas costs were $2.07 and $90.36. These are the submitted study’s simulation results and historical cost estimates.', 'The recommendation addressed gas cost under the academic model. It did not compare complete launch costs or establish a flight-tested operating configuration. The model assumed a spherical envelope and constant drag coefficient, omitted wind and payload drag, and simplified material failure; the original calculations have not been rerun for this portfolio.']}
     ],
-    resources: [['Full project report · 28 pages', '../reports/weather-balloon.pdf', 'PDF']]
+    resources: [['Archived hydrogen-model code & version notes', 'https://github.com/m-lutter/portfolio/tree/main/project-code/ae311/weather-balloon', 'GitHub code'], ['Available development notebook', 'https://github.com/m-lutter/portfolio/blob/main/project-code/ae311/weather-balloon/311CodeProject1.ipynb', 'Jupyter'], ['Full project report · 28 pages', '../reports/weather-balloon.pdf', 'PDF']]
   },
   {
     slug: 'airfoil-panel-study', title: 'Comparing NACA airfoils with panel methods and XFOIL', name: 'Comparing NACA airfoils with panel methods and XFOIL',
+    codeLink: ['View recovered panel-method code', 'https://github.com/m-lutter/portfolio/tree/main/project-code/ae311/airfoil-panel'],
     category: 'analysis', type: 'Aerodynamics & design research', status: 'Completed team study', art: 'plot', cardFit: 'contain',
     context: 'AE311 · Real-world problem lead · Three-person team', roleLabel: 'My contribution',
     role: 'Glider design research, tradeoff framing, airfoil-selection context, and report coauthorship',
@@ -36,7 +38,7 @@ export const aerodynamics = [
       {title: 'Compare pressure and lift', paragraphs: ['The team used a combined source/vortex panel method with impermeability and Kutta boundary conditions. Surface pressure and circulation provided two routes to lift, while XFOIL pressure distributions supplied a comparison reference.', 'The Python solver was adapted from JoshTheEngineer, as credited in the report. Jackson Rees held the technical-lead role and implemented the solver; my contribution was the design research and its connection to the analysis.'], figure: {image: 'airfoil-pressure-vectors.png', caption: 'Pressure-coefficient vectors for NACA 6406 from the team’s panel-method study. Figure 19, page 22.'}},
       {title: 'Results & design interpretation', callout: 'NACA 6412 produced the highest lift coefficient among the four airfoils at the tested angles.', paragraphs: ['The report found that camber and thickness affected lift and the pressure distribution. Cambered sections produced positive lift at zero incidence, while symmetric sections were approximately zero. For NACA 6412, the reported lift coefficient at zero degrees was about 0.729.', 'The result supports the report’s comparison of the tested geometries. The steady, inviscid, attached two-dimensional model does not predict stall, viscous drag, or complete-aircraft glide performance, so highest modeled lift is a narrower result than best overall glider performance.']}
     ],
-    resources: [['Full project report · 31 pages', '../reports/airfoil-panel-study.pdf', 'PDF']]
+    resources: [['Recovered team code, attribution & dependency notes', 'https://github.com/m-lutter/portfolio/tree/main/project-code/ae311/airfoil-panel', 'GitHub code'], ['Python recovered from the notebook export', 'https://github.com/m-lutter/portfolio/blob/main/project-code/ae311/airfoil-panel/panel_method_export.py', 'Python'], ['Full project report · 31 pages', '../reports/airfoil-panel-study.pdf', 'PDF']]
   },
   {
     slug: 'finite-wing-study', title: 'Comparing finite-wing planforms, aspect ratio, and geometric twist', name: 'Comparing finite-wing planforms, aspect ratio, and geometric twist',

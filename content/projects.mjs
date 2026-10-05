@@ -18,6 +18,7 @@ const originalFeatured = [
     tags: ['Boolean optimization', 'C++', 'KiCad', 'Tinkercad'],
     lead: 'Designed and optimized the logic that converts a four-bit 5421 BCD input into a seven-segment digit. Shared Boolean terms reduced the final AND/OR gate count to 40, with C++ truth-table checks and a Tinkercad circuit simulation.',
     role: 'Logic design, optimization & simulation', outcome: '40 AND/OR gates in the final design',
+    codeLink: ['View verification code', source('Circuit 1: 5421 BCD/5421BCD.cpp')],
     image: 'bcd-circuit.png', caption: 'Original Tinkercad circuit from the digital-systems portfolio.',
     sections: [
       {title:'The problem', paragraphs:['Design a 5421 BCD decoder using only AND, OR, and NOT gates. A four-switch input drives a common-cathode seven-segment display. The design accepts alternate encodings of the same digit and blanks the display for input values of 10 or greater.']},
@@ -49,13 +50,14 @@ const originalFeatured = [
     tags:['EPROM','Digital interfaces','Breadboarding'],
     lead:'Designed the segment-encoding lookup table and assembled an EPROM decoder on a breadboard. Seven switch inputs select fourteen active-low outputs to drive a common-anode, two-digit seven-segment display.',
     role:'Decoder design, truth table & circuit assembly',outcome:'A documented breadboard implementation',
+    codeLink:['View editable circuit source','https://github.com/m-lutter/portfolio/tree/main/project-code/digital/eprom'],
     image:'eprom-breadboard.jpg',caption:'The original EPROM decoder breadboard, photographed for the portfolio.',
     sections:[
       {title:'The problem',paragraphs:['Connect a seven-bit DIP-switch input to a common-anode, two-digit seven-segment display. The circuit uses an AM27C1024 EPROM to map the input to fourteen segment-control outputs.']},
       {title:'Interface decisions',paragraphs:['The common-anode display requires active-low output logic. I represented each digit as a segment pattern in hexadecimal and used a programmed truth table to define the output for each input.','The switch inputs connect to the seven least-significant address pins. Remaining address pins are grounded, and the two unused data outputs are left unconnected. The published circuit documents the schematic, truth table, component list, and breadboard.']},
       {title:'What this demonstrates',bullets:['Translating a desired display into a stored input/output mapping.','Accounting for active-low logic and component pin assignments.','Connecting a logical design to a physical implementation.']}
     ],
-    resources:[['Original circuit notes',source('Circuit 8: EPROM Decoder/readme.md'),'GitHub'],['Schematic','https://github.com/user-attachments/assets/dee7567a-e77d-4661-99bc-7ac90fa3dc31','Figure'],['Programmed truth table','https://github.com/user-attachments/assets/e524ad68-d014-4a1c-b603-0beb05452ab0','Figure'],['Segment encoding','https://github.com/user-attachments/assets/e161b9f5-8774-4f64-8d71-b0cc880c67e4','Figure']]
+    resources:[['Editable KiCad schematic & source notes','https://github.com/m-lutter/portfolio/tree/main/project-code/digital/eprom','Circuit source'],['Original circuit notes',source('Circuit 8: EPROM Decoder/readme.md'),'GitHub'],['Schematic','https://github.com/user-attachments/assets/dee7567a-e77d-4661-99bc-7ac90fa3dc31','Figure'],['Programmed truth table','https://github.com/user-attachments/assets/e524ad68-d014-4a1c-b603-0beb05452ab0','Figure'],['Segment encoding','https://github.com/user-attachments/assets/e161b9f5-8774-4f64-8d71-b0cc880c67e4','Figure']]
   },
   {
     slug:'frogger-fsm',number:'04',title:'Frogger Lite: state-machine game simulation',name:'Frogger Lite: state-machine game simulation',
@@ -64,6 +66,7 @@ const originalFeatured = [
     tags:['Finite state machines','Logisim','System integration'],
     lead:'Implemented and integrated the digital logic for a 4 × 4 obstacle-avoidance game in Logisim. The simulation includes bounded player movement, independently clocked obstacles, display decoding, collision detection, a win state, and asynchronous reset.',
     role:'State-machine design & subsystem integration',outcome:'Working collision and win logic in simulation',
+    codeLink:['View Logisim source',source('Circuit6: Frogger Lite/2DPlayerMovement.circ')],
     image:'frogger-circuit.png',caption:'Original Logisim circuit, including player and obstacle displays, collision logic, and reset.',
     sections:[
       {title:'The problem',paragraphs:['Move a player across a 4 × 4 display while obstacles cross the same logical space. A collision must freeze the game; reaching the top row must register a win. Separate player and obstacle displays represent the two layers in the simulation.']},
