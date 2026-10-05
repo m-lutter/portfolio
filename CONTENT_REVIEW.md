@@ -1,4 +1,16 @@
-# Portfolio source review — September 2026
+# Portfolio source review — September and October 2026
+
+## October 5: report-grounded engineering stories
+
+All 19 case pages were reviewed for a clear goal, consequential design or implementation decisions, outcome, and the technical evidence those choices provide. More involved controls, thermal, composites, and deployed software projects now have deeper narratives. Shorter circuit studies remain proportionate to their documented scope. The four selected projects and the category filters below them remain in place; supporting cards now show a short description as well as the outcome. Case pages include navigation to their story sections.
+
+The academic copy was checked against the supplied report PDFs, complete report TeX in the Overleaf archive, and preserved notebook outputs. Newly used evidence includes the complete AE353 DP1 cat-catching report in the Overleaf archive, which discusses residual offsets after impact. No academic experiment or numerical simulation was rerun, and no synthetic academic results were introduced. Detailed source-version differences remain in linked code READMEs.
+
+Image choices prioritize original simulation scenes, experimental photographs, apparatus diagrams, and decisive plots. New source visuals include balloon forces, airfoil streamlines, spacecraft and catbot simulation views, the photoelastic loading photograph, and the buckling apparatus. The composite apparatus is a labeled SVG adaptation of the report's TikZ schematic; FieldMark2 has a workflow diagram drawn from its maintained source. Existing result plots remain with the relevant interpretations. Original source reports, notebooks, and their attribution are unchanged.
+
+The professional applications remain grounded in their maintained code and documentation. Orbital's public README was checked again on October 5; its deterministic engine, concurrency controls, immutable history, and test layers support the product-engineering narrative. The publicly reachable product currently opens to a sign-in page, so an architecture summary remains its primary visual rather than an unauthenticated screen presented as a working session. FieldPlan retains its live-app screenshots with explicitly synthetic data and no field-savings claim. Talman ownership remains explicit for both field tools.
+
+Publication includes only curated content, generated pages/styles, and selected image assets. Private source ZIPs, review files, resumes, and contact details from the source documents remain outside the public tree. The existing seven public report PDFs are unchanged. The excluded Frogger C++ prototype remains excluded.
 
 The portfolio owner requested a review of all descriptions against the original reports and added laboratory archives and controls notebooks. This review checked the 13 existing case studies, all eight digital-circuit summaries, and five newly included projects. It did not rerun the scientific experiments or control simulations.
 

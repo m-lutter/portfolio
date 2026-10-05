@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Composite tensile-test apparatus</title>
+  <desc id="desc">Schematic adapted from the AE461 Lab 6 report: an Instron frame loads a tabbed composite coupon through grips and a load cell. An extensometer measures axial strain. A camera views the speckled coupon for Vic-2D digital image correlation; Bluehill records the Instron measurements.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5L0 10Z" fill="#334155"/></marker>
+    <style>text{font-family:Arial,Helvetica,sans-serif;fill:#17202b}.label{font-size:21px}.small{font-size:18px;fill:#526273}.line{stroke:#334155;stroke-width:3;fill:none}.box{stroke:#334155;stroke-width:3;fill:#e8edf2}.flow{stroke:#334155;stroke-width:2.5;fill:none;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="1200" height="760" fill="#fff"/>
+  <text x="60" y="57" font-size="30" font-weight="700">Composite tensile-test apparatus</text>
+  <text x="60" y="88" class="small">Mechanical loading, contact strain measurement, and optical strain measurement</text>
+  <rect x="150" y="130" width="450" height="520" class="line"/>
+  <path d="M182 152V628M568 152V628" class="line"/>
+  <rect x="164" y="151" width="420" height="31" class="box"/>
+  <rect x="164" y="599" width="420" height="31" class="box"/>
+  <rect x="250" y="214" width="250" height="43" class="box"/>
+  <path d="M375 257V284M375 322V337" class="line"/>
+  <rect x="339" y="284" width="72" height="38" class="box"/>
+  <rect x="346" y="337" width="58" height="45" class="box"/>
+  <rect x="359" y="382" width="32" height="113" rx="2" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+  <path d="M364 398l4 4m11 3l5 3m-16 9l5 4m10 9l-5 3m-11 8l4 5m12 9l-5 3m-9 12l4 4" stroke="#475569" stroke-width="2"/>
+  <rect x="346" y="495" width="58" height="45" class="box"/>
+  <path d="M375 540V599" class="line"/>
+  <path d="M325 409H359M325 469H359M325 409V469" stroke="#b6423a" stroke-width="4" fill="none"/>
+  <text x="45" y="306" class="label">Load cell</text><path d="M137 300H339" stroke="#8091a1" stroke-width="1.5"/>
+  <text x="45" y="361" class="label">Upper grip</text><path d="M143 356H346" stroke="#8091a1" stroke-width="1.5"/>
+  <text x="45" y="524" class="label">Lower grip</text><path d="M143 518H346" stroke="#8091a1" stroke-width="1.5"/>
+  <text x="12" y="441" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#b6423a">Extensometer</text><path d="M137 435H319" stroke="#b6423a" stroke-width="1.5"/>
+  <text x="12" y="466" class="small">25.4 mm</text><text x="12" y="488" class="small">gage length</text>
+  <text x="432" y="410" class="label">Composite</text><text x="432" y="436" class="label">coupon</text>
+  <text x="375" y="681" text-anchor="middle" class="label">Instron load frame</text>
+  <rect x="780" y="165" width="310" height="83" rx="12" class="box"/>
+  <text x="935" y="201" text-anchor="middle" class="label" font-weight="700">Bluehill</text><text x="935" y="229" text-anchor="middle" class="small">Instron measurements</text>
+  <path d="M411 303H667V209H776" class="flow"/>
+  <text x="689" y="284" class="small">Recorded mechanical data</text>
+  <rect x="808" y="385" width="109" height="63" rx="6" class="box"/>
+  <rect x="773" y="402" width="35" height="28" fill="#aab9c7" stroke="#334155" stroke-width="3"/>
+  <text x="950" y="410" class="label">DIC camera</text><text x="950" y="436" class="small">10 images/s</text>
+  <path d="M770 416L398 451" stroke="#64748b" stroke-width="2" stroke-dasharray="7 6" fill="none"/>
+  <text x="625" y="374" class="small">Speckled surface in view</text>
+  <rect x="780" y="571" width="310" height="83" rx="12" class="box"/>
+  <text x="935" y="607" text-anchor="middle" class="label" font-weight="700">Vic-2D</text><text x="935" y="635" text-anchor="middle" class="small">Optical displacement and strain</text>
+  <path d="M863 450V567" class="flow"/>
+  <text x="888" y="508" class="small">Image sequence</text>
+  <text x="60" y="730" class="small">Adapted from the apparatus schematic and instrumentation in the team’s AE461 Lab 6 report.</text>
+</svg>

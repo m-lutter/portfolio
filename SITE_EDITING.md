@@ -6,6 +6,7 @@ The public site is built from the `docs/` folder and hosted on GitHub Pages.
 - `content/other-side.mjs`: the completed physical game, based on the final presentation.
 - `content/controls.mjs`: the AE353 control studies and AE370 thermal-model verification study.
 - `content/catbot.mjs`: the co-authored AE353 DP1 controller notebook and saved simulation evidence.
+- `CONTENT_REVIEW.md`: report interpretations, attribution constraints, and the October engineering-story review.
 - `content/drone.mjs`: the AE353 DP4 drone controller, observer, navigation, saved trial results, and explicit individual contributions.
 - `content/structures.mjs`: four AE461 laboratory studies with report-based contribution credit.
 - `content/aerodynamics.mjs`: the three AE311 studies and documented individual contributions.
@@ -26,6 +27,10 @@ Project numbers derive from the selected project list; category badges count onl
 The `highlights` map supplies the prominent cards' summary, result, evidence qualifier, contribution label, and optional direct report/application link. Their order follows the selected project list. These four cards always remain visible above the category controls. The remaining fourteen projects use smaller thumbnail cards under “More engineering work,” including in the default “All other work” view. The drone study leads this supporting collection. Filters apply only to this supporting collection. Thumbnails reuse the project's source image or existing graphic; report plots retain their axes. The leading selection balances aerospace relevance, physical integration, and developed software; keep simulated results, team work, and beta status explicit. Update `assetVersion` in `scripts/build.mjs` whenever changing shared CSS or JavaScript so returning visitors receive the matching assets.
 
 ## Content basis
+
+Descriptions summarize the task and approach; supporting cards also show `outcome` separately. Case-story `sections` receive stable numbered anchors and a generated table of contents. Write deeper stories for projects with meaningful integration, decision-making, or evaluation evidence. Use the source reports to connect goals, consequential decisions, obstacles, outcomes, and concrete demonstrated skills. Keep source-version bookkeeping in the linked code notes and preserve team credit and any unmet targets.
+
+Prefer original simulation scenes, test photographs, apparatus diagrams, or the most informative plot. Caption any diagram adapted from a report explicitly; do not present it as a photograph or an independently built apparatus. Retain plot axes and source conclusions. The October image review adds original report/notebook visuals and two labeled vector diagrams without changing any academic data or report PDF.
 
 The initial page uses the public `m-lutter/portfolio` digital-systems collection and the public `m-lutter/orbital-training` README. Orbital is identified as a deployed beta, not a finished stable release. The pump repository contained only a planning skeleton when reviewed and is not featured. The owner authorized including FieldPlan and FieldMark2 based on the supplied current Python files. The site presents descriptions and links; application source and field inputs stay in the separate project repositories. Talman Consultants, LLC owns the application copyright.
 

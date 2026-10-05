@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">FieldMark2: photographs to structure records</title>
+  <desc id="desc">GPS photos and existing CSV records feed classification and compatible proximity matching. Manual review completes missing records before Excel contact sheets and photo-linked KMZ maps are exported. Compression applies to KMZ copies, with OCalc images preserved.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#246c5b"/></marker></defs>
+  <rect width="1200" height="560" fill="#fffefa"/>
+  <g font-family="Segoe UI, Arial, sans-serif" fill="#172c2b">
+    <text x="54" y="62" font-size="18" letter-spacing="2">FIELDMARK2 / STRUCTURE-BASED FIELD RECORDS</text>
+    <g fill="#e8ede3" stroke="#d7dcd1" stroke-width="2">
+      <rect x="54" y="117" width="250" height="198" rx="8"/>
+      <rect x="448" y="117" width="295" height="198" rx="8"/>
+      <rect x="885" y="117" width="260" height="198" rx="8"/>
+    </g>
+    <g fill="none" stroke="#246c5b" stroke-width="3" marker-end="url(#arrow)"><path d="M319 216H428"/><path d="M758 216H866"/><path d="M595 319V365"/></g>
+    <text x="78" y="162" font-size="24" font-weight="600">Field evidence</text>
+    <text x="78" y="207" font-size="20">GPS-tagged JPEGs</text>
+    <text x="78" y="244" font-size="20">Existing CSV records</text>
+    <text x="78" y="281" font-size="17" fill="#53625e">Folder-based classification</text>
+    <text x="472" y="162" font-size="24" font-weight="600">Associate by structure</text>
+    <text x="472" y="207" font-size="20">GPS + compatible types</text>
+    <text x="472" y="244" font-size="20">Group multiple photographs</text>
+    <text x="472" y="281" font-size="17" fill="#53625e">Report skipped / unmatched</text>
+    <text x="909" y="162" font-size="24" font-weight="600">Export the record</text>
+    <text x="909" y="207" font-size="20">Excel contact sheets</text>
+    <text x="909" y="244" font-size="20">Photo-linked KMZ</text>
+    <text x="909" y="281" font-size="17" fill="#53625e">One record per structure</text>
+    <rect x="448" y="379" width="295" height="83" rx="8" fill="#e9ddc9"/>
+    <text x="472" y="412" font-size="21" font-weight="600">Review missing information</text>
+    <text x="472" y="442" font-size="17">Conduit details / notes</text>
+    <text x="54" y="504" font-size="19" fill="#53625e">KMZ image copies: adjustable compression · OCalc preserved · Original photos retained</text>
+  </g>
+</svg>
