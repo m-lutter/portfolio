@@ -7,9 +7,11 @@ Selected local project files prepared for public inspection on October 5, 2026.
 | AE353 flying-wing landing controller | [Design and evaluation notebooks](ae353/flying-wing/) |
 | AE353 spacecraft feedback and observer | [Spacecraft notebook](ae353/spacecraft/) |
 | AE353 balancing cat-catching robot | [Team controller notebook](ae353/catbot/) |
+| AE353 drone obstacle-course control and observer | [Verified report-state notebook and related controller](ae353/drone/) |
 | AE311 weather-balloon ascent | [Hydrogen-model development notebook](ae311/weather-balloon/) |
 | AE311 airfoil panel-method study | [Recovered Python notebook export](ae311/airfoil-panel/) |
 | AE370 reentry thermal protection | [Implementation and verification notebooks](ae370/reentry-thermal/) |
+| AE461 composite tensile testing | [Recovered team analysis appendix](ae461/composite-tensile/) |
 | EPROM display decoder | [Editable KiCad schematic](digital/eprom/) |
 
 The notebooks retain their original code, markdown, execution counts, and available text outputs. Embedded graphical/HTML display outputs and widget state were removed to make source browsing lighter; figures used in the portfolio remain on the case-study pages. Companion `.py` files contain the notebook code cells in their original order. Nothing was rerun when these copies were prepared, and saved output can reflect an earlier execution than the current code cell parameters.

@@ -1,0 +1,31 @@
+// Source: the seven-page DP4 report, its contribution appendix, and the saved final notebook.
+export const drone = {
+  slug: 'drone-obstacle-course',
+  title: 'Guiding a drone through an obstacle course with LQR control and collision avoidance',
+  name: 'Guiding a drone through an obstacle course with LQR control and collision avoidance',
+  category: 'controls', type: 'Autonomous flight control', status: 'Evaluated in PyBullet simulation',
+  art: 'plot', cardFit: 'contain', context: 'AE353 DP4 · Maxwell Lutter & Landon Lopez', roleLabel: 'My contribution',
+  role: 'Primary developer of the final drone code; collaborative modeling, gain selection, navigation strategy, trial automation, and report work',
+  description: 'Developed the final controller and observer code for a simulated quadrotor race with Landon Lopez. Combined LQR feedback, state estimation, ring-navigation guidance, and obstacle repulsion; the reported 100-trial study achieved 95% course completion.',
+  tags: ['LQR', 'State estimation', 'Collision avoidance', 'PyBullet', 'Python'],
+  lead: 'With Landon Lopez, developed a controller and observer that guided a simulated quadrotor through a three-dimensional course of checkpoint rings and obstacles. I was the primary developer of the final drone code and contributed to model linearization, control and observer gains, navigation strategy, automated trials, figures, and the report.',
+  outcome: '95/100 course completions; 73.35 s mean among successful runs',
+  codeLink: ['View controller, observer & trial code', 'https://github.com/m-lutter/portfolio/tree/main/project-code/ae353/drone'],
+  image: 'drone-completion-times.png', imageWidth: 490, imageHeight: 390,
+  caption: 'Saved notebook histogram of successful course-completion times. The report and saved text output give 95 successful runs with a mean of 73.35 s; all successful runs finished within the 80 s requirement.',
+  evidenceNote: 'DP4: Control Design for a Drone Race, by Maxwell Lutter and Landon Lopez, seven pages. The contribution appendix identifies Maxwell as the primary developer of the final drone code. The archived notebook retains matching result text; the dynamics and simulator are supplied AE353 course material.',
+  sections: [
+    {title: 'Control and estimation around hover', paragraphs: ['The team linearized the quadrotor dynamics and sensor model about level hover. The design uses twelve states, four control inputs, and noisy position measurements from the front and back rotor locations.', 'Controllability and observability checks supported an LQR feedback controller and a dual-LQR observer. The observer updates a state estimate from the measurements, and feedback uses the difference between that estimate and the moving reference.']},
+    {title: 'Guide the drone through the course', paragraphs: ['The guidance logic moves a reference toward successive checkpoint rings. The retained controller tracks near and far approach points, records ring geometry, and limits reference motion as the drone approaches the next crossing.', 'Attractive guidance toward the goal is combined with repulsive terms for nearby obstacles, other drones, and ring edges. These navigation decisions connect the local hover controller to a course-level task.']},
+    {title: 'Evaluate completion and speed', callout: '95 of 100 trials completed the course; successful runs averaged 73.35 s.', paragraphs: ['The report evaluates two requirements: at least 80% course completion and a mean successful completion time below 80 s. The saved notebook output agrees with the reported 95% completion rate and 73.35 s mean, with successful times spanning 68.36–79.12 s.', 'Position tracking and estimation errors were logged over the simulation time steps. The two distributions below measure position-error norms in meters; the report uses the saved results to discuss observer behavior during navigation.'], figure: {image: 'drone-estimation-errors.png', imageWidth: 989, imageHeight: 390, caption: 'Saved notebook distributions of position-tracking error (left) and position-estimation error (right), pooled over simulation time steps.'}},
+    {title: 'Investigate the remaining failures', paragraphs: ['Five trials did not complete the course. The report places the failure trajectories near the obstacle region and associates large departures with close approaches, collisions, and difficulty stabilizing after those encounters.', 'The proposed improvements were further tuning of control and observer weights, smoother reference motion, and better clearance near ring edges. The results document a successful simulated course study while retaining the observed failure cases.'], figure: {image: 'drone-failed-trajectories.png', imageWidth: 690, imageHeight: 380, caption: 'Saved overhead view of the five failed trials. Red paths show actual and estimated position; the black geometry indicates checkpoint rings.'}},
+    {title: 'Contribution and archived source', paragraphs: ['The report credits my work on linearization, navigation strategy, controller and observer gains, repeated-trial data collection, figures, and report revisions, and identifies me as the primary developer of the final drone code. Landon contributed controller implementation, obstacle avoidance, experimental-method writing, and analysis and conclusions.', 'The public source includes the notebook whose saved results match the report, a readable Python export, and the related mlutter2.py controller file. These are preserved development versions with setup and attribution notes. No new numerical study was run for the portfolio.']}
+  ],
+  resources: [
+    ['Controller, observer, trial code & contribution notes', 'https://github.com/m-lutter/portfolio/tree/main/project-code/ae353/drone', 'GitHub code'],
+    ['Archived design and evaluation notebook', 'https://github.com/m-lutter/portfolio/blob/main/project-code/ae353/drone/DP4%20Drone%28Lutter%29.ipynb', 'Jupyter'],
+    ['Readable notebook code', 'https://github.com/m-lutter/portfolio/blob/main/project-code/ae353/drone/drone_design_and_trials.py', 'Python'],
+    ['Related standalone controller version', 'https://github.com/m-lutter/portfolio/blob/main/project-code/ae353/drone/mlutter2.py', 'Python'],
+    ['Full project report · 7 pages', '../reports/drone-obstacle-course.pdf', 'PDF']
+  ]
+};

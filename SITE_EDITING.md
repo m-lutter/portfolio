@@ -6,6 +6,7 @@ The public site is built from the `docs/` folder and hosted on GitHub Pages.
 - `content/other-side.mjs`: the completed physical game, based on the final presentation.
 - `content/controls.mjs`: the AE353 control studies and AE370 thermal-model verification study.
 - `content/catbot.mjs`: the co-authored AE353 DP1 controller notebook and saved simulation evidence.
+- `content/drone.mjs`: the AE353 DP4 drone controller, observer, navigation, saved trial results, and explicit individual contributions.
 - `content/structures.mjs`: four AE461 laboratory studies with report-based contribution credit.
 - `content/aerodynamics.mjs`: the three AE311 studies and documented individual contributions.
 - `scripts/build.mjs`: homepage copy and shared page templates. Uses Node.js built-ins; no packages to install.
@@ -14,7 +15,7 @@ The public site is built from the `docs/` folder and hosted on GitHub Pages.
 - `docs/assets/`: original portfolio images, presentation photos/diagrams, and figures extracted from the supplied project reports.
 - `content/field-tools.mjs`: FieldPlan and FieldMark2 professional software entries, with Talman ownership attribution.
 - `content/publication.mjs`: controls report-download visibility. The owner explicitly authorized publishing all six prepared copies.
-- `docs/reports/`: six downloadable reports, with author addresses and a teammate email removed from the four affected documents.
+- `docs/reports/`: seven downloadable reports, with contact details removed where applicable.
 
 Run `node scripts/build.mjs` after editing content or templates. Commit both the source and the generated `docs/` files. Run `node scripts/serve.mjs` for a local preview at `http://127.0.0.1:4173/portfolio/`.
 
@@ -22,7 +23,7 @@ GitHub Pages configuration: deploy from branch `main`, folder `/docs`. A `.nojek
 
 Project numbers derive from the selected project list; category badges count only the supporting collection they filter. A project with `listed: false` still gets a case page and sitemap entry; this preserves the earlier Frogger Lite URL while featuring its physical final project. Optional `context`, `roleLabel`, `evidenceNote`, `gallery`, and section `figure` fields support team attribution and multiple original figures. Use `cardFit: 'contain'` for plots to preserve axes and legends.
 
-The `highlights` map supplies the prominent cards' summary, result, evidence qualifier, contribution label, and optional direct report/application link. Their order follows the selected project list. These four cards always remain visible above the category controls. The remaining thirteen projects use smaller thumbnail cards under “More engineering work,” including in the default “All other work” view. Filters apply only to this supporting collection. Thumbnails reuse the project's source image or existing graphic; report plots retain their axes. The leading selection balances aerospace relevance, physical integration, and developed software; keep simulated results, team work, and beta status explicit. Update `assetVersion` in `scripts/build.mjs` whenever changing shared CSS or JavaScript so returning visitors receive the matching assets.
+The `highlights` map supplies the prominent cards' summary, result, evidence qualifier, contribution label, and optional direct report/application link. Their order follows the selected project list. These four cards always remain visible above the category controls. The remaining fourteen projects use smaller thumbnail cards under “More engineering work,” including in the default “All other work” view. The drone study leads this supporting collection. Filters apply only to this supporting collection. Thumbnails reuse the project's source image or existing graphic; report plots retain their axes. The leading selection balances aerospace relevance, physical integration, and developed software; keep simulated results, team work, and beta status explicit. Update `assetVersion` in `scripts/build.mjs` whenever changing shared CSS or JavaScript so returning visitors receive the matching assets.
 
 ## Content basis
 
@@ -59,6 +60,10 @@ The AE353 archive contains both completed notebooks and course examples/tutorial
 Notebook source cells, markdown, execution counts, and available text outputs are retained; graphical/HTML output formats and widget state are removed. Companion `.py` files contain code cells in order. These files were checked for syntax and source preservation, not rerun as new numerical studies. Preserve the existing distinctions between report results and saved development states. The balloon copy is a hydrogen-model development notebook and the airfoil export has missing execution dependencies. The EPROM addition is design source rather than a programming script. The recovered airfoil folder includes JoshTheEngineer's MIT notice; no blanket license is applied to team and course material.
 
 Optional `codeLink: [label, url]` adds a visible link under the case-study introduction and on a highlighted project card. Resource lists also point to source folders and specific notebooks. Links use public GitHub paths under `project-code/`; the static `/docs` site does not need to duplicate the source files. Existing BCD and Frogger Logisim links stay in their original repository folders. The previously linked external AE370 team repository returned 404 when checked, so the case study now points to the locally retained team notebooks with the original contribution credits.
+
+The October 5 Overleaf archive review identified the complete drone report in `Preparation of Papers for AIAA Technical Journals (2).zip` and a 106-line Python appendix inside the composites report. The drone page uses the seven-page `DP4 Control Design for a Drone Race.pdf`, the notebook with matching saved 95%/73.35 s results, and original notebook figures. The related `mlutter2.py` is a different retained controller version and carries no independent performance claim. The public report removes both author email addresses from page one; all later-page text was checked for preservation. Its appendix credits Maxwell as primary developer of the final drone code while documenting Landon's shared work. The composites Python appendix is credited to the team and documents its missing CSV input time histories. No new numerical experiments were run.
+
+The larger archive is a private source collection; it is not uploaded wholesale. Candidate assessment and extracted TeX remain under `research/overleaf-80-2026-10/`. Resume files, cover letters, templates, study notes, and duplicate drafts are excluded from deployment. Other newly found reports are assessed for future additions rather than converted into new case studies automatically.
 
 ## Field software sources
 
