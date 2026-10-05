@@ -86,8 +86,8 @@ const originalFeatured = [
 originalFeatured.find(p => p.slug === 'frogger-fsm').listed = false;
 originalFeatured.find(p => p.slug === 'frogger-fsm').resources.unshift(['The Other Side · physical final project', 'the-other-side.html', 'Case study']);
 export const featured = [
-  controls[0], otherSide, fieldTools[0], originalFeatured[1],
-  drone, fieldTools[1], structures[3], controls[2], aerodynamics[0], structures[2],
+  drone, otherSide, fieldTools[0], originalFeatured[1],
+  controls[0], fieldTools[1], structures[3], controls[2], aerodynamics[0], structures[2],
   aerodynamics[2], controls[1], originalFeatured[0], structures[0], structures[1],
   aerodynamics[1], catbot, originalFeatured[2], originalFeatured[3]
 ];
@@ -95,12 +95,12 @@ export const featured = [
 // Four entry points balance aerospace relevance, physical integration, and
 // developed applications. Short homepage copy preserves the source-based cases.
 export const highlights = {
-  'flying-wing-control': {
-    summary: 'Found a feasible glide trim, tuned elevon feedback, and investigated failed approaches with a teammate to assess a flying wing’s landing reliability.',
-    result: '87.3% landing success',
-    evidence: '4,000 simulated trials · exceeded the 85% requirement',
-    contribution: 'Team controller design & evaluation',
-    link: ['Read the report', 'reports/flying-wing-control.pdf']
+  'drone-obstacle-course': {
+    summary: 'Integrated a state observer, LQR feedback, and collision-avoidance guidance to navigate a drone through checkpoint rings, then automated trials and investigated failures.',
+    result: '95% course completion',
+    evidence: '100 simulated trials · 73.35 s mean among successful runs',
+    contribution: 'Primary developer of final code · team controller study',
+    link: ['Read the report', 'reports/drone-obstacle-course.pdf']
   },
   'the-other-side': {
     summary: 'Co-built a playable LED game, resolving movement boundaries, clocked inputs, and display polarity as the logic model became breadboard hardware.',

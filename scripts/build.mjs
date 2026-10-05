@@ -12,7 +12,7 @@ const listed = featured.filter(project => project.listed !== false);
 const priority = listed.filter(project => highlights[project.slug]);
 const supporting = listed.filter(project => !highlights[project.slug]);
 const contactEmail = 'luttermaxwell@gmail.com';
-const assetVersion = '20261005-project-story';
+const assetVersion = '20261005-larger-images';
 const number = project => listed.includes(project) ? String(listed.indexOf(project) + 1).padStart(2, '0') : 'Archive';
 const categories = [['all', 'All other work'], ['analysis', 'Analysis'], ['controls', 'Controls'], ['structures', 'Structures & testing'], ['hardware', 'Hardware & logic'], ['software', 'Software']];
 const dimensions = figure => `${figure.imageWidth ? ` width="${escape(figure.imageWidth)}"` : ''}${figure.imageHeight ? ` height="${escape(figure.imageHeight)}"` : ''}`;
@@ -56,7 +56,7 @@ await mkdir(resolve(out, 'projects'), { recursive: true });
 await writeFile(resolve(out, 'index.html'), document('Maxwell Lutter | Aerospace Engineering Portfolio', 'Selected engineering work by Maxwell Lutter: aerodynamics, numerical modeling, feedback control, structural testing, digital hardware, and software.', home));
 
 for (const project of featured) {
-  const sections = project.sections.map((section, index) => `<section id="story-${index + 1}"><h2>${escape(section.title)}</h2>${section.callout ? `<p class="callout"><strong>${escape(section.callout)}</strong></p>` : ''}${(section.paragraphs || []).map(paragraph => `<p>${escape(paragraph)}</p>`).join('')}${section.bullets ? `<ul>${section.bullets.map(bullet => `<li>${escape(bullet)}</li>`).join('')}</ul>` : ''}${section.figure ? imageFigure(section.figure, 'case-figure inline-figure') : ''}</section>`).join('');
+  const sections = project.sections.map((section, index) => `<section id="story-${index + 1}"><h2>${escape(section.title)}</h2>${section.callout ? `<p class="callout"><strong>${escape(section.callout)}</strong></p>` : ''}${(section.paragraphs || []).map(paragraph => `<p>${escape(paragraph)}</p>`).join('')}${section.bullets ? `<ul>${section.bullets.map(bullet => `<li>${escape(bullet)}</li>`).join('')}</ul>` : ''}${[...(section.figure ? [section.figure] : []), ...(section.figures || [])].map(figure => imageFigure(figure, 'case-figure inline-figure')).join('')}</section>`).join('');
   const storyNavigation = `<nav class="case-nav" aria-label="On this page"><ol>${project.sections.map((section, index) => `<li><a href="#story-${index + 1}">${escape(section.title)}</a></li>`).join('')}</ol></nav>`;
   const gallery = project.gallery?.length ? `<section class="case-gallery"><h2>Inside the project</h2>${project.gallery.map(figure => imageFigure(figure)).join('')}</section>` : '';
   const visibleResources = project.resources.filter(([, url]) => !url.startsWith('../reports/') || reportDownloadsEnabled);

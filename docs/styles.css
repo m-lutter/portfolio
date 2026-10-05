@@ -81,3 +81,20 @@
 @media(min-width:701px){.case-side{align-self:start;position:sticky;top:24px}}
 @media(max-width:700px){.case-nav{margin:16px 0}.case-nav ol{display:flex;gap:12px 18px;flex-wrap:wrap}.case-nav li+li{margin:0}.case-nav a{padding-left:8px}.case-side p{display:block;margin-left:0}}
 @media print{.case-nav{display:none}.case-side{position:static}}
+
+/* Give the source visuals enough room to explain the work. */
+@media screen{
+  .priority-grid .project-art{height:340px}
+  .project-compact{grid-template-columns:1fr;gap:18px;padding:30px 0}
+  .project-thumbnail .project-art{height:290px}
+  .project-thumbnail .art-contain img{padding:10px}
+  .project-compact h3{font-size:26px}
+  .case-image{height:auto;max-height:820px}
+  .case-body{grid-template-columns:210px minmax(0,1fr)}
+  .case-content section>p,.case-content section>ul,.case-content h2{max-width:800px}
+  .hero-image{height:340px}
+}
+@media screen and (min-width:1450px){.wrap{width:min(1320px,calc(100% - 80px))}.priority-grid .project-art{height:370px}.project-thumbnail .project-art{height:330px}.hero-image{height:395px}}
+@media screen and (max-width:1000px){.priority-grid .project-art{height:280px}.project-thumbnail .project-art{height:250px}.case-body{grid-template-columns:160px minmax(0,1fr)}.hero-image{height:320px}}
+@media screen and (max-width:700px){.priority-grid .project-art{height:300px}.project-thumbnail .project-art{height:285px}.case-body{grid-template-columns:1fr}.hero-image{height:290px}}
+@media screen and (max-width:480px){.priority-grid .project-art{height:250px}.project-thumbnail .project-art{height:250px}.project-compact h3{font-size:24px}.hero-image{height:270px}}
