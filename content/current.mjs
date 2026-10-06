@@ -1,11 +1,13 @@
 export const currentProjects = [
   {
-    slug:'kairos-launch-vehicle',current:true,title:'Designing a two-stage launch vehicle for a Mars-transfer mission',name:'Kairos launch vehicle: requirements and system integration',
+    slug:'kairos-launch-vehicle',current:true,title:'Hyperion: designing a two-stage launch vehicle for a Mars-transfer mission',name:'Hyperion: Senior Design Project',
     type:'AE443 / Senior design',status:'At the SRR / SDR checkpoint',category:'systems',art:'image',cardFit:'contain',
-    description:'Translate a Mars-launch-service RFP into an integrated vehicle concept, mission ConOps, and requirements flowing from customer needs to subsystem design.',
-    lead:'Our senior-design team is developing a launch service to send two Kairos spacecraft toward Mars. My work connects the customer mission to vehicle and subsystem requirements, a shared configuration, and the operations sequence that the design must support.',
+    description:'Develop Hyperion, a launch-vehicle concept for the Kairos mission, through requirements flowdown, mission ConOps, and coordination of vehicle and GNC / avionics interfaces. Currently at SRR / SDR.',
+    lead:'Hyperion is our team’s launch-vehicle design for sending Kairos’s Martian and Helios spacecraft toward Mars. Kairos is a student mission concept for space-weather monitoring and Earth–Mars communications; our assignment is its launch service. My primary role is systems engineer / vehicle integration, with GNC / avionics integration as my secondary responsibility.',
+    contextLinks:[['Kairos mission: team repository','https://github.com/aaliyahgaffey/2026-AIAA-Space-Design-Competition-Team-Kairos'],['Launch-service RFP (PDF)','../references/ae443-launch-service-rfp.pdf']],
     context:'University of Illinois Urbana-Champaign · AE443 · Fall 2026 · Team A',
-    role:'Systems engineering and vehicle integration, with GNC / avionics integration responsibilities. I developed the requirements architecture and ConOps diagram, reviewed the requirement baseline, investigated reusability and rideshare, and coordinated configuration across disciplines.',
+    roleLabel:'My roles',
+    role:'Primary: Systems Engineer / Vehicle Integration. Secondary: GNC / Avionics Integration. I connect requirements, interfaces, configuration, and verification across the team; my completed and upcoming work is described below.',
     tags:['Systems engineering','Requirements traceability','Vehicle integration','Architecture trades'],
     outcome:'SRR / SDR materials submitted; preliminary architecture defined. Design closure and verification remain in progress.',
     image:'kairos-launch-conops.png',imageWidth:1774,imageHeight:887,
@@ -26,17 +28,31 @@ export const currentProjects = [
         {label:'CDR',detail:'Mature design and verification planning',state:'future'},
         {label:'Provider guide',detail:'Customer package, model, and defense',state:'future'}
       ]},
-      {title:'Initial work: define the vehicle and its operations',paragraphs:[
-        'My initial work focused on the requirements architecture, the ConOps diagram, and coordination between vehicle disciplines. I also investigated reusability and rideshare and helped prepare the SRR / SDR material. The ConOps turns the assignment into an operating sequence: liftoff, ascent, staging, TMI, and independent spacecraft separation.',
+      {title:'My primary role: systems engineer / vehicle integration',paragraphs:[
+        'This role connects the disciplines into one launch vehicle. I maintain the chain from customer needs to subsystem requirements, manage interfaces and the shared configuration, and coordinate verification planning. Mass, geometry, propulsion assumptions, trajectory performance, and payload interfaces must describe the same vehicle in every team analysis.',
+        'Completed for SRR / SDR: I defined the requirement architecture and traceability, created and revised requirements, and reviewed the submission baseline. I developed the mission ConOps and review slides, investigated reusability and rideshare, and coordinated configuration with the team. These activities establish the common requirements and operating sequence against which the preliminary design can be assessed.',
+        'As we move toward PDR and CDR, my responsibilities are to keep that baseline consistent as the design changes and assemble evidence that the integrated vehicle satisfies it:'
+      ],bullets:[
+        'Incorporate review feedback, maintain requirement parent links, and connect open TBD / TBR items to owners and planned verification.',
+        'Coordinate shared masses, dimensions, stage interfaces, and operating assumptions with trajectory, propulsion, structures, payload, and simulation contributors.',
+        'Track interface conflicts and design margins, reconcile changes across subsystem analyses, and support mission-performance closure before each review.',
+        'Carry the verified configuration and interface definitions into the final launch vehicle provider guide.'
+      ]},
+      {title:'My secondary role: GNC / avionics integration',paragraphs:[
+        'This responsibility connects guidance, navigation, and control needs to the flight hardware and software that must carry them out. It covers the interfaces among sensors, state estimation, flight computers, actuation, power, telemetry, flight termination, and flight-event logic. I coordinate with the trajectory / GNC and avionics contributors, who develop their respective discipline designs.',
+        'My initial contribution is the vehicle-level requirement structure and ConOps that establish the flight functions and event sequence: autonomous ascent, staging, TMI, and independent spacecraft release. The detailed GNC / avionics integration work is ahead of us as the architecture matures.',
+        'For PDR and CDR, this role entails coordinating sensor and state-information needs with the avionics architecture, checking that control and actuation needs are compatible with the vehicle and propulsion configuration, and defining consistent timing and logic for mission events. I will help identify the interface analyses and verification cases needed to demonstrate these functions together.'
+      ]},
+      {title:'Initial design: establish the Hyperion vehicle concept',paragraphs:[
         'The preliminary concept uses two stages: methane / liquid oxygen with four Raptor 3 engines for the first stage, and hydrogen / liquid oxygen with one BE-3U for the upper stage. The SRR / SDR presentation identifies Kennedy Space Center, a 5.4 m vehicle diameter, a 77.3 m overall height, and a 14 m fairing with vertically stacked spacecraft. These are team design selections that remain subject to maturation.',
         'The reusability and rideshare work examines whether added development cost and complexity would benefit this customer mission. Direct injection, circular parking orbit, and elliptical parking orbit remain in the departure-strategy comparison.',
-        'After SRR / SDR, my next work is to incorporate review feedback and coordinate shared design values with mission, propulsion, structures, and simulation contributors. The team still needs a consistent mass budget and demonstrated mission-performance closure before PDR. These initial selections establish a design direction; they are not a completed launch vehicle.'
+        'The team still needs a consistent mass budget and demonstrated mission-performance closure before PDR. These initial selections establish a design direction; they are not a completed launch vehicle.'
       ]},
       {title:'Initial work: map the requirements from mission to components',paragraphs:[
         'I defined a trace-down structure that connects the customer mission to launch-vehicle functions, performance, and subsystem responsibilities. The complete diagram shows how that structure reaches the component level across structures and payload, propulsion, avionics, manufacturing, and operations. It provides a shared framework for developing the design and planning verification as the project progresses.'
       ],figure:{image:'kairos-requirements-flowdown.png',imageWidth:1919,imageHeight:1341,caption:'The complete requirement trace-down diagram: mission objectives → mission requirements → vehicle functions and performance → subsystem functions and performance → individual component areas. This is the initial allocation framework for the developing design.'}}
     ],
-    resources:[['View the complete ConOps diagram','../assets/kairos-launch-conops.png','Diagram'],['View the complete requirement trace-down diagram','../assets/kairos-requirements-flowdown.png','Diagram']]
+    resources:[['Explore the Kairos mission team’s repository','https://github.com/aaliyahgaffey/2026-AIAA-Space-Design-Competition-Team-Kairos','Mission context'],['Read the AE443 launch-service RFP','../references/ae443-launch-service-rfp.pdf','PDF / Assignment'],['View the complete ConOps diagram','../assets/kairos-launch-conops.png','Diagram'],['View the complete requirement trace-down diagram','../assets/kairos-requirements-flowdown.png','Diagram']]
   },
   {
     slug:'crazyflie-motor-impairment',current:true,title:'Developing attitude control for a drone with a weakened motor',name:'Robust attitude control under partial motor impairment',
