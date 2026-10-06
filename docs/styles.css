@@ -82,6 +82,32 @@
 @media(max-width:700px){.case-nav{margin:16px 0}.case-nav ol{display:flex;gap:12px 18px;flex-wrap:wrap}.case-nav li+li{margin:0}.case-nav a{padding-left:8px}.case-side p{display:block;margin-left:0}}
 @media print{.case-nav{display:none}.case-side{position:static}}
 
+/* Current work follows the completed collection with quieter, smaller cards. */
+.current-work{border-top:1px solid var(--line);margin-top:30px;padding-bottom:80px}
+.current-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px}
+.current-card{min-width:0;border:1px solid var(--line);background:var(--white)}
+.current-card .project-thumbnail{display:block}
+.current-work .current-card .project-art{height:200px;background:#fff;padding:12px}
+.current-card .project-art img{object-fit:contain}
+.current-card-body{padding:24px}
+.current-card h3{font-size:25px;line-height:1.2;margin:16px 0}
+.current-card-body>p:not(.project-meta):not(.current-status){font-size:14px;line-height:1.65;color:var(--muted)}
+.current-card-body>.text-link{display:inline-block;margin-top:20px;font-size:13px}
+.current-status{font-size:12px;color:var(--accent);margin-top:7px}
+.lifecycle{list-style:none!important;padding:0!important;margin:30px 0 38px!important;display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:14px}
+.lifecycle li{position:relative;border-top:2px solid var(--line);padding:22px 10px 12px 0;margin:0!important;line-height:1.5}
+.lifecycle strong,.lifecycle span,.lifecycle b{display:block}
+.lifecycle strong{font:600 17px/1.4 var(--sans);margin-bottom:9px}
+.lifecycle li>span:not(.stage-marker){font-size:12px;color:var(--muted)}
+.lifecycle .stage-marker{position:absolute;top:-7px;left:0;width:12px;height:12px;border-radius:50%;border:2px solid var(--line);background:var(--paper)}
+.lifecycle .stage-complete,.lifecycle .stage-current{border-color:var(--accent)}
+.lifecycle .stage-complete .stage-marker{background:var(--accent);border-color:var(--accent)}
+.lifecycle .stage-current .stage-marker{border-color:var(--accent);box-shadow:0 0 0 4px var(--soft)}
+.stage-current strong{color:var(--accent)}
+.stage-status{font:600 10px/1.5 var(--sans);color:var(--accent);margin-top:12px;text-transform:uppercase;letter-spacing:.04em}
+@media(max-width:1000px){.current-grid{gap:18px}.current-card-body{padding:20px}.current-card h3{font-size:23px}}
+@media(max-width:700px){.current-grid{grid-template-columns:1fr}.current-work .current-card .project-art{height:230px}.current-work{padding-bottom:50px}.lifecycle{display:block}.lifecycle li{padding:0 0 22px 24px;border-top:0;border-left:2px solid var(--line)}.lifecycle .stage-marker{left:-7px;top:5px}.lifecycle .stage-complete,.lifecycle .stage-current{border-left-color:var(--accent)}.lifecycle strong{margin-bottom:4px}.stage-status{margin-top:7px}.lifecycle li:last-child{padding-bottom:0}}
+
 /* Give the source visuals enough room to explain the work. */
 @media screen{
   .priority-grid .project-art{height:340px}
