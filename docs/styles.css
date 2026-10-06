@@ -89,12 +89,25 @@
   .project-thumbnail .project-art{height:290px}
   .project-thumbnail .art-contain img{padding:10px}
   .project-compact h3{font-size:26px}
-  .case-image{height:auto;max-height:820px}
-  .case-body{grid-template-columns:210px minmax(0,1fr)}
-  .case-content section>p,.case-content section>ul,.case-content h2{max-width:800px}
   .hero-image{height:340px}
 }
-@media screen and (min-width:1450px){.wrap{width:min(1320px,calc(100% - 80px))}.priority-grid .project-art{height:370px}.project-thumbnail .project-art{height:330px}.hero-image{height:395px}}
-@media screen and (max-width:1000px){.priority-grid .project-art{height:280px}.project-thumbnail .project-art{height:250px}.case-body{grid-template-columns:160px minmax(0,1fr)}.hero-image{height:320px}}
-@media screen and (max-width:700px){.priority-grid .project-art{height:300px}.project-thumbnail .project-art{height:285px}.case-body{grid-template-columns:1fr}.hero-image{height:290px}}
+@media screen and (min-width:1450px){.wrap{width:min(1320px,calc(100% - 80px))}main.wrap{width:min(1200px,calc(100% - 80px))}.priority-grid .project-art{height:370px}.project-thumbnail .project-art{height:330px}.hero-image{height:395px}}
+@media screen and (max-width:1000px){.priority-grid .project-art{height:280px}.project-thumbnail .project-art{height:250px}.hero-image{height:320px}}
+@media screen and (max-width:700px){.priority-grid .project-art{height:300px}.project-thumbnail .project-art{height:285px}.hero-image{height:290px}}
 @media screen and (max-width:480px){.priority-grid .project-art{height:250px}.project-thumbnail .project-art{height:250px}.project-compact h3{font-size:24px}.hero-image{height:270px}}
+@media screen and (max-width:700px){.case-image{height:auto;max-height:400px}}
+
+/* The Orbital case borrows the app's navy surfaces, cyan accents, and typography. */
+.project-art.orbital-art:has(img){padding:0;background:#070b14}
+@media screen{
+  body.case-orbital{--paper:#070b14;--ink:#eaf2ff;--muted:#a7b8cc;--line:#29425f;--soft:#111d2e;--white:#0c1424;--accent:#4edbff;--serif:var(--sans);background:radial-gradient(ellipse at 12% 0%,#16365c55,transparent 38%),radial-gradient(ellipse at 95% 28%,#30205b44,transparent 35%),#070b14;color-scheme:dark}
+  .case-orbital .header{background:#070b14eF;border-color:#4edbff38}
+  .case-orbital .case-hero h1{font-weight:650;letter-spacing:-.035em;line-height:1.1}
+  .case-orbital .case-content h2{font-weight:600;letter-spacing:-.025em}
+  .case-orbital .case-facts{background:#111d2ecC;border:1px solid var(--line);border-radius:10px;padding:24px}
+  .case-orbital .case-figure>a{display:block;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#070b14}
+  .case-orbital .case-image{background:#070b14}
+  .case-orbital .callout{border-radius:0 10px 10px 0}
+  .case-orbital .case-next a{color:var(--accent)}
+  .case-orbital .monogram{background:var(--accent);color:#070b14}
+}
