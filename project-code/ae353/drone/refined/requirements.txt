@@ -1,0 +1,8 @@
+# Known local working environment; the original run did not record a dependency manifest.
+numpy==2.5.3
+scipy==1.18.1
+sympy==1.14.0
+matplotlib==3.11.2
+pybullet==3.2.7
+meshcat @ git+https://github.com/meshcat-dev/meshcat-python.git@785bc9d5ba6f8a8bb79ee8b25f523805946c1fbd
+u-msgpack-python==2.8.0

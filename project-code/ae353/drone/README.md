@@ -1,5 +1,11 @@
 # Drone obstacle-course control and observer — AE353 DP4
 
+## Later controller and evaluation extension
+
+The [refined study](refined/) contains the source-only notebook and readable Python, tested configuration, and compact outcomes for the later **971/1,000 completion, 64.26 s mean successful time** evaluation featured in the current case study. It separates Maxwell's later individual improvements from the original team submission below. The two case-study videos show a separate recorded flight, finishing at 59.72 seconds, using an earlier saved tuned controller. The original report and original notebook are preserved as historical evidence.
+
+## Original team submission
+
 Team study by Maxwell Lutter and Landon Lopez. The seven-page report's contribution appendix identifies Maxwell as the primary developer of the final drone code and credits his work on linearization, gain selection, navigation strategy, repeated-trial data collection, figures, and report revisions. Landon contributed controller implementation, obstacle avoidance, experimental-method writing, and analysis/conclusions. The dynamics, sensor model, simulator, and course assets are supplied AE353 material.
 
 - [DP4 Drone(Lutter).ipynb](DP4%20Drone%28Lutter%29.ipynb): the retained notebook with controller/observer design, navigation logic, trial helpers, plots, and matching saved results.

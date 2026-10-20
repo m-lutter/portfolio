@@ -137,3 +137,74 @@
   .case-orbital .case-next a{color:var(--accent)}
   .case-orbital .monogram{background:var(--accent);color:#070b14}
 }
+
+/* The DP4 case follows the project presentation's black, white, and gold style. */
+.case-table-wrap{margin:28px 0;overflow-x:auto;outline-offset:5px}
+.case-equations{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:28px 0}
+.case-equations>div{border:1px solid var(--line);padding:18px}
+.case-equations dt{font:11px/1.6 var(--sans);color:var(--muted);margin-bottom:10px}
+.case-equations dd{margin:0;overflow-x:auto}
+.case-equations code{font:15px/1.8 var(--mono);color:var(--ink);white-space:nowrap}
+@media(max-width:1000px){.case-equations{grid-template-columns:1fr}}
+.case-table{border-collapse:collapse;width:100%;font-size:14px;text-align:left}
+.case-table caption{text-align:left;font:11px/1.5 var(--mono);color:var(--muted);padding-bottom:12px}
+.case-table th,.case-table td{padding:15px 16px;border:1px solid var(--line);vertical-align:top}
+.case-table thead th{background:var(--soft);font-weight:600}
+.case-table tbody th{font-weight:500;min-width:130px}
+.case-credit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:28px 0}
+.case-credit-grid>div{border-top:2px solid var(--accent);padding:18px 0}
+.case-credit-grid h3,.case-video h3,.case-steps h3{font:600 17px/1.4 var(--sans);margin:0 0 10px}
+.case-credit-grid p{font-size:14px;line-height:1.7}
+.case-steps{padding:0!important;list-style:none;counter-reset:run-step;margin:30px 0}
+.case-steps li{counter-increment:run-step;position:relative;padding:18px 0 18px 52px;border-top:1px solid var(--line);margin:0!important}
+.case-steps li::before{content:counter(run-step,decimal-leading-zero);position:absolute;left:0;top:20px;font:13px var(--mono);color:var(--accent)}
+.case-steps p{font-size:14px}
+.case-metrics{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:32px 0}
+.case-metrics>div{padding:20px 0;border-top:1px solid var(--line);display:flex;flex-direction:column-reverse;gap:10px}
+.case-metrics dt{font:11px/1.6 var(--mono);color:var(--muted)}
+.case-metrics dd{margin:0;font:500 clamp(26px,3vw,38px)/1.1 var(--sans);letter-spacing:-.03em;color:var(--accent)}
+.case-video{margin:36px 0}
+.case-video video{display:block;width:100%;height:auto;background:#000;border:1px solid var(--line);margin-top:16px;aspect-ratio:16/9}
+.case-video figcaption{font-size:12px;line-height:1.75;color:var(--muted);margin-top:12px}
+.case-video figcaption a{display:inline-block;margin-left:6px}
+@media screen{
+  body.case-drone{--paper:#000;--white:#0c0c0c;--ink:#fff;--muted:#b8b8b8;--line:#343434;--accent:#ffe05a;--soft:#161616;--sans:"Neue Haas Grotesk Text Pro","Helvetica Neue",Helvetica,Arial,sans-serif;--serif:var(--sans);color-scheme:dark}
+  .case-drone .header{background:#000}
+  .case-drone .monogram{background:var(--accent);color:#000}
+  .case-drone .case-hero{padding-top:50px;max-width:1040px}
+  .case-drone .case-hero h1{text-transform:uppercase;font-weight:650;letter-spacing:-.035em;font-size:clamp(36px,4.6vw,62px);line-height:1.02;max-width:1000px}
+  .case-drone .case-hero .lead{font-size:19px;max-width:880px;line-height:1.75}
+  .case-drone .case-hero .actions{gap:24px}
+  .case-drone .case-facts{margin-top:4px;padding:26px 0}
+  .case-drone .case-facts>div:last-child dd{color:var(--accent);font-weight:500}
+  .case-drone .case-image{background:#000;max-height:570px}
+  .case-drone .case-figure>a{display:block;border:1px solid var(--line)}
+  .case-drone .case-body{grid-template-columns:200px minmax(0,860px);gap:50px;padding-top:64px}
+  .case-drone .case-side{max-height:calc(100svh - 60px);overflow:auto;padding-right:12px}
+  .case-drone .case-nav{font-size:12px}
+  .case-drone .case-nav li+li{margin-top:10px}
+  .case-drone .case-content{counter-reset:story-section}
+  .case-drone .case-content>section{counter-increment:story-section}
+  .case-drone .case-content>section>h2::before{content:counter(story-section,decimal-leading-zero) " / ";color:var(--accent);font:12px var(--mono);display:block;margin-bottom:16px;letter-spacing:.1em}
+  .case-drone .case-content h2{font-size:clamp(24px,2.6vw,32px);line-height:1.2;text-transform:uppercase;letter-spacing:-.025em;font-weight:600;margin-bottom:24px}
+  .case-drone .case-content section+section{margin-top:58px;padding-top:48px;border-top:1px solid var(--line)}
+  .case-drone .case-content p{line-height:1.8}
+  .case-drone .callout{background:var(--soft);padding:22px 24px}
+  .case-drone .callout strong{font-weight:500;color:var(--accent)}
+  .case-drone .case-table td{color:var(--muted)}
+  .case-drone .case-table th{color:var(--ink)}
+  .case-drone .case-table tbody tr:last-child th{color:var(--accent)}
+  .case-drone .case-next a{color:var(--accent)}
+  .case-drone .case-cover{display:grid;grid-template-columns:1.12fr 1fr;gap:42px;align-items:center;padding:38px 0 42px}
+  .case-drone .case-cover .case-hero{padding:0}
+  .case-drone .case-cover .case-hero h1{font-size:clamp(34px,3.6vw,50px)}
+  .case-drone .case-cover .lead{font-size:16px;line-height:1.75;margin-top:22px}
+  .case-drone .case-cover .case-context{font-size:12px}
+  .case-drone .case-cover .case-figure img{max-height:490px}
+  .case-drone .case-cover .case-figure figcaption{font-size:11px;line-height:1.7}
+  .case-drone .case-cover .case-hero .actions{margin-top:16px!important;gap:12px 22px}
+}
+@media screen and (max-width:900px){.case-drone .case-cover{grid-template-columns:1fr;padding-top:28px;gap:30px}.case-drone .case-cover .case-hero h1{max-width:680px;font-size:clamp(34px,5vw,50px)}.case-drone .case-cover .case-figure{max-width:600px}.case-drone .case-cover .case-figure img{max-height:430px}}
+@media(max-width:1000px){.case-drone .case-body{grid-template-columns:170px minmax(0,1fr);gap:30px}.case-credit-grid{grid-template-columns:1fr;gap:0}.case-credit-grid>div{padding:16px 0}.case-credit-grid h3{margin-bottom:6px}}
+@media(max-width:700px){.case-drone .case-body{display:block;padding-top:38px}.case-drone .case-side{max-height:none;overflow:visible;padding:0 0 30px}.case-drone .case-side>p:last-child{font-size:11px}.case-drone .case-nav ol{display:grid;grid-template-columns:1fr 1fr;gap:12px}.case-drone .case-nav li+li{margin:0}.case-drone .case-hero{padding-top:30px}.case-drone .case-hero .lead{font-size:17px}.case-drone .case-content section+section{margin-top:40px;padding-top:32px}.case-table th,.case-table td{padding:12px 10px;font-size:12px}.case-table tbody th{min-width:100px}.case-metrics{gap:14px}.case-metrics dd{font-size:27px}.case-video h3{font-size:17px}}
+@media print{.case-video video{display:none}.case-credit-grid,.case-metrics{break-inside:avoid}.case-table th,.case-table td{border-color:#bbb}.case-drone .case-content h2{font-family:Arial,sans-serif}.case-metrics dd{color:#000}}

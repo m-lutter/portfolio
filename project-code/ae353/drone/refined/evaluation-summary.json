@@ -1,0 +1,7037 @@
+{
+  "study": "Refined AE353 DP4 presentation study",
+  "trial_count": 1000,
+  "successful_trials": 971,
+  "completion_fraction": 0.971,
+  "successful_completion_time_s": {
+    "mean": 64.25969104016478,
+    "minimum": 59.84,
+    "maximum": 74.2,
+    "basis": "Completed trials only"
+  },
+  "unsuccessful_terminal_reasons": {
+    "out_of_bounds": 13,
+    "inactive": 16
+  },
+  "callback_timing": {
+    "deadline_s": 0.01,
+    "allowed_exceedances_per_trial": 9,
+    "compliant_trials": 1000,
+    "maximum_exceedances_per_trial": 2,
+    "exceedance_count_distribution": {
+      "0": 968,
+      "1": 30,
+      "2": 2
+    }
+  },
+  "interpretation": [
+    "Completion fraction includes all 1,000 trials. Finish-time statistics include only successful flights.",
+    "Terminal reasons describe the simulator stopping rule; they do not establish a collision or its cause.",
+    "Timing is specific to the evaluation machine and environment. The simulator counter determines deadline compliance.",
+    "The original course report described 95/100 completions and 73.35 s mean successful completion time; this later evaluation used a separate course cohort, so it is not a paired same-seed comparison.",
+    "The difference between 95% and 97.1% completion has not been shown to be statistically significant.",
+    "This compact archive contains scalar outcomes and configuration, not the original raw telemetry. The presented observer and rotor plots cannot be independently recomputed from this JSON alone."
+  ],
+  "trials": [
+    {
+      "seed": 497643276,
+      "outcome": "finished",
+      "finish_time": 65.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2414862570,
+      "outcome": "finished",
+      "finish_time": 67.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2138890003,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3309852960,
+      "outcome": "finished",
+      "finish_time": 63.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1824321251,
+      "outcome": "finished",
+      "finish_time": 63.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3272824737,
+      "outcome": "finished",
+      "finish_time": 64.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1934989981,
+      "outcome": "finished",
+      "finish_time": 62.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1586151366,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1684557540,
+      "outcome": "finished",
+      "finish_time": 65.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 727064315,
+      "outcome": "finished",
+      "finish_time": 62.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 291566332,
+      "outcome": "finished",
+      "finish_time": 63.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1176119512,
+      "outcome": "finished",
+      "finish_time": 62.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4231033236,
+      "outcome": "finished",
+      "finish_time": 63.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 166108592,
+      "outcome": "finished",
+      "finish_time": 63.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1080221388,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4015713188,
+      "outcome": "finished",
+      "finish_time": 61.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1158366063,
+      "outcome": "finished",
+      "finish_time": 66.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 15363290,
+      "outcome": "finished",
+      "finish_time": 62.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2627272801,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2261169570,
+      "outcome": "finished",
+      "finish_time": 67.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2640078179,
+      "outcome": "finished",
+      "finish_time": 66.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4219391046,
+      "outcome": "finished",
+      "finish_time": 66.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3279621134,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3530598143,
+      "outcome": "finished",
+      "finish_time": 68.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2820452024,
+      "outcome": "finished",
+      "finish_time": 64.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 4259644883,
+      "outcome": "finished",
+      "finish_time": 67.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 573275407,
+      "outcome": "finished",
+      "finish_time": 62.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1642453929,
+      "outcome": "finished",
+      "finish_time": 63.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 807850653,
+      "outcome": "finished",
+      "finish_time": 64.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 813869430,
+      "outcome": "finished",
+      "finish_time": 67.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 653130050,
+      "outcome": "finished",
+      "finish_time": 64.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 846246292,
+      "outcome": "finished",
+      "finish_time": 65.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 748824863,
+      "outcome": "finished",
+      "finish_time": 66.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3411994701,
+      "outcome": "finished",
+      "finish_time": 63.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1098809138,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1547717764,
+      "outcome": "finished",
+      "finish_time": 63.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2769931301,
+      "outcome": "finished",
+      "finish_time": 67.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3933992883,
+      "outcome": "finished",
+      "finish_time": 63.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3711139901,
+      "outcome": "finished",
+      "finish_time": 65.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1378809284,
+      "outcome": "finished",
+      "finish_time": 62.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3197307514,
+      "outcome": "finished",
+      "finish_time": 62.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2667008292,
+      "outcome": "finished",
+      "finish_time": 65.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1567405886,
+      "outcome": "finished",
+      "finish_time": 62.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3861157867,
+      "outcome": "finished",
+      "finish_time": 62.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 579744462,
+      "outcome": "finished",
+      "finish_time": 66.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3223245289,
+      "outcome": "finished",
+      "finish_time": 62.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2825304591,
+      "outcome": "finished",
+      "finish_time": 61.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1533143658,
+      "outcome": "finished",
+      "finish_time": 65.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2476810550,
+      "outcome": "finished",
+      "finish_time": 61.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1524125453,
+      "outcome": "finished",
+      "finish_time": 61.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2476239726,
+      "outcome": "finished",
+      "finish_time": 65.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2095339647,
+      "outcome": "finished",
+      "finish_time": 61.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1168307018,
+      "outcome": "finished",
+      "finish_time": 63.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 882636549,
+      "outcome": "finished",
+      "finish_time": 66.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1558799354,
+      "outcome": "finished",
+      "finish_time": 66.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 209518354,
+      "outcome": "finished",
+      "finish_time": 62.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 978384279,
+      "outcome": "finished",
+      "finish_time": 66.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 563385973,
+      "outcome": "finished",
+      "finish_time": 67.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4002449917,
+      "outcome": "finished",
+      "finish_time": 65.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3567816020,
+      "outcome": "finished",
+      "finish_time": 66.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 30754673,
+      "outcome": "finished",
+      "finish_time": 61.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 589994125,
+      "outcome": "finished",
+      "finish_time": 63.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1287205678,
+      "outcome": "finished",
+      "finish_time": 64.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1158550621,
+      "outcome": "finished",
+      "finish_time": 65.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 3540662478,
+      "outcome": "finished",
+      "finish_time": 63.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3717510099,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 381411220,
+      "outcome": "finished",
+      "finish_time": 62.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2252735846,
+      "outcome": "finished",
+      "finish_time": 66.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1969297111,
+      "outcome": "finished",
+      "finish_time": 61.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1556226057,
+      "outcome": "finished",
+      "finish_time": 62.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 585648368,
+      "outcome": "finished",
+      "finish_time": 67.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1187570996,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 917271432,
+      "outcome": "finished",
+      "finish_time": 63.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1341512872,
+      "outcome": "finished",
+      "finish_time": 65.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 902862007,
+      "outcome": "finished",
+      "finish_time": 65.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2481292983,
+      "outcome": "finished",
+      "finish_time": 66.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1967970729,
+      "outcome": "finished",
+      "finish_time": 65.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2882135369,
+      "outcome": "finished",
+      "finish_time": 62.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 2062952891,
+      "outcome": "finished",
+      "finish_time": 62.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3777595657,
+      "outcome": "finished",
+      "finish_time": 62.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2055169888,
+      "outcome": "finished",
+      "finish_time": 68.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1666166728,
+      "outcome": "finished",
+      "finish_time": 63.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2165992576,
+      "outcome": "finished",
+      "finish_time": 62.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2117030828,
+      "outcome": "finished",
+      "finish_time": 64.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1974661908,
+      "outcome": "finished",
+      "finish_time": 64.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1086943890,
+      "outcome": "finished",
+      "finish_time": 63.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3406207191,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3736579629,
+      "outcome": "finished",
+      "finish_time": 66.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2805954769,
+      "outcome": "finished",
+      "finish_time": 64.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4150821546,
+      "outcome": "finished",
+      "finish_time": 62.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1339429724,
+      "outcome": "finished",
+      "finish_time": 64.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1039519729,
+      "outcome": "finished",
+      "finish_time": 63.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 877834317,
+      "outcome": "finished",
+      "finish_time": 65.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3700978740,
+      "outcome": "finished",
+      "finish_time": 64.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 42379468,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3623161423,
+      "outcome": "finished",
+      "finish_time": 61.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 671154840,
+      "outcome": "finished",
+      "finish_time": 64.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 137953560,
+      "outcome": "finished",
+      "finish_time": 66.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3969654593,
+      "outcome": "finished",
+      "finish_time": 66.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 287838083,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2176521746,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 774878795,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4285606435,
+      "outcome": "finished",
+      "finish_time": 63.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2344651290,
+      "outcome": "finished",
+      "finish_time": 64.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 1008179155,
+      "outcome": "finished",
+      "finish_time": 65.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2359939828,
+      "outcome": "finished",
+      "finish_time": 66.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1286126834,
+      "outcome": "finished",
+      "finish_time": 63.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 327793590,
+      "outcome": "finished",
+      "finish_time": 66.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3613617546,
+      "outcome": "finished",
+      "finish_time": 62.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 737605389,
+      "outcome": "finished",
+      "finish_time": 62.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2305187574,
+      "outcome": "finished",
+      "finish_time": 65.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1917110823,
+      "outcome": "finished",
+      "finish_time": 61.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 460129340,
+      "outcome": "finished",
+      "finish_time": 63.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1036057911,
+      "outcome": "finished",
+      "finish_time": 68.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 930878706,
+      "outcome": "finished",
+      "finish_time": 66.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3821610462,
+      "outcome": "finished",
+      "finish_time": 61.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2761409557,
+      "outcome": "finished",
+      "finish_time": 63.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3524433510,
+      "outcome": "finished",
+      "finish_time": 61.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2381043170,
+      "outcome": "finished",
+      "finish_time": 62.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3701174931,
+      "outcome": "finished",
+      "finish_time": 61.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4021675547,
+      "outcome": "finished",
+      "finish_time": 65.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3124720828,
+      "outcome": "finished",
+      "finish_time": 65.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3368575751,
+      "outcome": "finished",
+      "finish_time": 63.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1392478599,
+      "outcome": "finished",
+      "finish_time": 63.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 860748949,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2643197081,
+      "outcome": "finished",
+      "finish_time": 61.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1978091202,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 526516968,
+      "outcome": "finished",
+      "finish_time": 63.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1842360245,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1851394514,
+      "outcome": "finished",
+      "finish_time": 63.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2478372239,
+      "outcome": "finished",
+      "finish_time": 65.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1300842201,
+      "outcome": "finished",
+      "finish_time": 65.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 374612952,
+      "outcome": "finished",
+      "finish_time": 67.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2408258699,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2727857624,
+      "outcome": "finished",
+      "finish_time": 61.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2364671648,
+      "outcome": "finished",
+      "finish_time": 65.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3012451975,
+      "outcome": "finished",
+      "finish_time": 66.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 470201200,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3934185569,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2678422401,
+      "outcome": "finished",
+      "finish_time": 65.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4076121609,
+      "outcome": "finished",
+      "finish_time": 62.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1375401202,
+      "outcome": "finished",
+      "finish_time": 62.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 404525428,
+      "outcome": "finished",
+      "finish_time": 61.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 3644651202,
+      "outcome": "finished",
+      "finish_time": 63.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 92620800,
+      "outcome": "finished",
+      "finish_time": 63.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 648191380,
+      "outcome": "finished",
+      "finish_time": 62.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1662421757,
+      "outcome": "finished",
+      "finish_time": 68.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3082729448,
+      "outcome": "finished",
+      "finish_time": 61.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 886930524,
+      "outcome": "finished",
+      "finish_time": 62.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2852252903,
+      "outcome": "finished",
+      "finish_time": 64.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 436007545,
+      "outcome": "finished",
+      "finish_time": 66.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3197610470,
+      "outcome": "finished",
+      "finish_time": 67.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1256663993,
+      "outcome": "finished",
+      "finish_time": 66.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1338675519,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2475065412,
+      "outcome": "finished",
+      "finish_time": 62.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2034124930,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 694590349,
+      "outcome": "finished",
+      "finish_time": 63.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 984715475,
+      "outcome": "finished",
+      "finish_time": 65.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 273597057,
+      "outcome": "finished",
+      "finish_time": 64.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1482414832,
+      "outcome": "finished",
+      "finish_time": 61.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3989100204,
+      "outcome": "finished",
+      "finish_time": 63.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 939021092,
+      "outcome": "finished",
+      "finish_time": 62.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 995244326,
+      "outcome": "finished",
+      "finish_time": 65.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2932750963,
+      "outcome": "finished",
+      "finish_time": 66.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3861176863,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1923427286,
+      "outcome": "finished",
+      "finish_time": 64.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1999527293,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1475557573,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2381958568,
+      "outcome": "finished",
+      "finish_time": 64.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2792564792,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2570091182,
+      "outcome": "finished",
+      "finish_time": 65.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2985290132,
+      "outcome": "finished",
+      "finish_time": 65.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 976307044,
+      "outcome": "finished",
+      "finish_time": 67.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3133035547,
+      "outcome": "finished",
+      "finish_time": 62.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3734809583,
+      "outcome": "finished",
+      "finish_time": 62.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 629644641,
+      "outcome": "finished",
+      "finish_time": 63.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3866088787,
+      "outcome": "finished",
+      "finish_time": 70.60000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2981661108,
+      "outcome": "finished",
+      "finish_time": 67.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2416604451,
+      "outcome": "finished",
+      "finish_time": 65.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1323234110,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2687237850,
+      "outcome": "finished",
+      "finish_time": 61.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4022540044,
+      "outcome": "finished",
+      "finish_time": 63.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 4045262526,
+      "outcome": "finished",
+      "finish_time": 62.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1747417688,
+      "outcome": "finished",
+      "finish_time": 66.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3683604892,
+      "outcome": "finished",
+      "finish_time": 61.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 547382716,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3645916300,
+      "outcome": "finished",
+      "finish_time": 64.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 730581804,
+      "outcome": "finished",
+      "finish_time": 65.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 693032337,
+      "outcome": "finished",
+      "finish_time": 66.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3122783302,
+      "outcome": "finished",
+      "finish_time": 64.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 249704630,
+      "outcome": "finished",
+      "finish_time": 66.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 269284278,
+      "outcome": "finished",
+      "finish_time": 63.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3149019894,
+      "outcome": "finished",
+      "finish_time": 67.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1044014509,
+      "outcome": "finished",
+      "finish_time": 62.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 45499200,
+      "outcome": "finished",
+      "finish_time": 61.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3285807771,
+      "outcome": "finished",
+      "finish_time": 66.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4045614159,
+      "outcome": "finished",
+      "finish_time": 64.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1019087900,
+      "outcome": "finished",
+      "finish_time": 63.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2135186130,
+      "outcome": "finished",
+      "finish_time": 65.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2070743377,
+      "outcome": "finished",
+      "finish_time": 62.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2208259044,
+      "outcome": "finished",
+      "finish_time": 63.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4068365947,
+      "outcome": "finished",
+      "finish_time": 65.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2176954236,
+      "outcome": "finished",
+      "finish_time": 64.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 773768329,
+      "outcome": "finished",
+      "finish_time": 65.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2216458233,
+      "outcome": "finished",
+      "finish_time": 62.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3461685135,
+      "outcome": "finished",
+      "finish_time": 66.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 633838147,
+      "outcome": "finished",
+      "finish_time": 66.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1684143984,
+      "outcome": "finished",
+      "finish_time": 64.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2637071601,
+      "outcome": "finished",
+      "finish_time": 60.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2546078974,
+      "outcome": "finished",
+      "finish_time": 64.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1116707112,
+      "outcome": "finished",
+      "finish_time": 66.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1041866514,
+      "outcome": "finished",
+      "finish_time": 61.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2666035057,
+      "outcome": "finished",
+      "finish_time": 64.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 898823314,
+      "outcome": "finished",
+      "finish_time": 61.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3457661252,
+      "outcome": "finished",
+      "finish_time": 62.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1577487666,
+      "outcome": "finished",
+      "finish_time": 62.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 83046955,
+      "outcome": "finished",
+      "finish_time": 66.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1602417345,
+      "outcome": "finished",
+      "finish_time": 64.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1135854321,
+      "outcome": "finished",
+      "finish_time": 67.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 1798127658,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2263247555,
+      "outcome": "finished",
+      "finish_time": 61.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1310125710,
+      "outcome": "finished",
+      "finish_time": 68.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3658560882,
+      "outcome": "finished",
+      "finish_time": 66.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4282531714,
+      "outcome": "finished",
+      "finish_time": 65.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 575746559,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2487759977,
+      "outcome": "finished",
+      "finish_time": 64.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2811397509,
+      "outcome": "finished",
+      "finish_time": 66.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 694021282,
+      "outcome": "finished",
+      "finish_time": 63.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1468621853,
+      "outcome": "finished",
+      "finish_time": 64.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3745338370,
+      "outcome": "finished",
+      "finish_time": 62.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 334216820,
+      "outcome": "finished",
+      "finish_time": 65.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2090313540,
+      "outcome": "finished",
+      "finish_time": 64.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 897015423,
+      "outcome": "finished",
+      "finish_time": 63.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 677542300,
+      "outcome": "finished",
+      "finish_time": 66.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2110169555,
+      "outcome": "finished",
+      "finish_time": 62.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2090136591,
+      "outcome": "finished",
+      "finish_time": 65.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3273589897,
+      "outcome": "finished",
+      "finish_time": 60.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2097752896,
+      "outcome": "finished",
+      "finish_time": 66.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 543502578,
+      "outcome": "finished",
+      "finish_time": 64.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3203276466,
+      "outcome": "finished",
+      "finish_time": 65.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1056854656,
+      "outcome": "finished",
+      "finish_time": 65.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4180855287,
+      "outcome": "finished",
+      "finish_time": 63.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3408165449,
+      "outcome": "finished",
+      "finish_time": 63.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4088251221,
+      "outcome": "finished",
+      "finish_time": 64.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3897085690,
+      "outcome": "finished",
+      "finish_time": 62.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1429025998,
+      "outcome": "finished",
+      "finish_time": 60.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 829746566,
+      "outcome": "finished",
+      "finish_time": 62.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 304882979,
+      "outcome": "finished",
+      "finish_time": 65.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3998104173,
+      "outcome": "finished",
+      "finish_time": 61.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 911470998,
+      "outcome": "finished",
+      "finish_time": 64.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2758820592,
+      "outcome": "finished",
+      "finish_time": 69.60000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2672045148,
+      "outcome": "finished",
+      "finish_time": 68.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2968379583,
+      "outcome": "finished",
+      "finish_time": 65.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3416776481,
+      "outcome": "finished",
+      "finish_time": 62.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 994049480,
+      "outcome": "finished",
+      "finish_time": 66.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1359889441,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1635789477,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 3958049943,
+      "outcome": "finished",
+      "finish_time": 63.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 20446087,
+      "outcome": "finished",
+      "finish_time": 63.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1834270202,
+      "outcome": "finished",
+      "finish_time": 67.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 954208414,
+      "outcome": "finished",
+      "finish_time": 60.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1639616796,
+      "outcome": "finished",
+      "finish_time": 66.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3406793780,
+      "outcome": "finished",
+      "finish_time": 64.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 146815195,
+      "outcome": "finished",
+      "finish_time": 64.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3713602805,
+      "outcome": "finished",
+      "finish_time": 64.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 246512846,
+      "outcome": "finished",
+      "finish_time": 64.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 730918946,
+      "outcome": "finished",
+      "finish_time": 65.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2737287683,
+      "outcome": "finished",
+      "finish_time": 61.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2745662736,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1474166067,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 874872076,
+      "outcome": "finished",
+      "finish_time": 63.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4002714514,
+      "outcome": "finished",
+      "finish_time": 61.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3054761419,
+      "outcome": "finished",
+      "finish_time": 65.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2154914711,
+      "outcome": "finished",
+      "finish_time": 65.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2571921373,
+      "outcome": "finished",
+      "finish_time": 66.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2674140491,
+      "outcome": "finished",
+      "finish_time": 63.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 147175738,
+      "outcome": "finished",
+      "finish_time": 63.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1410488835,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2214882061,
+      "outcome": "finished",
+      "finish_time": 66.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3073770684,
+      "outcome": "finished",
+      "finish_time": 66.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1898256656,
+      "outcome": "finished",
+      "finish_time": 65.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3500271905,
+      "outcome": "finished",
+      "finish_time": 63.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 870366965,
+      "outcome": "finished",
+      "finish_time": 64.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3160537351,
+      "outcome": "finished",
+      "finish_time": 67.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 963106772,
+      "outcome": "finished",
+      "finish_time": 65.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 862807457,
+      "outcome": "finished",
+      "finish_time": 62.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2911321687,
+      "outcome": "finished",
+      "finish_time": 65.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2749348141,
+      "outcome": "finished",
+      "finish_time": 61.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 151868688,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2636433879,
+      "outcome": "finished",
+      "finish_time": 65.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1433636165,
+      "outcome": "finished",
+      "finish_time": 63.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2041350606,
+      "outcome": "finished",
+      "finish_time": 62.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 995481948,
+      "outcome": "finished",
+      "finish_time": 66.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 409238210,
+      "outcome": "finished",
+      "finish_time": 60.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 911202043,
+      "outcome": "finished",
+      "finish_time": 65.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 575546334,
+      "outcome": "finished",
+      "finish_time": 63.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 428147337,
+      "outcome": "finished",
+      "finish_time": 61.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 948467485,
+      "outcome": "finished",
+      "finish_time": 64.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3262837342,
+      "outcome": "finished",
+      "finish_time": 65.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3906806017,
+      "outcome": "finished",
+      "finish_time": 62.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2335864120,
+      "outcome": "finished",
+      "finish_time": 61.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 818058857,
+      "outcome": "finished",
+      "finish_time": 63.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 694164780,
+      "outcome": "finished",
+      "finish_time": 63.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1861836877,
+      "outcome": "finished",
+      "finish_time": 63.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 194729027,
+      "outcome": "finished",
+      "finish_time": 63.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1478136539,
+      "outcome": "finished",
+      "finish_time": 65.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 894860963,
+      "outcome": "finished",
+      "finish_time": 64.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 187082326,
+      "outcome": "finished",
+      "finish_time": 60.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1276334192,
+      "outcome": "finished",
+      "finish_time": 62.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2143190813,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 881102647,
+      "outcome": "finished",
+      "finish_time": 64.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1711440255,
+      "outcome": "finished",
+      "finish_time": 62.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2807616633,
+      "outcome": "finished",
+      "finish_time": 67.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3401655399,
+      "outcome": "finished",
+      "finish_time": 64.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 308484539,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2636535638,
+      "outcome": "finished",
+      "finish_time": 64.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 188719432,
+      "outcome": "finished",
+      "finish_time": 61.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2717443493,
+      "outcome": "finished",
+      "finish_time": 64.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1992103374,
+      "outcome": "finished",
+      "finish_time": 65.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2774270687,
+      "outcome": "finished",
+      "finish_time": 65.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4074887953,
+      "outcome": "finished",
+      "finish_time": 66.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 236023302,
+      "outcome": "finished",
+      "finish_time": 62.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4160472965,
+      "outcome": "finished",
+      "finish_time": 67.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1157857893,
+      "outcome": "finished",
+      "finish_time": 61.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2991148381,
+      "outcome": "finished",
+      "finish_time": 62.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2964962540,
+      "outcome": "finished",
+      "finish_time": 62.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1670108131,
+      "outcome": "finished",
+      "finish_time": 62.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3305042576,
+      "outcome": "finished",
+      "finish_time": 63.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2844539577,
+      "outcome": "finished",
+      "finish_time": 62.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1094417726,
+      "outcome": "finished",
+      "finish_time": 65.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 754103478,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1811065531,
+      "outcome": "finished",
+      "finish_time": 62.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1745416784,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1494598439,
+      "outcome": "finished",
+      "finish_time": 64.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1882936116,
+      "outcome": "finished",
+      "finish_time": 63.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1042198303,
+      "outcome": "finished",
+      "finish_time": 61.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 347937097,
+      "outcome": "finished",
+      "finish_time": 63.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 712426424,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 191412133,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 4109644299,
+      "outcome": "finished",
+      "finish_time": 65.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1037312190,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1200748711,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3593566332,
+      "outcome": "finished",
+      "finish_time": 62.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1128991674,
+      "outcome": "finished",
+      "finish_time": 63.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1456669865,
+      "outcome": "finished",
+      "finish_time": 63.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 407948561,
+      "outcome": "finished",
+      "finish_time": 63.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3328385468,
+      "outcome": "finished",
+      "finish_time": 62.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3989516186,
+      "outcome": "finished",
+      "finish_time": 63.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3144372585,
+      "outcome": "finished",
+      "finish_time": 61.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3666129282,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 30289145,
+      "outcome": "finished",
+      "finish_time": 62.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2434753087,
+      "outcome": "finished",
+      "finish_time": 64.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1743102342,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1073868396,
+      "outcome": "finished",
+      "finish_time": 62.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2615229432,
+      "outcome": "finished",
+      "finish_time": 62.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1377091613,
+      "outcome": "finished",
+      "finish_time": 65.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2313558550,
+      "outcome": "finished",
+      "finish_time": 67.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2062945366,
+      "outcome": "finished",
+      "finish_time": 63.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3117469940,
+      "outcome": "finished",
+      "finish_time": 64.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1100620214,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 539324993,
+      "outcome": "finished",
+      "finish_time": 62.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3333066147,
+      "outcome": "finished",
+      "finish_time": 60.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1291909203,
+      "outcome": "finished",
+      "finish_time": 74.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2601706480,
+      "outcome": "finished",
+      "finish_time": 64.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 240254104,
+      "outcome": "finished",
+      "finish_time": 62.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3070415135,
+      "outcome": "finished",
+      "finish_time": 62.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2749860335,
+      "outcome": "finished",
+      "finish_time": 63.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1488830345,
+      "outcome": "finished",
+      "finish_time": 63.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 670270277,
+      "outcome": "finished",
+      "finish_time": 64.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3783841046,
+      "outcome": "finished",
+      "finish_time": 65.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2560731394,
+      "outcome": "finished",
+      "finish_time": 61.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4088749744,
+      "outcome": "finished",
+      "finish_time": 62.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3819667651,
+      "outcome": "finished",
+      "finish_time": 65.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2044272060,
+      "outcome": "finished",
+      "finish_time": 61.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3189889486,
+      "outcome": "finished",
+      "finish_time": 61.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 395964842,
+      "outcome": "finished",
+      "finish_time": 63.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 579126950,
+      "outcome": "finished",
+      "finish_time": 67.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1704881445,
+      "outcome": "finished",
+      "finish_time": 62.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 911154126,
+      "outcome": "finished",
+      "finish_time": 62.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3363616710,
+      "outcome": "finished",
+      "finish_time": 62.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2511960846,
+      "outcome": "finished",
+      "finish_time": 65.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2140869492,
+      "outcome": "finished",
+      "finish_time": 61.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3553436387,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1867226679,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3003588350,
+      "outcome": "finished",
+      "finish_time": 62.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2236986490,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3689830989,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 2224299800,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 729261395,
+      "outcome": "finished",
+      "finish_time": 64.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3575209978,
+      "outcome": "finished",
+      "finish_time": 63.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3689673487,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1780195081,
+      "outcome": "finished",
+      "finish_time": 65.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3874811535,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 98516467,
+      "outcome": "finished",
+      "finish_time": 66.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1047756839,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3832213337,
+      "outcome": "finished",
+      "finish_time": 64.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3965509660,
+      "outcome": "finished",
+      "finish_time": 65.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 551265932,
+      "outcome": "finished",
+      "finish_time": 66.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2001067279,
+      "outcome": "finished",
+      "finish_time": 62.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1710214520,
+      "outcome": "finished",
+      "finish_time": 63.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 359407931,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1671062098,
+      "outcome": "finished",
+      "finish_time": 65.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1244267192,
+      "outcome": "finished",
+      "finish_time": 62.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2095330536,
+      "outcome": "finished",
+      "finish_time": 63.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3416139068,
+      "outcome": "finished",
+      "finish_time": 61.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2161572643,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1971588489,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2119050088,
+      "outcome": "finished",
+      "finish_time": 61.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4217835094,
+      "outcome": "finished",
+      "finish_time": 63.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3177157655,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3042105633,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2163282493,
+      "outcome": "finished",
+      "finish_time": 64.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 458531385,
+      "outcome": "finished",
+      "finish_time": 61.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 37038605,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3830483132,
+      "outcome": "finished",
+      "finish_time": 61.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2205661693,
+      "outcome": "finished",
+      "finish_time": 65.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1273196758,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1067208932,
+      "outcome": "finished",
+      "finish_time": 67.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1194638848,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 155065983,
+      "outcome": "finished",
+      "finish_time": 65.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2168053916,
+      "outcome": "finished",
+      "finish_time": 65.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1709182938,
+      "outcome": "finished",
+      "finish_time": 63.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3063540117,
+      "outcome": "finished",
+      "finish_time": 65.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1299952894,
+      "outcome": "finished",
+      "finish_time": 65.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3162015654,
+      "outcome": "finished",
+      "finish_time": 63.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2201798787,
+      "outcome": "finished",
+      "finish_time": 69.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3209269109,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2364160345,
+      "outcome": "finished",
+      "finish_time": 61.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2246916168,
+      "outcome": "finished",
+      "finish_time": 64.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3902593084,
+      "outcome": "finished",
+      "finish_time": 63.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 769666246,
+      "outcome": "finished",
+      "finish_time": 64.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2938793449,
+      "outcome": "finished",
+      "finish_time": 62.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 1722614746,
+      "outcome": "finished",
+      "finish_time": 64.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 366750018,
+      "outcome": "finished",
+      "finish_time": 61.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 728928516,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4276224046,
+      "outcome": "finished",
+      "finish_time": 61.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1922124062,
+      "outcome": "finished",
+      "finish_time": 67.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2479031505,
+      "outcome": "finished",
+      "finish_time": 66.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2659799315,
+      "outcome": "finished",
+      "finish_time": 61.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2100833875,
+      "outcome": "finished",
+      "finish_time": 64.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1047516744,
+      "outcome": "finished",
+      "finish_time": 65.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3545420722,
+      "outcome": "finished",
+      "finish_time": 66.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 126530327,
+      "outcome": "finished",
+      "finish_time": 61.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3007220748,
+      "outcome": "finished",
+      "finish_time": 71.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3943014432,
+      "outcome": "finished",
+      "finish_time": 64.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2897010248,
+      "outcome": "finished",
+      "finish_time": 66.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2003525102,
+      "outcome": "finished",
+      "finish_time": 67.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1121505040,
+      "outcome": "finished",
+      "finish_time": 64.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2072925584,
+      "outcome": "finished",
+      "finish_time": 66.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1548476316,
+      "outcome": "finished",
+      "finish_time": 66.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1735432345,
+      "outcome": "finished",
+      "finish_time": 61.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2564715426,
+      "outcome": "finished",
+      "finish_time": 65.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 982321332,
+      "outcome": "finished",
+      "finish_time": 63.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2421470445,
+      "outcome": "finished",
+      "finish_time": 63.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1801286648,
+      "outcome": "finished",
+      "finish_time": 62.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2678095251,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1778400511,
+      "outcome": "finished",
+      "finish_time": 62.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 159926227,
+      "outcome": "finished",
+      "finish_time": 65.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 688427281,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4107276068,
+      "outcome": "finished",
+      "finish_time": 63.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1694177087,
+      "outcome": "finished",
+      "finish_time": 65.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2196014447,
+      "outcome": "finished",
+      "finish_time": 63.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1084540592,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 214260894,
+      "outcome": "finished",
+      "finish_time": 62.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 236636044,
+      "outcome": "finished",
+      "finish_time": 68.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2744884797,
+      "outcome": "finished",
+      "finish_time": 62.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 669175735,
+      "outcome": "finished",
+      "finish_time": 64.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 508320908,
+      "outcome": "finished",
+      "finish_time": 63.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3374528652,
+      "outcome": "finished",
+      "finish_time": 64.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1062453617,
+      "outcome": "finished",
+      "finish_time": 63.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1064020467,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2026573844,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1557187941,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3177222813,
+      "outcome": "finished",
+      "finish_time": 62.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 483389758,
+      "outcome": "finished",
+      "finish_time": 62.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2966908564,
+      "outcome": "finished",
+      "finish_time": 64.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3201762535,
+      "outcome": "finished",
+      "finish_time": 65.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 525340349,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3268426665,
+      "outcome": "finished",
+      "finish_time": 67.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3861630820,
+      "outcome": "finished",
+      "finish_time": 61.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 237205767,
+      "outcome": "finished",
+      "finish_time": 60.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1528467106,
+      "outcome": "finished",
+      "finish_time": 62.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 803018096,
+      "outcome": "finished",
+      "finish_time": 65.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4140728089,
+      "outcome": "finished",
+      "finish_time": 66.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2190687937,
+      "outcome": "finished",
+      "finish_time": 62.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1517893108,
+      "outcome": "finished",
+      "finish_time": 65.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 798389441,
+      "outcome": "finished",
+      "finish_time": 63.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2564555247,
+      "outcome": "finished",
+      "finish_time": 62.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 107755648,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 171859912,
+      "outcome": "finished",
+      "finish_time": 66.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1952254309,
+      "outcome": "finished",
+      "finish_time": 69.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1301210938,
+      "outcome": "finished",
+      "finish_time": 62.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1140398230,
+      "outcome": "finished",
+      "finish_time": 64.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4221208844,
+      "outcome": "finished",
+      "finish_time": 64.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2962759797,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 576564827,
+      "outcome": "finished",
+      "finish_time": 68.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2156983604,
+      "outcome": "finished",
+      "finish_time": 66.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3596467124,
+      "outcome": "finished",
+      "finish_time": 66.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3296860084,
+      "outcome": "finished",
+      "finish_time": 65.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2840088468,
+      "outcome": "finished",
+      "finish_time": 64.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3760716511,
+      "outcome": "finished",
+      "finish_time": 68.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3923125577,
+      "outcome": "finished",
+      "finish_time": 64.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 3001489596,
+      "outcome": "finished",
+      "finish_time": 65.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 422518170,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1309304471,
+      "outcome": "finished",
+      "finish_time": 64.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2782809462,
+      "outcome": "finished",
+      "finish_time": 65.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 565089130,
+      "outcome": "finished",
+      "finish_time": 66.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 809918252,
+      "outcome": "finished",
+      "finish_time": 65.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2680081874,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2910476304,
+      "outcome": "finished",
+      "finish_time": 63.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2212502253,
+      "outcome": "finished",
+      "finish_time": 65.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2261181345,
+      "outcome": "finished",
+      "finish_time": 63.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1726324004,
+      "outcome": "finished",
+      "finish_time": 63.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2005008608,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 461434649,
+      "outcome": "finished",
+      "finish_time": 61.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 693081357,
+      "outcome": "finished",
+      "finish_time": 67.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2192147939,
+      "outcome": "finished",
+      "finish_time": 63.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2210014285,
+      "outcome": "finished",
+      "finish_time": 65.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 526673021,
+      "outcome": "finished",
+      "finish_time": 62.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3904107719,
+      "outcome": "finished",
+      "finish_time": 66.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 109328832,
+      "outcome": "finished",
+      "finish_time": 65.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3262953448,
+      "outcome": "finished",
+      "finish_time": 65.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1942116915,
+      "outcome": "finished",
+      "finish_time": 64.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3030061878,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1286054603,
+      "outcome": "finished",
+      "finish_time": 65.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1567896945,
+      "outcome": "finished",
+      "finish_time": 64.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3825378397,
+      "outcome": "finished",
+      "finish_time": 64.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1090388794,
+      "outcome": "finished",
+      "finish_time": 66.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3862720547,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3397283789,
+      "outcome": "finished",
+      "finish_time": 63.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1160393024,
+      "outcome": "finished",
+      "finish_time": 66.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 218900076,
+      "outcome": "finished",
+      "finish_time": 64.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 456634279,
+      "outcome": "finished",
+      "finish_time": 63.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 779791303,
+      "outcome": "finished",
+      "finish_time": 63.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3021753116,
+      "outcome": "finished",
+      "finish_time": 64.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2577642200,
+      "outcome": "finished",
+      "finish_time": 62.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 30929651,
+      "outcome": "finished",
+      "finish_time": 66.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3269699283,
+      "outcome": "finished",
+      "finish_time": 64.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1988036051,
+      "outcome": "finished",
+      "finish_time": 61.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 3149927697,
+      "outcome": "finished",
+      "finish_time": 63.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3885763810,
+      "outcome": "finished",
+      "finish_time": 60.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1547271797,
+      "outcome": "finished",
+      "finish_time": 65.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3110190571,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2223851348,
+      "outcome": "finished",
+      "finish_time": 65.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3976667554,
+      "outcome": "finished",
+      "finish_time": 69.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3180671485,
+      "outcome": "finished",
+      "finish_time": 67.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1959236751,
+      "outcome": "finished",
+      "finish_time": 63.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 753571672,
+      "outcome": "finished",
+      "finish_time": 64.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 986436034,
+      "outcome": "finished",
+      "finish_time": 65.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 464686339,
+      "outcome": "finished",
+      "finish_time": 64.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4182810619,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3338399340,
+      "outcome": "finished",
+      "finish_time": 63.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3428390691,
+      "outcome": "finished",
+      "finish_time": 62.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 444077782,
+      "outcome": "finished",
+      "finish_time": 65.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 645203479,
+      "outcome": "finished",
+      "finish_time": 66.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2614245921,
+      "outcome": "finished",
+      "finish_time": 62.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2720808686,
+      "outcome": "finished",
+      "finish_time": 64.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4030001996,
+      "outcome": "finished",
+      "finish_time": 66.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 761240246,
+      "outcome": "finished",
+      "finish_time": 64.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1522095849,
+      "outcome": "finished",
+      "finish_time": 67.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 494880845,
+      "outcome": "finished",
+      "finish_time": 66.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3978305564,
+      "outcome": "finished",
+      "finish_time": 63.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 99418541,
+      "outcome": "finished",
+      "finish_time": 65.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1634071537,
+      "outcome": "finished",
+      "finish_time": 68.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1801086831,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3730089865,
+      "outcome": "finished",
+      "finish_time": 62.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3835366877,
+      "outcome": "finished",
+      "finish_time": 60.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2917999765,
+      "outcome": "finished",
+      "finish_time": 65.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1388947961,
+      "outcome": "finished",
+      "finish_time": 63.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1568321037,
+      "outcome": "finished",
+      "finish_time": 66.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2151753738,
+      "outcome": "finished",
+      "finish_time": 64.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1369738203,
+      "outcome": "finished",
+      "finish_time": 65.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3127024450,
+      "outcome": "finished",
+      "finish_time": 62.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4210055216,
+      "outcome": "finished",
+      "finish_time": 66.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4031834650,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 508666540,
+      "outcome": "finished",
+      "finish_time": 62.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3377588581,
+      "outcome": "finished",
+      "finish_time": 65.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1578225007,
+      "outcome": "finished",
+      "finish_time": 62.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4219644257,
+      "outcome": "finished",
+      "finish_time": 61.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2888328036,
+      "outcome": "finished",
+      "finish_time": 65.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4209230507,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3099728734,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 837923261,
+      "outcome": "finished",
+      "finish_time": 62.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 341417294,
+      "outcome": "finished",
+      "finish_time": 63.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2408857367,
+      "outcome": "finished",
+      "finish_time": 61.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1225681568,
+      "outcome": "finished",
+      "finish_time": 63.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 574989351,
+      "outcome": "finished",
+      "finish_time": 63.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2888098733,
+      "outcome": "finished",
+      "finish_time": 63.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1435477319,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1852567655,
+      "outcome": "finished",
+      "finish_time": 63.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 919812077,
+      "outcome": "finished",
+      "finish_time": 63.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2152681537,
+      "outcome": "finished",
+      "finish_time": 64.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1397688409,
+      "outcome": "finished",
+      "finish_time": 66.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 935650356,
+      "outcome": "finished",
+      "finish_time": 67.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1880279314,
+      "outcome": "finished",
+      "finish_time": 63.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1430449506,
+      "outcome": "finished",
+      "finish_time": 62.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1700925879,
+      "outcome": "finished",
+      "finish_time": 68.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1186876662,
+      "outcome": "finished",
+      "finish_time": 65.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2135399897,
+      "outcome": "finished",
+      "finish_time": 63.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 511159629,
+      "outcome": "finished",
+      "finish_time": 66.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4256762075,
+      "outcome": "finished",
+      "finish_time": 66.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3018528951,
+      "outcome": "finished",
+      "finish_time": 63.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2295337673,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3940657963,
+      "outcome": "finished",
+      "finish_time": 64.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 63576490,
+      "outcome": "finished",
+      "finish_time": 64.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2329234263,
+      "outcome": "finished",
+      "finish_time": 61.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1514947807,
+      "outcome": "finished",
+      "finish_time": 66.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 955100682,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 873099697,
+      "outcome": "finished",
+      "finish_time": 61.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2409437814,
+      "outcome": "finished",
+      "finish_time": 68.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2711778964,
+      "outcome": "finished",
+      "finish_time": 64.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3823743354,
+      "outcome": "finished",
+      "finish_time": 70.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2736043078,
+      "outcome": "finished",
+      "finish_time": 62.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1644087754,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1237929831,
+      "outcome": "finished",
+      "finish_time": 63.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2586951086,
+      "outcome": "finished",
+      "finish_time": 63.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 159778660,
+      "outcome": "finished",
+      "finish_time": 65.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2363239526,
+      "outcome": "finished",
+      "finish_time": 67.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1738737698,
+      "outcome": "finished",
+      "finish_time": 63.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3349472923,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2697536590,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3184295774,
+      "outcome": "finished",
+      "finish_time": 62.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4001984225,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 593621566,
+      "outcome": "finished",
+      "finish_time": 63.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 681895771,
+      "outcome": "finished",
+      "finish_time": 62.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4176009381,
+      "outcome": "finished",
+      "finish_time": 63.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1607315154,
+      "outcome": "finished",
+      "finish_time": 61.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3926829198,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 601133008,
+      "outcome": "finished",
+      "finish_time": 61.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1262531252,
+      "outcome": "finished",
+      "finish_time": 63.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3528000770,
+      "outcome": "finished",
+      "finish_time": 62.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 1719646308,
+      "outcome": "finished",
+      "finish_time": 62.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2347294084,
+      "outcome": "finished",
+      "finish_time": 64.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1116548307,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3069658818,
+      "outcome": "finished",
+      "finish_time": 61.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4191142343,
+      "outcome": "finished",
+      "finish_time": 67.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1077765698,
+      "outcome": "finished",
+      "finish_time": 65.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 90679312,
+      "outcome": "finished",
+      "finish_time": 63.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4150171075,
+      "outcome": "finished",
+      "finish_time": 63.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 725578322,
+      "outcome": "finished",
+      "finish_time": 66.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3440220157,
+      "outcome": "finished",
+      "finish_time": 65.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1287328705,
+      "outcome": "finished",
+      "finish_time": 60.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1647699306,
+      "outcome": "finished",
+      "finish_time": 63.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1295048396,
+      "outcome": "finished",
+      "finish_time": 65.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 333328521,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 618051288,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2122308687,
+      "outcome": "finished",
+      "finish_time": 66.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2952735108,
+      "outcome": "finished",
+      "finish_time": 66.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 320329845,
+      "outcome": "finished",
+      "finish_time": 63.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3616896384,
+      "outcome": "finished",
+      "finish_time": 61.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2737462829,
+      "outcome": "finished",
+      "finish_time": 67.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 810440972,
+      "outcome": "finished",
+      "finish_time": 64.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3572427865,
+      "outcome": "finished",
+      "finish_time": 64.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3955739920,
+      "outcome": "finished",
+      "finish_time": 63.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3840582057,
+      "outcome": "finished",
+      "finish_time": 63.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4023106711,
+      "outcome": "finished",
+      "finish_time": 63.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4233495392,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2077218047,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1332205545,
+      "outcome": "finished",
+      "finish_time": 61.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1529361386,
+      "outcome": "finished",
+      "finish_time": 63.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2697978108,
+      "outcome": "finished",
+      "finish_time": 65.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4094201641,
+      "outcome": "finished",
+      "finish_time": 64.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4068890995,
+      "outcome": "finished",
+      "finish_time": 63.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2486240942,
+      "outcome": "finished",
+      "finish_time": 67.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3919074358,
+      "outcome": "finished",
+      "finish_time": 63.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1148706526,
+      "outcome": "finished",
+      "finish_time": 65.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1187530899,
+      "outcome": "finished",
+      "finish_time": 65.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1483853212,
+      "outcome": "finished",
+      "finish_time": 65.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2558635053,
+      "outcome": "finished",
+      "finish_time": 64.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3503443848,
+      "outcome": "finished",
+      "finish_time": 65.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2678085654,
+      "outcome": "finished",
+      "finish_time": 64.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3777031674,
+      "outcome": "finished",
+      "finish_time": 64.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1033462102,
+      "outcome": "finished",
+      "finish_time": 67.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4132067237,
+      "outcome": "finished",
+      "finish_time": 62.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 241663553,
+      "outcome": "finished",
+      "finish_time": 62.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 1911216015,
+      "outcome": "finished",
+      "finish_time": 63.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3855905933,
+      "outcome": "finished",
+      "finish_time": 65.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2856005341,
+      "outcome": "finished",
+      "finish_time": 65.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1201065637,
+      "outcome": "finished",
+      "finish_time": 63.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3380529894,
+      "outcome": "finished",
+      "finish_time": 62.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 528834113,
+      "outcome": "finished",
+      "finish_time": 63.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1677628018,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2099799239,
+      "outcome": "finished",
+      "finish_time": 67.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1401148135,
+      "outcome": "finished",
+      "finish_time": 63.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3482224605,
+      "outcome": "finished",
+      "finish_time": 63.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3274614132,
+      "outcome": "finished",
+      "finish_time": 65.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2868739924,
+      "outcome": "finished",
+      "finish_time": 65.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2743821182,
+      "outcome": "finished",
+      "finish_time": 64.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4029203974,
+      "outcome": "finished",
+      "finish_time": 61.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4021883651,
+      "outcome": "finished",
+      "finish_time": 64.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3040549151,
+      "outcome": "finished",
+      "finish_time": 61.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1486198828,
+      "outcome": "finished",
+      "finish_time": 61.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3349531649,
+      "outcome": "finished",
+      "finish_time": 63.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 572733713,
+      "outcome": "finished",
+      "finish_time": 61.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2449548522,
+      "outcome": "finished",
+      "finish_time": 66.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1169865919,
+      "outcome": "finished",
+      "finish_time": 63.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2057026688,
+      "outcome": "finished",
+      "finish_time": 66.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3863938014,
+      "outcome": "finished",
+      "finish_time": 64.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2262142841,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 408725233,
+      "outcome": "finished",
+      "finish_time": 67.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 267709525,
+      "outcome": "finished",
+      "finish_time": 65.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4192950405,
+      "outcome": "finished",
+      "finish_time": 66.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1171476501,
+      "outcome": "finished",
+      "finish_time": 63.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1398149700,
+      "outcome": "finished",
+      "finish_time": 65.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3880263882,
+      "outcome": "finished",
+      "finish_time": 65.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2694658625,
+      "outcome": "finished",
+      "finish_time": 63.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3224702440,
+      "outcome": "finished",
+      "finish_time": 65.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3957783367,
+      "outcome": "finished",
+      "finish_time": 63.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2023690751,
+      "outcome": "finished",
+      "finish_time": 66.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 661017052,
+      "outcome": "finished",
+      "finish_time": 64.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 576138537,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1640105472,
+      "outcome": "finished",
+      "finish_time": 61.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1393001460,
+      "outcome": "finished",
+      "finish_time": 62.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2009447858,
+      "outcome": "finished",
+      "finish_time": 67.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1789817820,
+      "outcome": "finished",
+      "finish_time": 64.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 2114038150,
+      "outcome": "finished",
+      "finish_time": 63.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3338407913,
+      "outcome": "finished",
+      "finish_time": 64.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2335080895,
+      "outcome": "finished",
+      "finish_time": 62.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2306902150,
+      "outcome": "finished",
+      "finish_time": 62.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3103309820,
+      "outcome": "finished",
+      "finish_time": 63.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3320659263,
+      "outcome": "finished",
+      "finish_time": 63.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 129799472,
+      "outcome": "finished",
+      "finish_time": 61.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3840956326,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 266919566,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1292000744,
+      "outcome": "finished",
+      "finish_time": 61.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4181000514,
+      "outcome": "finished",
+      "finish_time": 64.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 104889110,
+      "outcome": "finished",
+      "finish_time": 62.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1779041155,
+      "outcome": "finished",
+      "finish_time": 67.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 511357938,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1656608771,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2859436439,
+      "outcome": "finished",
+      "finish_time": 61.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3023076781,
+      "outcome": "finished",
+      "finish_time": 62.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1566547988,
+      "outcome": "finished",
+      "finish_time": 66.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1333476797,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 952592001,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3222679195,
+      "outcome": "finished",
+      "finish_time": 64.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2949750288,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 454752886,
+      "outcome": "finished",
+      "finish_time": 61.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3182228268,
+      "outcome": "finished",
+      "finish_time": 62.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 588964318,
+      "outcome": "finished",
+      "finish_time": 65.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1842216918,
+      "outcome": "finished",
+      "finish_time": 66.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1834096819,
+      "outcome": "finished",
+      "finish_time": 63.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 577443483,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1519103293,
+      "outcome": "finished",
+      "finish_time": 62.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1822871036,
+      "outcome": "finished",
+      "finish_time": 59.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3172475201,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 63603255,
+      "outcome": "finished",
+      "finish_time": 64.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1590857509,
+      "outcome": "finished",
+      "finish_time": 62.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1153882714,
+      "outcome": "finished",
+      "finish_time": 63.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 307571983,
+      "outcome": "finished",
+      "finish_time": 65.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2620657881,
+      "outcome": "finished",
+      "finish_time": 63.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2091783671,
+      "outcome": "finished",
+      "finish_time": 64.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1561144710,
+      "outcome": "finished",
+      "finish_time": 65.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 3508300532,
+      "outcome": "finished",
+      "finish_time": 61.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1070521259,
+      "outcome": "finished",
+      "finish_time": 63.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2437645906,
+      "outcome": "finished",
+      "finish_time": 68.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4186132204,
+      "outcome": "finished",
+      "finish_time": 64.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4101767178,
+      "outcome": "finished",
+      "finish_time": 65.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1945596692,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 272306361,
+      "outcome": "finished",
+      "finish_time": 65.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4285782274,
+      "outcome": "finished",
+      "finish_time": 64.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 32502243,
+      "outcome": "finished",
+      "finish_time": 63.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 886485230,
+      "outcome": "finished",
+      "finish_time": 60.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4055847495,
+      "outcome": "finished",
+      "finish_time": 63.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3669223975,
+      "outcome": "finished",
+      "finish_time": 67.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1890702015,
+      "outcome": "finished",
+      "finish_time": 64.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1061094431,
+      "outcome": "finished",
+      "finish_time": 64.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3006368986,
+      "outcome": "finished",
+      "finish_time": 66.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2837417067,
+      "outcome": "finished",
+      "finish_time": 62.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2393210486,
+      "outcome": "finished",
+      "finish_time": 67.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 583887851,
+      "outcome": "finished",
+      "finish_time": 62.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 183199405,
+      "outcome": "finished",
+      "finish_time": 64.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4216646596,
+      "outcome": "finished",
+      "finish_time": 67.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4079795129,
+      "outcome": "finished",
+      "finish_time": 65.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 802356479,
+      "outcome": "finished",
+      "finish_time": 66.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3685836004,
+      "outcome": "finished",
+      "finish_time": 66.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2168312621,
+      "outcome": "finished",
+      "finish_time": 62.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2719555680,
+      "outcome": "finished",
+      "finish_time": 63.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3909487539,
+      "outcome": "finished",
+      "finish_time": 62.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 767282197,
+      "outcome": "finished",
+      "finish_time": 62.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 713764834,
+      "outcome": "finished",
+      "finish_time": 63.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 432643715,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3893456770,
+      "outcome": "finished",
+      "finish_time": 67.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3462516325,
+      "outcome": "finished",
+      "finish_time": 64.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2235496280,
+      "outcome": "finished",
+      "finish_time": 62.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3806149304,
+      "outcome": "finished",
+      "finish_time": 62.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2849404368,
+      "outcome": "finished",
+      "finish_time": 63.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1798661407,
+      "outcome": "finished",
+      "finish_time": 64.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1508360329,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2768252396,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2463859280,
+      "outcome": "finished",
+      "finish_time": 67.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3113805528,
+      "outcome": "finished",
+      "finish_time": 61.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1603411837,
+      "outcome": "finished",
+      "finish_time": 65.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2183914612,
+      "outcome": "finished",
+      "finish_time": 65.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1722604225,
+      "outcome": "finished",
+      "finish_time": 64.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4239922536,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2499271733,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2090850012,
+      "outcome": "finished",
+      "finish_time": 66.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3664565576,
+      "outcome": "finished",
+      "finish_time": 65.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 89035168,
+      "outcome": "finished",
+      "finish_time": 62.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1550630388,
+      "outcome": "finished",
+      "finish_time": 65.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 924442593,
+      "outcome": "finished",
+      "finish_time": 63.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 2399238740,
+      "outcome": "finished",
+      "finish_time": 66.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 40606739,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 338978322,
+      "outcome": "finished",
+      "finish_time": 66.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1085595336,
+      "outcome": "finished",
+      "finish_time": 64.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1221291706,
+      "outcome": "finished",
+      "finish_time": 62.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3898596430,
+      "outcome": "finished",
+      "finish_time": 67.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3980732680,
+      "outcome": "finished",
+      "finish_time": 63.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2186504524,
+      "outcome": "finished",
+      "finish_time": 62.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3152771303,
+      "outcome": "finished",
+      "finish_time": 62.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 811330250,
+      "outcome": "finished",
+      "finish_time": 62.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1221449541,
+      "outcome": "finished",
+      "finish_time": 64.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1526664142,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3206683963,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2182904367,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3665642452,
+      "outcome": "finished",
+      "finish_time": 64.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1353867821,
+      "outcome": "finished",
+      "finish_time": 65.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1152829068,
+      "outcome": "finished",
+      "finish_time": 63.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2732483938,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 688506871,
+      "outcome": "finished",
+      "finish_time": 63.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2475887088,
+      "outcome": "finished",
+      "finish_time": 66.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3794538556,
+      "outcome": "finished",
+      "finish_time": 64.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2019978003,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2020942747,
+      "outcome": "finished",
+      "finish_time": 63.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1454289987,
+      "outcome": "finished",
+      "finish_time": 66.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3309889857,
+      "outcome": "finished",
+      "finish_time": 62.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1993347030,
+      "outcome": "finished",
+      "finish_time": 67.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2045491429,
+      "outcome": "finished",
+      "finish_time": 60.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 786370332,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3611133693,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 117374240,
+      "outcome": "finished",
+      "finish_time": 66.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 372136101,
+      "outcome": "finished",
+      "finish_time": 62.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3851368512,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2606371708,
+      "outcome": "finished",
+      "finish_time": 61.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3927132352,
+      "outcome": "finished",
+      "finish_time": 67.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1924318877,
+      "outcome": "finished",
+      "finish_time": 61.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2198808397,
+      "outcome": "finished",
+      "finish_time": 64.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1548039227,
+      "outcome": "finished",
+      "finish_time": 66.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2716987476,
+      "outcome": "finished",
+      "finish_time": 64.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3061902684,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3295382771,
+      "outcome": "finished",
+      "finish_time": 62.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3196915673,
+      "outcome": "finished",
+      "finish_time": 66.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 2727594644,
+      "outcome": "finished",
+      "finish_time": 64.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 788323775,
+      "outcome": "finished",
+      "finish_time": 64.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 819529386,
+      "outcome": "finished",
+      "finish_time": 62.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1264296669,
+      "outcome": "finished",
+      "finish_time": 65.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 197206273,
+      "outcome": "finished",
+      "finish_time": 64.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2358481695,
+      "outcome": "finished",
+      "finish_time": 63.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3398735236,
+      "outcome": "finished",
+      "finish_time": 63.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1651980216,
+      "outcome": "finished",
+      "finish_time": 63.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2426603912,
+      "outcome": "finished",
+      "finish_time": 62.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3458120495,
+      "outcome": "finished",
+      "finish_time": 64.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3147456016,
+      "outcome": "finished",
+      "finish_time": 67.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2357141309,
+      "outcome": "finished",
+      "finish_time": 61.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4277080060,
+      "outcome": "finished",
+      "finish_time": 65.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 616532726,
+      "outcome": "finished",
+      "finish_time": 63.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1329774290,
+      "outcome": "finished",
+      "finish_time": 63.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2698583449,
+      "outcome": "finished",
+      "finish_time": 63.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 462246473,
+      "outcome": "finished",
+      "finish_time": 64.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1419189162,
+      "outcome": "finished",
+      "finish_time": 63.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1015518177,
+      "outcome": "finished",
+      "finish_time": 65.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3478596162,
+      "outcome": "finished",
+      "finish_time": 64.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3552772975,
+      "outcome": "finished",
+      "finish_time": 64.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3077010700,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2541063686,
+      "outcome": "finished",
+      "finish_time": 64.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1018326475,
+      "outcome": "finished",
+      "finish_time": 64.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4151814910,
+      "outcome": "finished",
+      "finish_time": 66.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2227574696,
+      "outcome": "finished",
+      "finish_time": 65.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4223907632,
+      "outcome": "finished",
+      "finish_time": 64.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1291708041,
+      "outcome": "finished",
+      "finish_time": 62.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3048980128,
+      "outcome": "finished",
+      "finish_time": 64.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3430111184,
+      "outcome": "finished",
+      "finish_time": 69.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3458733169,
+      "outcome": "finished",
+      "finish_time": 64.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2966492914,
+      "outcome": "finished",
+      "finish_time": 66.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 222631820,
+      "outcome": "finished",
+      "finish_time": 65.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1130246494,
+      "outcome": "finished",
+      "finish_time": 64.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2052089787,
+      "outcome": "finished",
+      "finish_time": 65.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 2893490076,
+      "outcome": "finished",
+      "finish_time": 64.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1905234943,
+      "outcome": "finished",
+      "finish_time": 65.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 553163103,
+      "outcome": "finished",
+      "finish_time": 62.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2019004839,
+      "outcome": "finished",
+      "finish_time": 60.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 360752963,
+      "outcome": "finished",
+      "finish_time": 64.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 889013747,
+      "outcome": "finished",
+      "finish_time": 67.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 790630264,
+      "outcome": "finished",
+      "finish_time": 65.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2503420304,
+      "outcome": "finished",
+      "finish_time": 65.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 823679728,
+      "outcome": "finished",
+      "finish_time": 66.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1711022381,
+      "outcome": "finished",
+      "finish_time": 61.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2618618460,
+      "outcome": "finished",
+      "finish_time": 65.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2093170921,
+      "outcome": "finished",
+      "finish_time": 63.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2264192663,
+      "outcome": "finished",
+      "finish_time": 63.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2625673619,
+      "outcome": "finished",
+      "finish_time": 62.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2448658020,
+      "outcome": "finished",
+      "finish_time": 66.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3281064587,
+      "outcome": "finished",
+      "finish_time": 64.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3354991495,
+      "outcome": "finished",
+      "finish_time": 62.440000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1367278886,
+      "outcome": "finished",
+      "finish_time": 66.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1263091096,
+      "outcome": "finished",
+      "finish_time": 66.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1684407112,
+      "outcome": "finished",
+      "finish_time": 67.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1841170166,
+      "outcome": "finished",
+      "finish_time": 64.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1663634364,
+      "outcome": "finished",
+      "finish_time": 62.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1967695010,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3291327644,
+      "outcome": "finished",
+      "finish_time": 64.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1467509546,
+      "outcome": "finished",
+      "finish_time": 66.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 3486753589,
+      "outcome": "finished",
+      "finish_time": 62.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1520428373,
+      "outcome": "finished",
+      "finish_time": 66.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1539061739,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 2064516762,
+      "outcome": "finished",
+      "finish_time": 63.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 527020936,
+      "outcome": "finished",
+      "finish_time": 63.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 155605804,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2588641298,
+      "outcome": "finished",
+      "finish_time": 65.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1321407676,
+      "outcome": "finished",
+      "finish_time": 66.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 4199460926,
+      "outcome": "finished",
+      "finish_time": 69.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2860046320,
+      "outcome": "finished",
+      "finish_time": 63.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2901515173,
+      "outcome": "finished",
+      "finish_time": 64.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1797107691,
+      "outcome": "finished",
+      "finish_time": 64.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 2
+    },
+    {
+      "seed": 4258714412,
+      "outcome": "finished",
+      "finish_time": 67.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 112347065,
+      "outcome": "finished",
+      "finish_time": 62.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 2520350762,
+      "outcome": "finished",
+      "finish_time": 63.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3197892589,
+      "outcome": "finished",
+      "finish_time": 62.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3215812493,
+      "outcome": "finished",
+      "finish_time": 63.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1459856631,
+      "outcome": "finished",
+      "finish_time": 64.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2385326907,
+      "outcome": "finished",
+      "finish_time": 61.44,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 755561109,
+      "outcome": "finished",
+      "finish_time": 64.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 2
+    },
+    {
+      "seed": 4113315037,
+      "outcome": "finished",
+      "finish_time": 66.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2727191457,
+      "outcome": "finished",
+      "finish_time": 62.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2216980956,
+      "outcome": "finished",
+      "finish_time": 61.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2772440722,
+      "outcome": "finished",
+      "finish_time": 66.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 874080358,
+      "outcome": "finished",
+      "finish_time": 62.800000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 1360199019,
+      "outcome": "finished",
+      "finish_time": 61.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1088764755,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2280768925,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1184479715,
+      "outcome": "finished",
+      "finish_time": 64.48,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1864288911,
+      "outcome": "finished",
+      "finish_time": 65.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2352774713,
+      "outcome": "finished",
+      "finish_time": 65.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1360067275,
+      "outcome": "finished",
+      "finish_time": 64.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4092309237,
+      "outcome": "finished",
+      "finish_time": 63.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2663122342,
+      "outcome": "finished",
+      "finish_time": 63.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1703719805,
+      "outcome": "finished",
+      "finish_time": 61.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1468888554,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 490669995,
+      "outcome": "finished",
+      "finish_time": 66.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2485094854,
+      "outcome": "finished",
+      "finish_time": 64.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4140557933,
+      "outcome": "finished",
+      "finish_time": 67.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3131088625,
+      "outcome": "finished",
+      "finish_time": 65.16,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3087712860,
+      "outcome": "finished",
+      "finish_time": 64.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1002797832,
+      "outcome": "finished",
+      "finish_time": 63.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3423326699,
+      "outcome": "finished",
+      "finish_time": 65.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 855540364,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2486906587,
+      "outcome": "finished",
+      "finish_time": 64.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 876958298,
+      "outcome": "finished",
+      "finish_time": 65.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 334499458,
+      "outcome": "finished",
+      "finish_time": 65.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3214934293,
+      "outcome": "finished",
+      "finish_time": 62.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2725615515,
+      "outcome": "finished",
+      "finish_time": 62.96,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3261340428,
+      "outcome": "finished",
+      "finish_time": 64.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3651600073,
+      "outcome": "finished",
+      "finish_time": 64.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1781274336,
+      "outcome": "finished",
+      "finish_time": 63.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 451640624,
+      "outcome": "finished",
+      "finish_time": 65.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1288901456,
+      "outcome": "finished",
+      "finish_time": 63.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 918127175,
+      "outcome": "finished",
+      "finish_time": 65.04,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 678562631,
+      "outcome": "finished",
+      "finish_time": 64.36,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1093011678,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "inactive",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 934386443,
+      "outcome": "finished",
+      "finish_time": 62.92,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 406510143,
+      "outcome": "finished",
+      "finish_time": 63.28,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4105756732,
+      "outcome": "finished",
+      "finish_time": 65.96000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4027995833,
+      "outcome": "finished",
+      "finish_time": 64.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 930055875,
+      "outcome": "finished",
+      "finish_time": 63.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3354101701,
+      "outcome": "finished",
+      "finish_time": 62.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3519982617,
+      "outcome": "finished",
+      "finish_time": 64.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1597523343,
+      "outcome": "finished",
+      "finish_time": 62.6,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2092051777,
+      "outcome": "finished",
+      "finish_time": 65.2,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1916705488,
+      "outcome": "finished",
+      "finish_time": 65.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1920453675,
+      "outcome": "finished",
+      "finish_time": 64.32000000000001,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2010681503,
+      "outcome": "finished",
+      "finish_time": 63.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3073771895,
+      "outcome": "finished",
+      "finish_time": 64.52,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3275602741,
+      "outcome": "finished",
+      "finish_time": 60.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1922029843,
+      "outcome": "finished",
+      "finish_time": 65.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 586797468,
+      "outcome": "finished",
+      "finish_time": 64.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3874321817,
+      "outcome": "finished",
+      "finish_time": 65.56,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 674594628,
+      "outcome": "finished",
+      "finish_time": 62.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3606298351,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2207916610,
+      "outcome": "finished",
+      "finish_time": 63.72,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4130681221,
+      "outcome": "finished",
+      "finish_time": 64.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2768206877,
+      "outcome": "finished",
+      "finish_time": 65.84,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3687478489,
+      "outcome": "finished",
+      "finish_time": 65.76,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 734905300,
+      "outcome": "finished",
+      "finish_time": 62.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 455045142,
+      "outcome": "finished",
+      "finish_time": 63.160000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 1
+    },
+    {
+      "seed": 1337382924,
+      "outcome": "finished",
+      "finish_time": 62.32,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1536328456,
+      "outcome": "finished",
+      "finish_time": 66.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1413425613,
+      "outcome": "finished",
+      "finish_time": 63.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 208154946,
+      "outcome": "finished",
+      "finish_time": 63.120000000000005,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 401882242,
+      "outcome": "finished",
+      "finish_time": 64.8,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3596480301,
+      "outcome": "finished",
+      "finish_time": 63.0,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1468400463,
+      "outcome": "finished",
+      "finish_time": 65.08,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2750738291,
+      "outcome": "finished",
+      "finish_time": 61.24,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 4064692556,
+      "outcome": "finished",
+      "finish_time": 67.12,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3946445520,
+      "outcome": "finished",
+      "finish_time": 64.4,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2691564240,
+      "outcome": "failed",
+      "finish_time": null,
+      "terminal_reason": "out_of_bounds",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 2030628666,
+      "outcome": "finished",
+      "finish_time": 62.480000000000004,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 3582436837,
+      "outcome": "finished",
+      "finish_time": 64.88,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 1293992671,
+      "outcome": "finished",
+      "finish_time": 64.68,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    },
+    {
+      "seed": 638086480,
+      "outcome": "finished",
+      "finish_time": 65.64,
+      "terminal_reason": "success",
+      "controller_timeout_violations": 0
+    }
+  ]
+}

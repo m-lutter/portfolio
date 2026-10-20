@@ -1,0 +1,72 @@
+{
+  "description": "Code-cell extraction from saved study HTML, with compact scalar outcome archive.",
+  "sources": {
+    "saved_html": {
+      "filename": "DP4 Drone(Lutter) - Submission.html",
+      "sha256": "29dee6d4144b73351a5bdee6e6f631474ddafaea9bee66f96d617f377d9fa17d",
+      "bytes": 1195029
+    },
+    "saved_results": {
+      "relative_path": "results/20261018-220646-590685/results.json",
+      "sha256": "4dc9add39c80b749933fe6bfc4574c8437caecd9f23e166469e74c9a22d4f164",
+      "bytes": 7635526
+    }
+  },
+  "code_extraction": {
+    "method": "BeautifulSoup selection .jp-CodeCell .jp-InputArea-editor pre; get_text() preserves code text.",
+    "cell_count": 28,
+    "cell_text_sha256": [
+      "c6454d9dbb8c61138c45aeabae1ad1e2d2aa6104bec40536061d6464bd4e4db7",
+      "a70e0f43ad25e1605f1a5abe03103d965d4d495d16824fc3d2375db257f24c13",
+      "2a3a9f01bffd96892a5f953c68e25cacab4f4c4feb9f97305affe4a9cc64d161",
+      "df052094b5ac7d394f49cd5c77febb12faaecc77f2cea57f95b9ffc13990845e",
+      "0b8edda9d3d51df848ad4b9b5fcab5d3d9e85ec7e5b1320d23b147447ed5aa82",
+      "ddc946918171bbf25b3379d7b27d47c0bc3a7d86372bb4edfe890294b69f0b93",
+      "012e58e4a6904aa999f1063ebdea919d2e894488bbba6c152deaf83b8e20310c",
+      "77158bdc628eaf106e48be9be9513569f64eeab8f0689ff8d890d1c3ef4a174b",
+      "761613249a98b61a1597fe85dd377133e0725b60875e7d75757773cd27929b3b",
+      "823ae744c7a63c1aaec76585713218d5f59a9796596b2cffe5a6c57a907bd50f",
+      "dda6943353b007b4c7d0af7d865120a127d152e369cdef221433449918da00a1",
+      "c8d6af66585ccf9092f3a0fbde9640b71cbd0a3f572e8087214cff7a863400bd",
+      "602a40c63ff6e572e625cc3d8a0f42e80def10971dacbf4b0048c7cb9cb47f8e",
+      "39a85370546cbd9024e9272cff2f0d9d0773c8ef3c3db653019a91e655b262a8",
+      "6074ffdb9386ed1631f44e745b92f75bd444635799b6e0d640ce29b9f3b6b82a",
+      "9c51907d21eb0a579ebcc535ac034462b28f6cdce5f3cd189f8d040e2bc4646f",
+      "12be66a6e3a872eed39be059ff093c1963682067a758548b9feda527d9508394",
+      "6c53aedd5d6449daed9f65177fe255b179dd9083b3df185de3d14048ecf1a22d",
+      "66e4eca4e5979920f5b0ff323fa15da4b222c0a5a958dd250ca28f3622a59fce",
+      "462f975838f44205e8f4cd11ccf383ecafd2513e0ff912bd315d01b11e64ae9a",
+      "7a2d83e2185e325ede682b0cd901a8c4f63dc79509b0ad9416f8879fb8367c5c",
+      "46fcab254b35d6a908a3535cfbdd0e731dfd9a7707cbf54ab63d8ee4fcab1805",
+      "0f959deec44dcfef3aa1d6cf26aa4511ed023d2c30969653174ff92bd41e348e",
+      "b8f7fdc471a6b1ce8c8e594606ba2db41681c79c938c622e90840119d9c19e6a",
+      "caa8587ef6d2c855cb8aa3c96e451c52f51d26bc1bb2882b99ea73c3963228f6",
+      "f66e797e166fd630ec3e0b24f6a3df88e2f4520c9116cff3804cf99b9a32c55a",
+      "b18f56e908f0a45f4b7e3a6167e230e2a200ac86985f3f9943a890179e3cca8b",
+      "78429878b3b6c4d93a27200be918d8b0f9d8ca901464a23f070ca105c9a2c113"
+    ],
+    "python_export": "Added attribution comments and cell-separator comments; code-cell text unchanged.",
+    "notebook": "Added archive context; execution counts cleared; no outputs retained.",
+    "syntax_check": "All extracted code cells and combined Python export parsed with ast.parse; no simulations executed.",
+    "notebook_validation": "nbformat schema validation passed; deterministic cell IDs added."
+  },
+  "version_distinction": {
+    "preserved_trial_count": 1000,
+    "preserved_departure_multiplier": 1.25,
+    "mutable_notebook_later_trial_count": 100,
+    "mutable_notebook_later_departure_multiplier": 1.5
+  },
+  "limitations": [
+    "The saved evaluation JSON has no controller source hash and no raw telemetry.",
+    "The HTML source/figures and saved scalar cohort agree, but this does not prove a complete execution-time provenance chain.",
+    "Dependency versions are from the known local working environment, not an evaluation-time lockfile."
+  ],
+  "archive_files_sha256": {
+    "evaluation-config.json": "475c8dde74165280e60f60c3ca0b2328218d618bdd83d5652acba07e937aac72",
+    "evaluation-summary.json": "f967e90bf40b545901420d170331081e986b33d0081929a1fab0521820fbbbe7",
+    "README.md": "f64cb38b679a08d02662f0884172bf492490780fdb9ba95622a374b3b916c059",
+    "refined-study.ipynb": "79982a44a5c55f39e81ce17919ff7107b011fb7154ea7bef81c2edb38c344dcf",
+    "refined-study.py": "02b1ec4fa2d15c5d3ff1c280da313e903bf40e927dfa95c961bba182898bdc67",
+    "requirements.txt": "924a8f436027bd64bb17c33adc654084fffe24d75a717bb21d5ccbc799d0461a"
+  }
+}

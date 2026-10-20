@@ -1,5 +1,15 @@
 # Editing the portfolio website
 
+## DP4 presentation redesign, October 19, 2026
+
+The drone page follows the main project narrative in the owner's latest presentation, with personal introduction, employer-specific material, and unrelated current projects omitted. `caseTheme: 'drone'` applies black surfaces, white sans-serif headings, and gold #FFE05A accents only to this page. `scripts/case-sections.mjs` renders contribution cards, tables, ordered implementation steps, result metrics, and native video players. Keep generated pages, content, template modules, styles, and assets together when publishing.
+
+The 2026 extension completed 971/1,000 trials with a 64.259691 s mean among the 971 finishes. All trials met the allowed timing-violation count, with a maximum of two. The applied-rotor plot reflects simulator limiting, not proof of unsaturated requests. Keep the original team report's 95/100 and 73.35 s separate. The 12.4% difference in mean time is descriptive across different cohorts; no statistically significant completion improvement is established. Failure stopping reasons are inactivity and out of bounds, not confirmed collision labels.
+
+The original-simulator and annotated Blender MP4s are the same illustrative flight (seed 973904070, finish 59.72 s, 1494 frames at 25 fps). They are separate from the 1,000-trial cohort. Videos use native controls, no autoplay, and preload none. The local server supports byte ranges for seeking. The poster images, staged waypoint illustration, cinematic course hero, clean presentation diagrams, and unmodified evaluation plots live in `docs/assets/`. Media attribution is in `docs/references/dp4-video-credits.txt`.
+
+`project-code/ae353/drone/refined/` is the source-only extraction of the saved HTML version matching the 1,000-trial study. The mutable local notebook changed afterward and is not the source of these results. The compact JSON retains scalar outcomes and provenance, not full raw telemetry. Preserve the archive README's reproducibility limits and the distinction between team, individual, and course-supplied work. Private slides, review files, and source documents are excluded from deployment.
+
 The public site is built from the `docs/` folder and hosted on GitHub Pages.
 
 - `content/projects.mjs`: selected-project ordering, the four-project `highlights` map, original digital project copy, and the eight-circuit archive.

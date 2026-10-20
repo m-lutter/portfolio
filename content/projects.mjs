@@ -101,10 +101,10 @@ export const featured = [
 export const highlights = {
   'drone-obstacle-course': {
     summary: 'Integrated a state observer, LQR feedback, and collision-avoidance guidance to navigate a drone through checkpoint rings, then automated trials and investigated failures.',
-    result: '95% course completion',
-    evidence: '100 simulated trials · 73.35 s mean among successful runs',
-    contribution: 'Primary developer of final code · team controller study',
-    link: ['Read the report', 'reports/drone-obstacle-course.pdf']
+    result: '97.1% course completion',
+    evidence: 'Later 1,000-trial study · 64.26 s mean among successful runs',
+    contribution: 'Team controller project · later individual refinements',
+    link: ['Watch the flight', 'projects/drone-obstacle-course.html#story-9']
   },
   'the-other-side': {
     summary: 'Co-built a playable LED game, resolving movement boundaries, clocked inputs, and display polarity as the logic model became breadboard hardware.',

@@ -1,0 +1,16 @@
+DP4 drone project media
+
+Case-study stills and diagrams adapted from Maxwell Lutter's Control Design for a Drone Race presentation. Cinematic stills and the annotated video are Blender visualizations of the simulated course; they are not photographs of hardware.
+
+The two videos depict the same captured successful flight, seed 973904070, at actual simulation speed. The course completed at 59.72 simulated seconds. Each film contains 1494 frames at 25 fps (59.76 seconds including the reset frame). This example flight is separate from the 1,000-trial evaluation.
+
+The original-simulator video records the course simulator. The annotated Blender video replays captured position and orientation without changing flight poses or course geometry. It adds actual and estimated history, desired position, desired velocity, and the current nominal near/far/landing waypoint. The nominal waypoint precedes obstacle repulsion and reference filtering. Presentation traces contain no future actual flight samples.
+
+The near/far waypoint still is a staged illustration of controller geometry. Virtual markers and labels are presentation graphics; it is not a measured flight trajectory.
+
+Simulator and supplied course assets: Timothy Bretl and AE353 course staff.
+Course project: https://github.com/tbretl/ae353-fa25/tree/main/projects/04_drone
+Cute Kitten by Paige66 on Thingiverse, Creative Commons Attribution, as credited in the course README: https://www.thingiverse.com/thing:1527877
+Dog by TheFileGiver on Creality Cloud, Copyright License 4.0, as credited in the course README: https://www.crealitycloud.com/model-detail/3d-printed-dog?source=5
+
+Student design, controller and testing work: Maxwell Lutter and Landon Lopez. Contribution details distinguish the shared course work from Maxwell's subsequent extensions.
